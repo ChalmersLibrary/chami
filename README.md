@@ -13,7 +13,7 @@ The record is transformed and added to FOLIO (as a new record, or updating an ex
 
 #### Cataloguing with LIBRIS->Chami->FOLIO
 
-![alt text](/pictures/chami_workflow_no_url.gif) "Demo of cataloguing workflow")
+![alt text](/pictures/chami_workflow_no_url.gif)
 
 ### Scheduled fetching of updated records
 In order to keep Inventory up to date with changes to bibliographic instancea in LIBRIS, whether made by Chalmers or by any other lirbary in the LIBRIS community, Chami regularly fetches all updates made to LIBRIS isntances with Chalmers holdings. For this, Chami makes a request to the LIBRIS MARC21 export API. 
