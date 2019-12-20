@@ -1,0 +1,37 @@
+{
+    "items": [
+        {
+            "id": "5484a8e4-0b95-49da-a0dc-316a2ccc6361",
+            "status": {
+                "name": "Available"
+            },
+            "title": "God bless our little nest",
+            "holdingsRecordId": "c34f9b92-4ffe-4cd2-a7b9-522e410d75ff",
+            "barcode": "1413844000275",
+            "pieceIdentifiers": [],
+            "notes": [],
+            "materialType": {
+                "id": "1a54b431-2e4f-452d-9cae-9cee66c9a892",
+                "name": "book"
+            },
+            "permanentLoanType": {
+                "id": "2b94c631-fca9-4892-a730-03ee529ffe27",
+                "name": "Can circulate"
+            },
+            "metadata": {
+                "createdDate": "2018-11-05T03:37:32.154+0000",
+                "createdByUserId": "a5ad4c01-a569-524f-88c2-6c87af62724e",
+                "updatedDate": "2018-11-05T03:37:32.154+0000",
+                "updatedByUserId": "a5ad4c01-a569-524f-88c2-6c87af62724e"
+            },
+            "links": {
+                "self": "http://folio-snapshot-445.aws.indexdata.com:9130/inventory/items/5484a8e4-0b95-49da-a0dc-316a2ccc6361"
+            },
+            "effectiveLocation": {
+                "id": "fcd64ce1-6995-48f0-840e-89ffa2288371",
+                "name": "Main Library"
+            }
+        }
+    ],
+    "totalRecords": 1
+}

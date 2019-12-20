@@ -1,0 +1,22 @@
+[
+  {
+    "id": "8aac4ab7-e833-498b-b94e-160f6e924fc7",
+    "name": "ACE-bibliotekets samling",
+    "code": "Za"
+  },
+  {
+    "id": "02e93284-7129-4281-84eb-053a3cf9c4b9",
+    "name": "Huvudbibliotekets samling",
+    "code": "Z"
+  },
+  {
+    "id": "f50f9721-7bd9-4305-8186-e3ac404d80ed",
+    "name": "Matematikbiblioteks samling",
+    "code": "Enll"
+  },
+  {
+    "id": "9e66c83e-13e0-47d5-ae12-da5147bd6f0f",
+    "name": "Kuggens samling",
+    "code": "Zl"
+  }
+]

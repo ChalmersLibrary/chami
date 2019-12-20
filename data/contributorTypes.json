@@ -1,0 +1,1202 @@
+[
+    {
+      "id": "3db02638-598e-44a3-aafa-cbae77533ee1",
+      "name": "Conceptor",
+      "code": "ccp",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:18:26.739+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:18:26.739+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "27aeee86-4099-466d-ba10-6d876e6f293b",
+      "name": "Compiler",
+      "code": "com",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:18:27.987+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:18:27.987+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "515caf91-3dde-4769-b784-50c9e23400d5",
+      "name": "Marbler",
+      "code": "mrb",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:18:29.073+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:18:29.073+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "ad9b7785-53a2-4bf4-8a01-572858e82941",
+      "name": "Assignee",
+      "code": "asg",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:18:30.123+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:18:30.123+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "7b21bffb-91e1-45bf-980a-40dd89cc26e4",
+      "name": "Distributor",
+      "code": "dst",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:18:31.161+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:18:31.161+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "4b41e752-3646-4097-ae80-21fd02e913f7",
+      "name": "Author of dialog",
+      "code": "aud",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:18:32.199+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:18:32.199+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "5c1e0a9e-1fdc-47a5-8d06-c12af63cbc5a",
+      "name": "Honoree",
+      "code": "hnr",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:18:33.240+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:18:33.240+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "cce475f7-ccfa-4e15-adf8-39f907788515",
+      "name": "Thesis advisor",
+      "code": "ths",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:18:34.309+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:18:34.309+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "7c5c2fd5-3283-4f96-be89-3bb3e8fa6942",
+      "name": "Writer of supplementary textual content",
+      "code": "wst",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:18:35.375+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:18:35.375+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "00311f78-e990-4d8b-907e-c67a3664fe15",
+      "name": "Data contributor",
+      "code": "dtc",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:18:36.434+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:18:36.434+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "05875ac5-a509-4a51-a6ee-b8051e37c7b0",
+      "name": "Scenarist",
+      "code": "sce",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:18:37.488+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:18:37.488+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "06b2cbd8-66bf-4956-9d90-97c9776365a4",
+      "name": "Annotator",
+      "code": "ann",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:18:38.542+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:18:38.542+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "3bd0b539-4440-4971-988c-5330daa14e3a",
+      "name": "Dancer",
+      "code": "dnc",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:18:39.568+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:18:39.568+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "d32885eb-b82c-4391-abb2-4582c8ee02b3",
+      "name": "Depicted",
+      "code": "dpc",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:18:40.701+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:18:40.701+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "867f3d13-779a-454e-8a06-a1b9fb37ba2a",
+      "name": "Scribe",
+      "code": "scr",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:18:41.845+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:18:41.845+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "52c08141-307f-4997-9799-db97076a2eb3",
+      "name": "Libelant-appellant",
+      "code": "lit",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:18:42.939+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:18:42.939+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "3c1508ab-fbcc-4500-b319-10885570fe2f",
+      "name": "Landscape architect",
+      "code": "lsa",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:18:44.003+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:18:44.003+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "55e4a59b-2dfd-478d-9fe9-110fc24f0752",
+      "name": "Broadcaster",
+      "code": "brd",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:18:45.059+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:18:45.059+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "7bebb5a2-9332-4ba7-a258-875143b5d754",
+      "name": "Consultant to a project",
+      "code": "csp",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:18:46.116+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:18:46.116+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "764c208a-493f-43af-8db7-3dd48efca45c",
+      "name": "Expert",
+      "code": "exp",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:18:47.239+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:18:47.239+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "b02cbeb7-8ca7-4bf4-8d58-ce943b4d5ea3",
+      "name": "Stage manager",
+      "code": "stm",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:18:48.305+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:18:48.305+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "3add6049-0b63-4fec-9892-e3867e7358e2",
+      "name": "Illustrator",
+      "code": "ill",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:18:52.488+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:18:52.488+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "c96df2ce-7b00-498a-bf37-3011f3ef1229",
+      "name": "Radio producer",
+      "code": "rpc",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:18:54.579+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:18:54.579+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "18ba15a9-0502-4fa2-ad41-daab9d5ab7bb",
+      "name": "Instrumentalist",
+      "code": "itr",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:18:55.611+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:18:55.611+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "e38a0c64-f1d3-4b03-a364-34d6b402841c",
+      "name": "Papermaker",
+      "code": "ppm",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:18:57.815+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:18:57.815+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "e038262b-25f8-471b-93ea-2afe287b00a3",
+      "name": "Illuminator",
+      "code": "ilu",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:18:59.883+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:18:59.883+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "6e09d47d-95e2-4d8a-831b-f777b8ef6d81",
+      "name": "Author",
+      "code": "aut",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:01.990+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:01.990+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "b1e95783-5308-46b2-9853-bd7015c1774b",
+      "name": "Editor of moving image work",
+      "code": "edm",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:05.214+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:05.214+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "c0c46b4f-fd18-4d8a-96ac-aff91662206c",
+      "name": "Stage director",
+      "code": "sgd",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:06.256+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:06.256+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "539872f1-f4a1-4e83-9d87-da235f64c520",
+      "name": "Originator",
+      "code": "org",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:08.363+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:08.363+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "28f7eb9e-f923-4a77-9755-7571381b2a47",
+      "name": "Contractor",
+      "code": "ctr",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:10.713+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:10.713+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "f0061c4b-df42-432f-9d1a-3873bb27c8e6",
+      "name": "Appellee",
+      "code": "ape",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:13.858+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:13.858+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "5c132335-8ad0-47bf-a4d1-6dda0a3a2654",
+      "name": "Auctioneer",
+      "code": "auc",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:14.899+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:14.899+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "366821b5-5319-4888-8867-0ffb2d7649d1",
+      "name": "Engineer",
+      "code": "eng",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:18.022+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:18.022+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "cbceda25-1f4d-43b7-96a5-f2911026a154",
+      "name": "Collotyper",
+      "code": "clt",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:21.183+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:21.183+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "0683aecf-42a8-432d-adb2-a8abaf2f15d5",
+      "name": "Permitting agency",
+      "code": "pma",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:18:49.371+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:18:49.371+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "08cb225a-302c-4d5a-a6a3-fa90850babcd",
+      "name": "Praeses",
+      "code": "pra",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:18:50.410+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:18:50.410+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "99f6b0b7-c22f-460d-afe0-ee0877bc66d1",
+      "name": "Licensor",
+      "code": "lso",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:18:51.454+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:18:51.454+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "d2df2901-fac7-45e1-a9ad-7a67b70ea65b",
+      "name": "Monitor",
+      "code": "mon",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:18:53.524+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:18:53.524+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "f9395f3d-cd46-413e-9504-8756c54f38a2",
+      "name": "Proofreader",
+      "code": "pfr",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:18:56.762+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:18:56.762+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "0d022d0d-902d-4273-8013-0a2a753d9d76",
+      "name": "Rubricator",
+      "code": "rbr",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:18:58.852+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:18:58.852+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "398a0a2f-752d-4496-8737-e6df7c29aaa7",
+      "name": "Lyricist",
+      "code": "lyr",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:00.909+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:00.909+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "a8d59132-aa1e-4a62-b5bd-b26b7d7a16b9",
+      "name": "Licensee",
+      "code": "lse",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:03.036+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:03.036+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "e7e8fc17-7c97-4a37-8c12-f832ddca7a71",
+      "name": "Interviewee",
+      "code": "ive",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:04.143+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:04.143+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "9e7651f8-a4f0-4d02-81b4-578ef9303d1b",
+      "name": "Set designer",
+      "code": "std",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:07.307+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:07.307+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "245cfa8e-8709-4f1f-969b-894b94bc029f",
+      "name": "Blurb writer",
+      "code": "blw",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:09.528+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:09.528+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "3b4709f1-5286-4c42-9423-4620fff78141",
+      "name": "Provider",
+      "code": "prv",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:11.776+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:11.776+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "c86fc16d-61d8-4471-8089-76550daa04f0",
+      "name": "Defendant-appellant",
+      "code": "dft",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:12.816+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:12.816+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "1b51068c-506a-4b85-a815-175c17932448",
+      "name": "Patron",
+      "code": "pat",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:15.938+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:15.938+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "5ee1e598-72b8-44d5-8edd-173e7bc4cf8c",
+      "name": "Process contact",
+      "code": "prc",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:16.985+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:16.985+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "2129a478-c55c-4f71-9cd1-584cbbb381d4",
+      "name": "Filmmaker",
+      "code": "fmk",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:19.051+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:19.051+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "12b7418a-0c90-4337-90b7-16d2d3157b68",
+      "name": "Secretary",
+      "code": "sec",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:20.109+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:20.109+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "863e41e3-b9c5-44fb-abeb-a8ab536bb432",
+      "name": "Editor of compilation",
+      "code": "edc",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:22.227+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:22.227+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "36b921fe-6c34-45c8-908b-5701f0763e1b",
+      "name": "Court governed",
+      "code": "cou",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:23.280+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:23.280+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "3c3ab522-2600-4b93-a121-8832146d5cdf",
+      "name": "Respondent",
+      "code": "rsp",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:24.327+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:24.327+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "08553068-8495-49c2-9c18-d29ab656fef0",
+      "name": "Musician",
+      "code": "mus",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:25.377+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:25.377+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "361f4bfd-a87d-463c-84d8-69346c3082f6",
+      "name": "Other",
+      "code": "oth",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:26.428+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:26.428+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "9deb29d1-3e71-4951-9413-a80adac703d0",
+      "name": "Editor",
+      "code": "edt",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:28.542+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:28.542+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "33aa4117-95d1-4eb5-986b-dfba809871f6",
+      "name": "Draftsman",
+      "code": "drm",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:31.888+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:31.888+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "e603ffa2-8999-4091-b10d-96248c283c04",
+      "name": "Laboratory",
+      "code": "lbr",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:33.971+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:33.971+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "60d3f16f-958a-45c2-bb39-69cc9eb3835e",
+      "name": "Film distributor",
+      "code": "fds",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:36.064+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:36.064+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "e79ca231-af4c-4724-8fe1-eabafd2e0bec",
+      "name": "Moderator",
+      "code": "mod",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:38.148+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:38.148+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "ec56cc25-e470-46f7-a429-72f438c0513b",
+      "name": "Witness",
+      "code": "wit",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:39.190+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:39.190+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "9f0a2cf0-7a9b-45a2-a403-f68d2850d07c",
+      "name": "Contributor",
+      "code": "ctb",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:41.297+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:41.297+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "9fc0bffb-6dd9-4218-9a44-81be4a5059d4",
+      "name": "Contestee",
+      "code": "cts",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:42.374+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:42.374+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "d6a6d28c-1bfc-46df-b2ba-6cb377a6151e",
+      "name": "Printmaker",
+      "code": "prm",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:44.462+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:44.462+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "40fe62fb-4319-4313-ac88-ac4912b1e1fa",
+      "name": "Screenwriter",
+      "code": "aus",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:45.502+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:45.502+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "0d8dc4be-e87b-43df-90d4-1ed60c4e08c5",
+      "name": "Dedicatee",
+      "code": "dte",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:48.661+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:48.661+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "fd0a47ec-58ce-43f6-8ecc-696ec17a98ab",
+      "name": "Printer of plates",
+      "code": "pop",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:50.780+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:50.780+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "d517010e-908f-49d6-b1e8-8c1a5f9a7f1c",
+      "name": "Author of afterword, colophon, etc.",
+      "code": "aft",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:51.821+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:51.821+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "2576c328-61f1-4684-83cf-4376a66f7731",
+      "name": "Field director",
+      "code": "fld",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:53.943+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:53.943+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "5e9333a6-bc92-43c0-a306-30811bb71e61",
+      "name": "Lighting designer",
+      "code": "lgd",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:55.001+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:55.001+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "a5c024f1-3c81-492c-ab5e-73d2bc5dcad7",
+      "name": "Libelee-appellant",
+      "code": "let",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:58.251+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:58.251+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "cf04404a-d628-432b-b190-6694c5a3dc4b",
+      "name": "Restorationist",
+      "code": "rsr",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:59.329+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:59.329+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "b47d8841-112e-43be-b992-eccb5747eb50",
+      "name": "Programmer",
+      "code": "prg",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:20:02.469+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:20:02.469+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "a7a25290-226d-4f81-b780-2efc1f7dfd26",
+      "name": "Medium",
+      "code": "med",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:27.484+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:27.484+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "61afcb8a-8c53-445b-93b9-38e799721f82",
+      "name": "Enacting jurisdiction",
+      "code": "enj",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:29.702+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:29.702+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "e2b5ceaf-663b-4cc0-91ba-bf036943ece8",
+      "name": "Production place",
+      "code": "prp",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:30.738+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:30.738+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "0efdaf72-6126-430a-8256-69c42ff6866f",
+      "name": "Technical director",
+      "code": "tcd",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:32.928+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:32.928+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "f5f9108a-9afc-4ea9-9b99-4f83dcf51204",
+      "name": "Film director",
+      "code": "fmd",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:34.999+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:34.999+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "1f20d444-79f6-497a-ae0d-98a92e504c58",
+      "name": "Author of introduction, etc.",
+      "code": "aui",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:37.109+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:37.109+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "f72a24d1-f404-4275-9350-158fe3a20b21",
+      "name": "Teacher",
+      "code": "tch",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:40.251+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:40.251+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "c5988fb2-cd21-469c-b35e-37e443c01adc",
+      "name": "Scientific advisor",
+      "code": "sad",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:43.426+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:43.426+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "c04ff362-c80a-4543-88cf-fc6e49e7d201",
+      "name": "Consultant",
+      "code": "csl",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:46.561+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:46.561+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "d836488a-8d0e-42ad-9091-b63fe885fe03",
+      "name": "Attributed name",
+      "code": "att",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:47.602+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:47.602+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "41a0378d-5362-4c1a-b103-592ff354be1c",
+      "name": "Judge",
+      "code": "jud",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:49.743+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:49.743+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "e04bea27-813b-4765-9ba1-e98e0fca7101",
+      "name": "Delineator",
+      "code": "dln",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:52.886+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:52.886+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "97082157-5900-4c4c-a6d8-2e6c13f22ef1",
+      "name": "Issuing body",
+      "code": "isb",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:56.072+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:56.072+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "94d131ef-2814-49a0-a59c-49b6e7584b3d",
+      "name": "Standards body",
+      "code": "stn",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:19:57.177+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:19:57.177+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "7d0a897c-4f83-493a-a0c5-5e040cdce75b",
+      "name": "Appellant",
+      "code": "apl",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:20:00.378+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:20:00.378+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "6a983219-b6cd-4dd7-bfa4-bcb0b43590d4",
+      "name": "Writer of added text",
+      "code": "wat",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:20:01.417+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:20:01.417+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "af09f37e-12f5-46db-a532-ccd6a8877f2d",
+      "name": "Television director",
+      "code": "tld",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:20:04.586+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:20:04.586+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "df7daf2f-7ab4-4c7b-a24d-d46695fa9072",
+      "name": "Organizer",
+      "code": "orm",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:20:05.660+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:20:05.660+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "e1edbaae-5365-4fcb-bb6a-7aae38bbed9c",
+      "name": "Musical director",
+      "code": "msd",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:20:08.873+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:20:08.873+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "32021771-311e-497b-9bf2-672492f322c7",
+      "name": "Woodcutter",
+      "code": "wdc",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:20:10.002+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:20:10.002+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "cd06cefa-acfe-48cb-a5a3-4c48be4a79ad",
+      "name": "Responsible party",
+      "code": "rpy",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:20:03.544+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:20:03.544+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "7aac64ab-7f2a-4019-9705-e07133e3ad1a",
+      "name": "Creator",
+      "code": "cre",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:20:06.711+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:20:06.711+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "2b7080f7-d03d-46af-86f0-40ea02867362",
+      "name": "Copyright holder",
+      "code": "cph",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:20:07.822+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:20:07.822+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "2a3e2d58-3a21-4e35-b7e4-cffb197750e3",
+      "name": "Cinematographer",
+      "code": "cng",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:20:11.113+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:20:11.113+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    },
+    {
+      "id": "319cb290-a549-4ae8-a0ed-a65fe155cac8",
+      "name": "Correspondent",
+      "code": "crp",
+      "source": "marcrelator",
+      "metadata": {
+        "createdDate": "2019-08-18T11:20:12.188+0000",
+        "createdByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872",
+        "updatedDate": "2019-08-18T11:20:12.188+0000",
+        "updatedByUserId": "ef676db9-d231-479a-aa91-f65eb4b17872"
+      }
+    }
+  ]

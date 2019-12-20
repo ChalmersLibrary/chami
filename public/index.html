@@ -1,0 +1,131 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ChaMi</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+  <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Roboto" rel="stylesheet">
+</head>
+
+<body>
+  <main id="app" v-cloak>
+    <h1>ChaMi</h1>
+    <section class="error-container" v-show="errorMessage.length > 0"><p>{{errorMessage}}</p></section>
+    <form>
+      <label>
+        Identifierare
+        <input type="text" v-model="id">
+      </label>
+      <label>
+        Från
+        <input type="text" v-model="from" placeholder="YYYY-MM-DDThh:mm:ssZ"></input>
+      </label>
+      <label>
+        Till
+        <input type="text" v-model="until" placeholder="YYYY-MM-DDThh:mm:ssZ"></input>
+      </label>
+      <p>Om inget id och ingen tidsstämpel anges hämtas allt sen senaste hämtningen.</p>
+      <button class="update-button" type="button" @click="updateInstancesAndHoldings" :disabled="working">Hämta bibliografisk data och holdingposter från Libris till FOLIO</button>
+      <span v-show="working">Jobbar...</span>
+    </form>
+    <h2>Nästa automatiska hämtning kommer ske</h2>
+    <p>{{ nextDailyRunTime }}</p>
+    <h2>Historik över importer</h2>
+    <p>Alla tider är i +0000 UTC.</p>
+    <ul class="fetch-history-list">
+      <li class="fetch-history-list__item" v-for="record in history" :class="{ 'fetch-history-list__item--fail': !record.success }">
+        <h3>{{makeTimestampPretty(record.created)}}</h3>
+        <section v-show="record.success">
+          <p v-show="record.id">Importerade data för id:{{record.id}}.</p>
+          <p v-show="record.from">Importerade data mellan {{makeTimestampPretty(record.from)}} och {{makeTimestampPretty(record.created)}}.</p>
+        </section>
+        <section v-show="!record.success">
+          <p v-show="record.id">Misslyckades med att importera data för id:{{record.id}}.</p>
+          <p v-show="record.from">Misslyckades med att importera data mellan {{makeTimestampPretty(record.from)}} och {{makeTimestampPretty(record.created)}}.</p>
+          <p>{{record.message}}</p>
+        </section>
+      </li>
+    </ul>
+  </main>
+  <!-- development version, includes helpful console warnings -->
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script>
+    var app = new Vue({
+      el: '#app',
+      data: {
+        id: '',
+        from: '',
+        until: '',
+        errorMessage: '',
+        history: [],
+        working: false,
+        nextDailyRunTime: 'Unknown'
+      },
+      mounted: function () {
+        this.updateFetchHistoryPeriodically();
+        this.fetchNextDailyRunTime(); 
+      },
+      methods: {
+        updateFetchHistoryPeriodically: function() {
+          this.updateFetchHistory();
+          setTimeout(this.updateFetchHistoryPeriodically, 10000);
+        },
+        updateFetchHistory: function() {
+          let self = this;
+          axios.get('/api/FetchTimes')
+            .then(function (response) {
+              let hits = response.data.hits;
+              self.history = [];
+              for (var i=0; i<hits.length; i++) {
+                let fetchData = hits[i]._source;
+                self.history.push(fetchData);
+              }
+            })
+            .catch(function (reason) {
+              self.errorMessage = 'Failed to fetch data: ' + reason;
+            });
+        },
+        makeTimestampPretty: function(timestamp) {
+          let res = '';
+          if (timestamp) {
+            res = timestamp.replace('T', ' ').substring(0, timestamp.length - 4);
+          }
+          return res;
+        },
+        updateInstancesAndHoldings: function(id) {
+          this.working = true;
+          let self = this;
+          let url = '/api/InstancesAndHoldings' + (this.id || this.from ? '?' : '') + 
+            (this.id ? 'id=' + encodeURIComponent(this.id) :'') + 
+            (this.id && this.from ? '&' : '') + 
+            (this.from ? 'from=' + encodeURIComponent(this.from) : '') +
+            (this.until ? '&until=' + encodeURIComponent(this.until): '');
+          axios.post(url)
+            .then(function (response) {
+              setTimeout(function () { self.updateFetchHistory(); self.working = false; }, 1000); // Give Elasticsearch some time.
+            })
+            .catch(function (reason) {
+              setTimeout(function () { self.updateFetchHistory(); self.working = false; }, 1000); // Give Elasticsearch some time.
+              self.errorMessage = 'Failed to update instances and holdings: ' + reason + ' (' + JSON.stringify(reason.response.data) + ')';
+              self.working = false;
+            });
+        },
+        fetchNextDailyRunTime: function() {
+          let self = this;
+          axios.get('/api/NextDailyRunTime')
+            .then(function (response) {
+              var options = {
+                timeZone: 'utc'
+              };
+              var dt = new Date(response.data);
+              self.nextDailyRunTime = dt.toLocaleString("sv-SE", options);
+            })
+        }
+      }
+    });
+  </script>
+</body>
+
+</html>

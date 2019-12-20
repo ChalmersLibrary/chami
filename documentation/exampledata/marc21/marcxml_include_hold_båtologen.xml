@@ -1,0 +1,531 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+          <responseDate>2018-11-14T14:38:44.090Z</responseDate>
+          <request verb="GetRecord" identifier="http://libris.kb.se/bib/3680811" metadataPrefix="marcxml_includehold">http://libris.kb.se/oaipmh/</request>
+          <GetRecord>
+                    <record>
+                              <header>
+                                        <identifier>https://libris.kb.se/cvndw0gp5jxls3v</identifier>
+                                        <datestamp>2016-11-24T13:56:15Z</datestamp>
+                                        <setSpec>bib</setSpec>
+                              </header>
+                              <metadata>
+                                        <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+                                                  <leader>     cas a          4500</leader>
+                                                  <controlfield tag="001">3680811</controlfield>
+                                                  <controlfield tag="005">20161124145615.0</controlfield>
+                                                  <controlfield tag="008">011211c19639999sw |||||||||||0   ||swe| </controlfield>
+                                                  <datafield ind1="0" ind2=" " tag="022">
+                                                            <subfield code="a">0346-9387</subfield>
+                                                            <subfield code="2">f</subfield>
+                                                  </datafield>
+                                                  <datafield ind1=" " ind2=" " tag="035">
+                                                            <subfield code="9">03469387</subfield>
+                                                  </datafield>
+                                                  <datafield ind1=" " ind2=" " tag="040">
+                                                            <subfield code="a">NB</subfield>
+                                                            <subfield code="d">NLT</subfield>
+                                                  </datafield>
+                                                  <datafield ind1=" " ind2=" " tag="041">
+                                                            <subfield code="a">swe</subfield>
+                                                  </datafield>
+                                                  <datafield ind1=" " ind2=" " tag="042">
+                                                            <subfield code="9">NB</subfield>
+                                                            <subfield code="9">NLT</subfield>
+                                                  </datafield>
+                                                  <datafield ind1=" " ind2=" " tag="080">
+                                                            <subfield code="a">629.12</subfield>
+                                                  </datafield>
+                                                  <datafield ind1=" " ind2=" " tag="084">
+                                                            <subfield code="a">Prcb:k(p)</subfield>
+                                                            <subfield code="2">kssb/8</subfield>
+                                                  </datafield>
+                                                  <datafield ind1=" " ind2="0" tag="222">
+                                                            <subfield code="a">Båtologen</subfield>
+                                                  </datafield>
+                                                  <datafield ind1="1" ind2="0" tag="245">
+                                                            <subfield code="a">Båtologen :</subfield>
+                                                            <subfield code="b">medlemsblad för Klubb Maritim, förening för fartygshistorisk forskning</subfield>
+                                                  </datafield>
+                                                  <datafield ind1="1" ind2=" " tag="246">
+                                                            <subfield code="a">Båtologen</subfield>
+                                                            <subfield code="b">utgiven av Klubb Maritim, förening för fartygshistorisk forskning</subfield>
+                                                            <subfield code="f">1976:3-2004:2, 2004:5</subfield>
+                                                  </datafield>
+                                                  <datafield ind1="1" ind2=" " tag="246">
+                                                            <subfield code="a">Båtologen</subfield>
+                                                            <subfield code="b">utgiven av Klubb Maritim, förening för sjöfarts- och fartygshistoria</subfield>
+                                                            <subfield code="f">2004:3-4, 2004:6-</subfield>
+                                                  </datafield>
+                                                  <datafield ind1="1" ind2=" " tag="246">
+                                                            <subfield code="a">Båtologen :</subfield>
+                                                            <subfield code="b">medlemsblad för Klubb Maritim, förening för fartygshistorisk forskning</subfield>
+                                                            <subfield code="f">1975-1976:2</subfield>
+                                                  </datafield>
+                                                  <datafield ind1=" " ind2="1" tag="264">
+                                                            <subfield code="a">Viken :</subfield>
+                                                            <subfield code="b">Klubb Maritim,</subfield>
+                                                            <subfield code="c">1963-</subfield>
+                                                  </datafield>
+                                                  <datafield ind1=" " ind2=" " tag="300">
+                                                            <subfield code="c">30 cm</subfield>
+                                                  </datafield>
+                                                  <datafield ind1=" " ind2=" " tag="310">
+                                                            <subfield code="a">Varannan månad</subfield>
+                                                  </datafield>
+                                                  <datafield ind1=" " ind2=" " tag="340">
+                                                            <subfield code="b">30 cm</subfield>
+                                                  </datafield>
+                                                  <datafield ind1="0" ind2=" " tag="362">
+                                                            <subfield code="a">[1963-1974] ; årg. 13(1975): no. 1-årg. 18(1980): no. 6 ; årg. 19(1981): no. 1- = utg. 96-</subfield>
+                                                  </datafield>
+                                                  <datafield ind1=" " ind2=" " tag="500">
+                                                            <subfield code="a">Bilaga 2008:3: Sveakrönikan 1871-1981, 2013: Fleetlist</subfield>
+                                                  </datafield>
+                                                  <datafield ind1=" " ind2=" " tag="508">
+                                                            <subfield code="a">1963-1974 duplicerade</subfield>
+                                                  </datafield>
+                                                  <datafield ind1=" " ind2=" " tag="588">
+                                                            <subfield code="a">NLT: Ofullständig bibliografering pga att perioden 1963-1974 är duplicerad och saknas i KB. - 1975-1999 bibliograferad för NLT. - Vid bibliografins slut 1999 utkom tidskriften varannan månad</subfield>
+                                                  </datafield>
+                                                  <datafield ind1=" " ind2=" " tag="599">
+                                                            <subfield code="a">Indexeringslänk</subfield>
+                                                  </datafield>
+                                                  <datafield ind1="2" ind2="4" tag="610">
+                                                            <subfield code="a">Klubb Maritim (Viken)</subfield>
+                                                  </datafield>
+                                                  <datafield ind1=" " ind2="7" tag="650">
+                                                            <subfield code="a">Fartyg</subfield>
+                                                            <subfield code="x">historia</subfield>
+                                                            <subfield code="2">sao</subfield>
+                                                  </datafield>
+                                                  <datafield ind1="2" ind2=" " tag="710">
+                                                            <subfield code="a">Klubb Maritim (Viken)</subfield>
+                                                            <subfield code="4">publisher</subfield>
+                                                  </datafield>
+                                                  <datafield ind1="4" ind2="2" tag="856">
+                                                            <subfield code="u">http://klubbmaritim.com/batologen/</subfield>
+                                                            <subfield code="z">Tidningens webbsida med innehållsbeskrivningar</subfield>
+                                                  </datafield>
+                                                  <datafield ind1=" " ind2="2" tag="976">
+                                                            <subfield code="a">Prc:k(p)</subfield>
+                                                            <subfield code="b">Fartyg Sjöfart Historia Vetenskapshistoria Periodica</subfield>
+                                                  </datafield>
+                                                  <datafield ind1=" " ind2=" " tag="887">
+                                                            <subfield code="a">{"@id":"cvndw0gp5jxls3v","modified":"2016-11-24T14:56:15+01:00","checksum":"33261377728"}</subfield>
+                                                            <subfield code="2">librisxl</subfield>
+                                                  </datafield>
+                                        </record>
+                              </metadata>
+                              <about>
+                                        <holding sigel="G" id="djp88xkk156ggcv">
+                                                  <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                                                            <leader>     cy  a       3n 4500</leader>
+                                                            <controlfield tag="001">12186917</controlfield>
+                                                            <controlfield tag="004">3680811</controlfield>
+                                                            <controlfield tag="005">20140218123718.0</controlfield>
+                                                            <controlfield tag="008">020110||0000||||4000||||||000000</controlfield>
+                                                            <datafield ind1="1" ind2=" " tag="014">
+                                                                      <subfield code="a">03469387</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="084">
+                                                                      <subfield code="a">Prc:k(p)</subfield>
+                                                                      <subfield code="2">kssb/6</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="852">
+                                                                      <subfield code="b">G</subfield>
+                                                                      <subfield code="h">per fol</subfield>
+                                                                      <subfield code="j">8367</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="866">
+                                                                      <subfield code="a">Årg. 9- (1971-)</subfield>
+                                                                      <subfield code="z">Med luckor</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="887">
+                                                                      <subfield code="a">{"@id":"djp88xkk156ggcv","modified":"2014-02-18T12:37:18+01:00","checksum":"46777053847"}</subfield>
+                                                                      <subfield code="2">librisxl</subfield>
+                                                            </datafield>
+                                                  </record>
+                                        </holding>
+                                        <holding sigel="Hsd" id="fkq99zll3r1kdg1">
+                                                  <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                                                            <leader>     cy  a       3n 4500</leader>
+                                                            <controlfield tag="001">12186918</controlfield>
+                                                            <controlfield tag="004">3680811</controlfield>
+                                                            <controlfield tag="005">20160803151541.0</controlfield>
+                                                            <controlfield tag="008">020110||0000||||4000||||||000000</controlfield>
+                                                            <datafield ind1="1" ind2=" " tag="014">
+                                                                      <subfield code="a">03469387</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="852">
+                                                                      <subfield code="b">Hsd</subfield>
+                                                                      <subfield code="c">Tisdskriftsmagasin</subfield>
+                                                                      <subfield code="x">LibrisUPD</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="866">
+                                                                      <subfield code="a">1991-2015</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="887">
+                                                                      <subfield code="a">{"@id":"fkq99zll3r1kdg1","modified":"2016-08-03T15:15:41+02:00","checksum":"44909927671"}</subfield>
+                                                                      <subfield code="2">librisxl</subfield>
+                                                            </datafield>
+                                                  </record>
+                                        </holding>
+                                        <holding sigel="L" id="glrbb0mm4vv2mv3">
+                                                  <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                                                            <leader>     cy  a       3n 4500</leader>
+                                                            <controlfield tag="001">12186919</controlfield>
+                                                            <controlfield tag="004">3680811</controlfield>
+                                                            <controlfield tag="005">20180605170940.0</controlfield>
+                                                            <controlfield tag="008">020110||0000||||4000||||||000000</controlfield>
+                                                            <datafield ind1="1" ind2=" " tag="014">
+                                                                      <subfield code="a">03469387</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="084">
+                                                                      <subfield code="a">Prc:k(p)</subfield>
+                                                                      <subfield code="2">kssb/5</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="852">
+                                                                      <subfield code="b">L</subfield>
+                                                                      <subfield code="c">0200</subfield>
+                                                                      <subfield code="h">pfP</subfield>
+                                                                      <subfield code="j">s697</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="866">
+                                                                      <subfield code="8">1.1</subfield>
+                                                                      <subfield code="a">Årg. 15- (1977-)</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="866">
+                                                                      <subfield code="8">1.2</subfield>
+                                                                      <subfield code="z">Årg. 1(1963)-14(1976) saknas i LUB</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="887">
+                                                                      <subfield code="a">{"@id":"glrbb0mm4vv2mv3","modified":"2018-06-05T17:09:40.517+02:00","checksum":"42859800057"}</subfield>
+                                                                      <subfield code="2">librisxl</subfield>
+                                                            </datafield>
+                                                  </record>
+                                        </holding>
+                                        <holding sigel="Q" id="jntdd2pp5jl4nx2">
+                                                  <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                                                            <leader>     cy  a       3n 4500</leader>
+                                                            <controlfield tag="001">12186921</controlfield>
+                                                            <controlfield tag="004">3680811</controlfield>
+                                                            <controlfield tag="005">20100120134346.0</controlfield>
+                                                            <controlfield tag="008">020110||0000||||4000||||||000000</controlfield>
+                                                            <datafield ind1="1" ind2=" " tag="014">
+                                                                      <subfield code="a">03469387</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="852">
+                                                                      <subfield code="b">Q</subfield>
+                                                                      <subfield code="c">mag</subfield>
+                                                                      <subfield code="h">Per 04935</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="866">
+                                                                      <subfield code="a">Årg. 19- (1981-)</subfield>
+                                                                      <subfield code="9">Per 04935</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="887">
+                                                                      <subfield code="a">{"@id":"jntdd2pp5jl4nx2","modified":"2010-01-20T13:43:46+01:00","checksum":"37809358556"}</subfield>
+                                                                      <subfield code="2">librisxl</subfield>
+                                                            </datafield>
+                                                  </record>
+                                        </holding>
+                                        <holding sigel="S" id="kpvff3qq2czrjd0">
+                                                  <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                                                            <leader>     cy  a       3n 4500</leader>
+                                                            <controlfield tag="001">12186922</controlfield>
+                                                            <controlfield tag="004">3680811</controlfield>
+                                                            <controlfield tag="005">20110117102609.0</controlfield>
+                                                            <controlfield tag="008">020110||0000||||4000||||||000000</controlfield>
+                                                            <datafield ind1="1" ind2=" " tag="014">
+                                                                      <subfield code="a">03469387</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="852">
+                                                                      <subfield code="b">S</subfield>
+                                                                      <subfield code="h">pP</subfield>
+                                                                      <subfield code="j">1133</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="866">
+                                                                      <subfield code="a">Årg. 13(1975)-</subfield>
+                                                                      <subfield code="z">Årg. 1(1963)-12(1974) duplic., ej i KB</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="887">
+                                                                      <subfield code="a">{"@id":"kpvff3qq2czrjd0","modified":"2011-01-17T10:26:09+01:00","checksum":"43177780365"}</subfield>
+                                                                      <subfield code="2">librisxl</subfield>
+                                                            </datafield>
+                                                  </record>
+                                        </holding>
+                                        <holding sigel="Ssm" id="lqwgg4rr0pkbxcx">
+                                                  <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                                                            <leader>     cy  a       3n 4500</leader>
+                                                            <controlfield tag="001">12186923</controlfield>
+                                                            <controlfield tag="004">3680811</controlfield>
+                                                            <controlfield tag="005">20131010110629.0</controlfield>
+                                                            <controlfield tag="008">020110||0000||||4000||||||000000</controlfield>
+                                                            <datafield ind1="1" ind2=" " tag="014">
+                                                                      <subfield code="a">03469387</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="852">
+                                                                      <subfield code="b">Ssm</subfield>
+                                                                      <subfield code="h">B 8 (b) Ref.</subfield>
+                                                                      <subfield code="i">Utlånas ej</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="866">
+                                                                      <subfield code="8">1.1</subfield>
+                                                                      <subfield code="a">1963(1)-</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="866">
+                                                                      <subfield code="8">1.2</subfield>
+                                                                      <subfield code="z">Register ; 1990-</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="887">
+                                                                      <subfield code="a">{"@id":"lqwgg4rr0pkbxcx","modified":"2013-10-10T11:06:29+02:00","checksum":"50983214385"}</subfield>
+                                                                      <subfield code="2">librisxl</subfield>
+                                                            </datafield>
+                                                  </record>
+                                        </holding>
+                                        <holding sigel="U" id="mrxhh5ss2z4zct3">
+                                                  <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                                                            <leader>     cy  a       3n 4500</leader>
+                                                            <controlfield tag="001">12186924</controlfield>
+                                                            <controlfield tag="004">3680811</controlfield>
+                                                            <controlfield tag="005">20180605170940.0</controlfield>
+                                                            <controlfield tag="008">020110||0000||||4000||||||000000</controlfield>
+                                                            <datafield ind1="1" ind2=" " tag="014">
+                                                                      <subfield code="a">03469387</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="084">
+                                                                      <subfield code="a">Prc:k(p)</subfield>
+                                                                      <subfield code="2">kssb/5</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="852">
+                                                                      <subfield code="b">U</subfield>
+                                                                      <subfield code="c">Sv</subfield>
+                                                                      <subfield code="h">per P</subfield>
+                                                                      <subfield code="j">q, 699</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="866">
+                                                                      <subfield code="a">Årg. 19- (1981-)</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="887">
+                                                                      <subfield code="a">{"@id":"mrxhh5ss2z4zct3","modified":"2018-06-05T17:09:40.53+02:00","checksum":"38555273345"}</subfield>
+                                                                      <subfield code="2">librisxl</subfield>
+                                                            </datafield>
+                                                  </record>
+                                        </holding>
+                                        <holding sigel="Z" id="nszjj6tt5mx2wwz">
+                                                  <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                                                            <leader>     cy  a       3n 4500</leader>
+                                                            <controlfield tag="001">12186925</controlfield>
+                                                            <controlfield tag="004">3680811</controlfield>
+                                                            <controlfield tag="005">20170421120818.0</controlfield>
+                                                            <controlfield tag="008">020110||0000||||4000||||||000000</controlfield>
+                                                            <datafield ind1="1" ind2=" " tag="014">
+                                                                      <subfield code="a">03469387</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2="4" tag="050">
+                                                                      <subfield code="a">VK 1</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2="4" tag="050">
+                                                                      <subfield code="a">VM 1</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="852">
+                                                                      <subfield code="b">Z</subfield>
+                                                                      <subfield code="h">Vp</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="866">
+                                                                      <subfield code="a">Årg. 24-40 (1986-2002)</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="887">
+                                                                      <subfield code="a">{"@id":"nszjj6tt5mx2wwz","modified":"2017-04-21T12:08:18+02:00","checksum":"42323623234"}</subfield>
+                                                                      <subfield code="2">librisxl</subfield>
+                                                            </datafield>
+                                                  </record>
+                                        </holding>
+                                        <holding sigel="ISDS" id="48f5l3j90mgc1qp">
+                                                  <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                                                            <leader>     cy  a       4n 4500</leader>
+                                                            <controlfield tag="001">15924819</controlfield>
+                                                            <controlfield tag="004">3680811</controlfield>
+                                                            <controlfield tag="005">20140916140736.0</controlfield>
+                                                            <controlfield tag="008">0305164|00008|||1001||swe0901128</controlfield>
+                                                            <datafield ind1=" " ind2=" " tag="852">
+                                                                      <subfield code="b">ISDS</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="866">
+                                                                      <subfield code="x">030516</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="887">
+                                                                      <subfield code="a">{"@id":"48f5l3j90mgc1qp","modified":"2014-09-16T14:07:36+02:00","checksum":"29261797372"}</subfield>
+                                                                      <subfield code="2">librisxl</subfield>
+                                                            </datafield>
+                                                  </record>
+                                        </holding>
+                                        <holding sigel="Ylm" id="hmtx6bln52wdr7t">
+                                                  <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                                                            <leader>     ny  a       1n 4500</leader>
+                                                            <controlfield tag="001">25830860</controlfield>
+                                                            <controlfield tag="004">3680811</controlfield>
+                                                            <controlfield tag="005">20100223152552.0</controlfield>
+                                                            <controlfield tag="008">100223||0000||||4000||||||000000</controlfield>
+                                                            <datafield ind1=" " ind2=" " tag="852">
+                                                                      <subfield code="b">Ylm</subfield>
+                                                                      <subfield code="c">TIDSKRIFTSSAMLINGEN</subfield>
+                                                                      <subfield code="h">Prca(p)</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2="1" tag="866">
+                                                                      <subfield code="a">1983:1-1999:6</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="887">
+                                                                      <subfield code="a">{"@id":"hmtx6bln52wdr7t","modified":"2010-02-23T15:25:52+01:00","checksum":"39796232647"}</subfield>
+                                                                      <subfield code="2">librisxl</subfield>
+                                                            </datafield>
+                                                  </record>
+                                        </holding>
+                                        <holding sigel="Ra" id="z39d0b4443hwtq4">
+                                                  <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                                                            <leader>     nx  a       4n 4500</leader>
+                                                            <controlfield tag="001">26087404</controlfield>
+                                                            <controlfield tag="004">3680811</controlfield>
+                                                            <controlfield tag="005">20100412153533.0</controlfield>
+                                                            <controlfield tag="008">1004124|00008|||1001|||||0901128</controlfield>
+                                                            <datafield ind1="8" ind2=" " tag="852">
+                                                                      <subfield code="b">Ra</subfield>
+                                                                      <subfield code="h">P Tidskr.</subfield>
+                                                                      <subfield code="l">Båtologen</subfield>
+                                                            </datafield>
+                                                            <datafield ind1="4" ind2="1" tag="866">
+                                                                      <subfield code="a">Årg. 48(2010): nr 1-</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="887">
+                                                                      <subfield code="a">{"@id":"z39d0b4443hwtq4","modified":"2010-04-12T15:35:33+02:00","checksum":"43412127381"}</subfield>
+                                                                      <subfield code="2">librisxl</subfield>
+                                                            </datafield>
+                                                  </record>
+                                        </holding>
+                                        <holding sigel="NLT" id="jnvk7l1p2r9w5tg">
+                                                  <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                                                            <leader>     ny  a       1n 4500</leader>
+                                                            <controlfield tag="001">40416621</controlfield>
+                                                            <controlfield tag="004">3680811</controlfield>
+                                                            <controlfield tag="005">20140910131956.0</controlfield>
+                                                            <controlfield tag="008">140910||0000|||||000||||||000000</controlfield>
+                                                            <datafield ind1=" " ind2=" " tag="852">
+                                                                      <subfield code="b">NLT</subfield>
+                                                                      <subfield code="h">nivå2</subfield>
+                                                                      <subfield code="j">tom2004</subfield>
+                                                                      <subfield code="x">kerurb</subfield>
+                                                                      <subfield code="x">201409</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="887">
+                                                                      <subfield code="a">{"@id":"jnvk7l1p2r9w5tg","modified":"2014-09-10T13:19:56+02:00","checksum":"53891873452"}</subfield>
+                                                                      <subfield code="2">librisxl</subfield>
+                                                            </datafield>
+                                                  </record>
+                                        </holding>
+                                        <holding sigel="Cfn" id="w18g2sp239hjm7c">
+                                                  <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                                                            <leader>     ny  a       1n 4500</leader>
+                                                            <controlfield tag="001">52940372</controlfield>
+                                                            <controlfield tag="004">3680811</controlfield>
+                                                            <controlfield tag="005">20170314125847.0</controlfield>
+                                                            <controlfield tag="008">170314||0000|||||001||||||000000</controlfield>
+                                                            <datafield ind1=" " ind2=" " tag="035">
+                                                                      <subfield code="a">(Cfn)2811</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2="0" tag="653">
+                                                                      <subfield code="a">Fartyg</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2="0" tag="653">
+                                                                      <subfield code="a">Båtar</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2="0" tag="653">
+                                                                      <subfield code="a">Sjöfart</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2="0" tag="653">
+                                                                      <subfield code="a">Tidskrifter</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2="0" tag="653">
+                                                                      <subfield code="a">Periodica</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="852">
+                                                                      <subfield code="b">Cfn</subfield>
+                                                                      <subfield code="h">Prc (korr)</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="887">
+                                                                      <subfield code="a">{"@id":"w18g2sp239hjm7c","modified":"2017-03-14T12:58:47+01:00","checksum":"61263105414"}</subfield>
+                                                                      <subfield code="2">librisxl</subfield>
+                                                            </datafield>
+                                                  </record>
+                                        </holding>
+                                        <holding sigel="Zl" id="mr073bhs5h0p9lp">
+                                                  <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                                                            <leader>     nx  a       |n 4500</leader>
+                                                            <controlfield tag="001">53988054</controlfield>
+                                                            <controlfield tag="004">3680811</controlfield>
+                                                            <controlfield tag="005">20170421121353.0</controlfield>
+                                                            <controlfield tag="008">1704214|00008|||1001|||||0901128</controlfield>
+                                                            <datafield ind1=" " ind2="4" tag="050">
+                                                                      <subfield code="a">VK1</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2="4" tag="050">
+                                                                      <subfield code="a">VM1</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="852">
+                                                                      <subfield code="b">Zl</subfield>
+                                                                      <subfield code="h">Sjöfartstidskrifter</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="866">
+                                                                      <subfield code="a">Årg. 55(2017):1-</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="887">
+                                                                      <subfield code="a">{"@id":"mr073bhs5h0p9lp","modified":"2017-04-21T12:13:53+02:00","checksum":"44788617517"}</subfield>
+                                                                      <subfield code="2">librisxl</subfield>
+                                                            </datafield>
+                                                  </record>
+                                        </holding>
+                                        <holding sigel="Sklm" id="48gwp7z90nmz3s7">
+                                                  <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                                                            <leader>     nx  a       1n 4500</leader>
+                                                            <controlfield tag="001">33829809</controlfield>
+                                                            <controlfield tag="004">3680811</controlfield>
+                                                            <controlfield tag="005">20120828090441.0</controlfield>
+                                                            <controlfield tag="008">120828||0000|||||001||||||000000</controlfield>
+                                                            <datafield ind1=" " ind2=" " tag="035">
+                                                                      <subfield code="a">(Sklm)0000005311</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2="0" tag="653">
+                                                                      <subfield code="a">Fartyg</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2="0" tag="653">
+                                                                      <subfield code="a">Färöarna</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2="0" tag="653">
+                                                                      <subfield code="a">"Belos"</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2="0" tag="653">
+                                                                      <subfield code="a">Rederier</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2="0" tag="653">
+                                                                      <subfield code="a">Hven-skutor</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2="0" tag="653">
+                                                                      <subfield code="a">Haveri lista</subfield>
+                                                            </datafield>
+                                                            <datafield ind1="8" ind2=" " tag="852">
+                                                                      <subfield code="b">Sklm</subfield>
+                                                                      <subfield code="h">Prc (p)</subfield>
+                                                            </datafield>
+                                                            <datafield ind1=" " ind2=" " tag="887">
+                                                                      <subfield code="a">{"@id":"48gwp7z90nmz3s7","modified":"2012-08-28T09:04:41+02:00","checksum":"59407230213"}</subfield>
+                                                                      <subfield code="2">librisxl</subfield>
+                                                            </datafield>
+                                                  </record>
+                                        </holding>
+                              </about>
+                              <about>
+                                        <agent name="https://libris.kb.se/sys/globalchanges/2018/10/fix-unbalanced-brackets.groovy"/>
+                              </about>
+                    </record>
+          </GetRecord>
+</OAI-PMH>

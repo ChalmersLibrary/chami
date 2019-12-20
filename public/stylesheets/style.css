@@ -1,0 +1,61 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font: 16px "EB Garamond", serif;
+  background-color: white;
+}
+
+main {
+  padding: 5em;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+}
+
+input {
+  font-family: monospace;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+label {
+  display: block;
+}
+
+.update-button {
+  padding: 1em;
+  font-size: 1.2em;
+}
+
+.error-container {
+  background-color: lightcoral;
+  border: solid 1px gray;
+  padding: 1em;
+  margin: 0.5em 0;
+}
+
+.fetch-history-list {
+  padding: 0;
+  list-style: none;
+}
+
+.fetch-history-list__item {
+  padding: 0.5em 2em;
+  border: solid 1px black;
+  background-color: white;
+}
+
+.fetch-history-list__item--fail {
+  background-color: lightcoral;
+}

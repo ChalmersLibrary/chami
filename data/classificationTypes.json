@@ -1,0 +1,30 @@
+[
+  {
+    "id": "ce176ace-a53e-4b4d-aa89-725ed7b2edac",
+    "name": "LC"
+  },
+  {
+    "id": "42471af9-7d25-4f3a-bf78-60d29dcf463b",
+    "name": "Dewey"
+  },
+  {
+    "id": "74c08086-81a4-4466-93d8-d117ce8646db",
+    "name": "Additional Dewey"
+  },
+  {
+    "id": "a7f4d03f-b0d8-496c-aebf-4e9cdb678200",
+    "name": "NLM"
+  },
+  {
+    "id": "fb12264c-ff3b-47e0-8e09-b0aa074361f1",
+    "name": "GDC"
+  },
+  {
+    "id": "9a60012a-0fcf-4da9-a1d1-148e818c27ad",
+    "name": "National Agricultural Library"
+  },
+  {
+    "id": "e8662436-75a8-4984-bebc-531e38c774a0",
+    "name": "UDC"
+  }
+]

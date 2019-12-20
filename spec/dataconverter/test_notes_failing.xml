@@ -1,0 +1,361 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+    <responseDate>2019-08-26T16:57:49.777Z</responseDate>
+    <request verb="GetRecord" identifier="https://libris.kb.se/wd663lj75kkmhjh" metadataPrefix="marcxml_includehold_expanded">http://libris.kb.se/oaipmh/</request>
+    <GetRecord>
+        <record>
+            <header>
+                <identifier>https://libris.kb.se/wd663lj75kkmhjh</identifier>
+                <datestamp>2018-10-30T22:00Z</datestamp>
+                <setSpec>bib</setSpec>
+            </header>
+            <metadata>
+                <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+                    <leader>     cam a       7a 4500</leader>
+                    <controlfield tag="001">10702177</controlfield>
+                    <controlfield tag="005">20181030230000.0</controlfield>
+                    <controlfield tag="008">080303s2007    hiuab||||b|||s001 0|eng|c</controlfield>
+                    <datafield ind1=" " ind2=" " tag="010">
+                        <subfield code="a">2006100946</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="015">
+                        <subfield code="a">GBA739936</subfield>
+                        <subfield code="2">bnb</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="020">
+                        <subfield code="a">0824830911</subfield>
+                        <subfield code="q">HBK.</subfield>
+                        <subfield code="c">£34.95</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="020">
+                        <subfield code="a">9780824830915</subfield>
+                        <subfield code="q">HBK.</subfield>
+                        <subfield code="c">£34.95</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="035">
+                        <subfield code="a">(Uk)013752392</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="040">
+                        <subfield code="a">StDuBDS</subfield>
+                        <subfield code="b">eng</subfield>
+                        <subfield code="c">StDuBDS</subfield>
+                        <subfield code="d">Uk</subfield>
+                        <subfield code="d">H</subfield>
+                        <subfield code="e">a</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="041">
+                        <subfield code="a">eng</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="042">
+                        <subfield code="9">KVIN</subfield>
+                    </datafield>
+                    <datafield ind1="0" ind2="0" tag="050">
+                        <subfield code="a">PL2296</subfield>
+                        <subfield code="b">.Z42 2007</subfield>
+                    </datafield>
+                    <datafield ind1="0" ind2="0" tag="082">
+                        <subfield code="a">895.109375</subfield>
+                        <subfield code="2">22</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="084">
+                        <subfield code="a">Gva.4</subfield>
+                        <subfield code="2">kssb/8</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="084">
+                        <subfield code="a">Gva.096z Könsidentitet</subfield>
+                        <subfield code="2">kssb/8</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="084">
+                        <subfield code="a">Gva.096z Spöken</subfield>
+                        <subfield code="2">kssb/8</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2=" " tag="100">
+                        <subfield code="a">Zeitlin, Judith T.,</subfield>
+                        <subfield code="d">1958-</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2="4" tag="245">
+                        <subfield code="a">The phantom heroine :</subfield>
+                        <subfield code="b">ghosts and gender in seventeenth-century Chinese literature /</subfield>
+                        <subfield code="c">Judith T. Zeitlin.</subfield>
+                    </datafield>
+                    <datafield ind1="3" ind2="0" tag="246">
+                        <subfield code="a">Ghosts and gender in seventeenth-century Chinese literature</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="1" tag="264">
+                        <subfield code="a">Honolulu, T.H.</subfield>
+                        <subfield code="b">University of Hawai'i Press ;</subfield>
+                        <subfield code="a">London :</subfield>
+                        <subfield code="b">Eurospan [distributor],</subfield>
+                        <subfield code="c">2007</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="300">
+                        <subfield code="a">xiii, 296 p.</subfield>
+                        <subfield code="b">ill., maps</subfield>
+                        <subfield code="c">24 cm.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="340">
+                        <subfield code="b">24 cm.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="504">
+                        <subfield code="a">Includes bibliographical references (p. 259-282) and index</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="7" tag="648">
+                        <subfield code="a">1644-1912 (Qingdynastin, Kina)</subfield>
+                        <subfield code="0">https://id.kb.se/term/sao/1644-1912%20%28Qingdynastin%2C%20Kina%29</subfield>
+                        <subfield code="2">sao</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="7" tag="648">
+                        <subfield code="a">1368-1644 (Mingdynastin, Kina)</subfield>
+                        <subfield code="0">https://id.kb.se/term/sao/1368-1644%20%28Mingdynastin%2C%20Kina%29</subfield>
+                        <subfield code="2">sao</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="7" tag="650">
+                        <subfield code="a">Kinesisk litteratur</subfield>
+                        <subfield code="x">historia</subfield>
+                        <subfield code="0">https://id.kb.se/term/sao/Kinesisk%20litteratur--historia</subfield>
+                        <subfield code="2">sao</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="7" tag="650">
+                        <subfield code="a">Kinesisk litteratur</subfield>
+                        <subfield code="x">historia</subfield>
+                        <subfield code="0">https://id.kb.se/term/sao/Kinesisk%20litteratur--historia</subfield>
+                        <subfield code="2">sao</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="7" tag="650">
+                        <subfield code="a">Könsidentitet i litteraturen</subfield>
+                        <subfield code="z">Kina</subfield>
+                        <subfield code="2">sao</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="7" tag="650">
+                        <subfield code="a">Spöken i litteraturen</subfield>
+                        <subfield code="z">Kina</subfield>
+                        <subfield code="2">sao</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="0" tag="650">
+                        <subfield code="a">Ghosts in literature</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="0" tag="650">
+                        <subfield code="a">Gender identity in literature</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="0" tag="650">
+                        <subfield code="a">Chinese literature</subfield>
+                        <subfield code="y">Ming dynasty, 1368-1644</subfield>
+                        <subfield code="x">History and criticism</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="0" tag="650">
+                        <subfield code="a">Chinese literature</subfield>
+                        <subfield code="y">Qing dynasty, 1644-1912</subfield>
+                        <subfield code="x">History and criticism</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="7" tag="650">
+                        <subfield code="a">Övernaturliga väsen</subfield>
+                        <subfield code="2">kao</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="7" tag="650">
+                        <subfield code="a">Kvinnobilden</subfield>
+                        <subfield code="2">kao</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="7" tag="650">
+                        <subfield code="a">Litteraturvetenskap</subfield>
+                        <subfield code="x">genus</subfield>
+                        <subfield code="z">Kina</subfield>
+                        <subfield code="y">1600-talet</subfield>
+                        <subfield code="2">kao</subfield>
+                    </datafield>
+                    <datafield ind1="4" ind2="1" tag="856">
+                        <subfield code="3">Table of contents only</subfield>
+                        <subfield code="u">http://www.loc.gov/catdir/toc/ecip076/2006100946.html</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="887">
+                        <subfield code="a">{"@id":"wd663lj75kkmhjh","modified":"2018-10-30T23:00:00+01:00","checksum":"142795389395"}</subfield>
+                        <subfield code="2">librisxl</subfield>
+                    </datafield>
+                </record>
+            </metadata>
+            <about>
+                <holding sigel="G" id="djqnfztk5h5ljnv">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       1n 4500</leader>
+                        <controlfield tag="001">22043057</controlfield>
+                        <controlfield tag="004">10702177</controlfield>
+                        <controlfield tag="005">20080702134506.0</controlfield>
+                        <controlfield tag="008">080526||0000|||||001||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">G</subfield>
+                            <subfield code="h">ÖM Kvinn G</subfield>
+                            <subfield code="j">08/41</subfield>
+                            <subfield code="x">G08k</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"djqnfztk5h5ljnv","modified":"2008-07-02T13:45:06+02:00","checksum":"141541385748"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="KVIN" id="v0650qp1564p4m2">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     nx  a       1n 4500</leader>
+                        <controlfield tag="001">22942501</controlfield>
+                        <controlfield tag="004">10702177</controlfield>
+                        <controlfield tag="005">20081121160016.0</controlfield>
+                        <controlfield tag="008">081121||0000|||||001||||||000000</controlfield>
+                        <datafield ind1=" " ind2="7" tag="650">
+                            <subfield code="a">Supernatural beings</subfield>
+                            <subfield code="2">kao//eng</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2="7" tag="650">
+                            <subfield code="a">Image of women</subfield>
+                            <subfield code="2">kao//eng</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2="7" tag="650">
+                            <subfield code="a">Literary studies</subfield>
+                            <subfield code="x">gender</subfield>
+                            <subfield code="2">kao//eng</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">KVIN</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"v0650qp1564p4m2","modified":"2008-11-21T16:00:16+01:00","checksum":"150949952574"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Z" id="t4d11c08rng52rqw">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     nx  a       un 4500</leader>
+                        <controlfield tag="001">t4d11c08rng52rqw</controlfield>
+                        <controlfield tag="004">10702177</controlfield>
+                        <controlfield tag="005">20190826142612.0</controlfield>
+                        <controlfield tag="008">190826||0000|||||000||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Z</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"t4d11c08rng52rqw","modified":"2019-08-26T14:26:12.779+02:00","checksum":"130469561789"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Hnt" id="lqxv3s7r1pzcbcg">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       1n 4500</leader>
+                        <controlfield tag="001">21601343</controlfield>
+                        <controlfield tag="004">10702177</controlfield>
+                        <controlfield tag="005">20080403111241.0</controlfield>
+                        <controlfield tag="008">080303||0000|||||001||||||000000</controlfield>
+                        <datafield ind1="8" ind2=" " tag="852">
+                            <subfield code="b">Hnt</subfield>
+                            <subfield code="c">ASIEN</subfield>
+                            <subfield code="h">ASIEN Gva</subfield>
+                            <subfield code="l">Zeitlin</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"lqxv3s7r1pzcbcg","modified":"2008-04-03T11:12:41+02:00","checksum":"150470234457"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <auth id="1zcgp6dk5m5p2ww">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Authority">
+                        <leader>     cz  a       n  4500</leader>
+                        <controlfield tag="001">395867</controlfield>
+                        <controlfield tag="005">20190312131553.0</controlfield>
+                        <controlfield tag="008">160613nb az|nnaabn          |n ana     |</controlfield>
+                        <datafield ind1=" " ind2=" " tag="040">
+                            <subfield code="a">NB</subfield>
+                            <subfield code="b">swe</subfield>
+                            <subfield code="f">sao</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="148">
+                            <subfield code="a">1644-1912 (Qingdynastin, Kina)</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="448">
+                            <subfield code="a">Qingdynastin, Kina, 1644-1912</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="680">
+                            <subfield code="i">Kronologiskt ämnesord för Kina. Kompletteras med geografiskt ämnesord.</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="751">
+                            <subfield code="a">China</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"1zcgp6dk5m5p2ww","modified":"2019-03-12T13:15:53.557+01:00","checksum":"8087017251"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </auth>
+                <auth id="0xbfn5bj5vcsxlb">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Authority">
+                        <leader>     cz  a       n  4500</leader>
+                        <controlfield tag="001">395836</controlfield>
+                        <controlfield tag="005">20190312131519.0</controlfield>
+                        <controlfield tag="008">160610nb az|nnaabn          |n aaa     |</controlfield>
+                        <datafield ind1=" " ind2=" " tag="040">
+                            <subfield code="a">NB</subfield>
+                            <subfield code="b">swe</subfield>
+                            <subfield code="f">sao</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="148">
+                            <subfield code="a">1368-1644 (Mingdynastin, Kina)</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="448">
+                            <subfield code="a">Mingdynastin, Kina, 1368-1644</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="680">
+                            <subfield code="i">Kronologiskt ämnesord för Kina.</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="688">
+                            <subfield code="a">Tidigare Kina – historia - 1368-1644. Ändrat 2016-06-09.</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="751">
+                            <subfield code="a">China</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"0xbfn5bj5vcsxlb","modified":"2019-03-12T13:15:19.555+01:00","checksum":"9619465535"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </auth>
+                <auth id="xv8b90fg1gtjl63">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Authority">
+                        <leader>     cz  a       n  4500</leader>
+                        <controlfield tag="001">150284</controlfield>
+                        <controlfield tag="005">20140512114147.0</controlfield>
+                        <controlfield tag="008">020409n| az|nnbabn          |n ana     |</controlfield>
+                        <datafield ind1=" " ind2=" " tag="035">
+                            <subfield code="a">(sao)18372</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="040">
+                            <subfield code="a">NB</subfield>
+                            <subfield code="b">swe</subfield>
+                            <subfield code="f">sao</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="065">
+                            <subfield code="a">Gva</subfield>
+                            <subfield code="2">kssb/7</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="150">
+                            <subfield code="a">Kinesisk litteratur</subfield>
+                            <subfield code="x">historia</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="450">
+                            <subfield code="w">||e</subfield>
+                            <subfield code="a">Kinesisk litteraturhistoria</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="688">
+                            <subfield code="a">Tidigare Kinesisk litteraturhistoria. Ändrat 2003-02-27-</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"xv8b90fg1gtjl63","modified":"2014-05-12T11:41:47+02:00","checksum":"17256433887"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </auth>
+            </about>
+            <about>
+                <agent name="https://libris.kb.se/sys/globalchanges/2018/10/fix-unbalanced-brackets.groovy"/>
+            </about>
+        </record>
+    </GetRecord>
+</OAI-PMH>

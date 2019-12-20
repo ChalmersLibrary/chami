@@ -1,0 +1,12 @@
+{
+  "elasticsearchUsername": "",
+  "elasticsearchPassword": "",
+  "elasticsearchHost": "",
+  "elasticsearchPort": "",
+  "debug": true,
+  "tenantId": "",
+  "okapiUrl": "",
+  "folioUsername": "",
+  "folioPassword": "",
+  "serverurl": ""
+}

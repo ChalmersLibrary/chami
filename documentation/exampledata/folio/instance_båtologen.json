@@ -1,0 +1,65 @@
+{
+    "@context": "http://localhost:8082/inventory/instances/context",
+    "id": "83fc2e48-f5e7-4253-9b41-b20f04a830eb",
+    "hrid": "https://libris.kb.se/cvndw0gp5jxls3v",
+    "source": "chalmers_dump",
+    "title": "Båtologen /",
+    "parentInstances": [],
+    "childInstances": [],
+    "alternativeTitles": [
+        "Båtologen / medlemstidning för Klubb Maritim, förening för sjöfarts- och fartygshistoria"
+    ],
+    "edition": "",
+    "series": [],
+    "identifiers": [
+        {
+            "identifierTypeId": "913300b2-03ed-469a-8179-c1092c991227",
+            "value": "0346-9387 f"
+        },
+        {
+            "identifierTypeId": "7e591197-f335-4afb-bc6d-a6d76ca3bace",
+            "value": ".b11318168 hbib  -"
+        }
+    ],
+    "contributors": [],
+    "subjects": [
+        "Fartyg -- historia -- periodika sao",
+        "Sjöfart -- historia -- periodika sao"
+    ],
+    "classifications": [],
+    "publication": [
+        {
+            "publisher": "Klubb Maritim,",
+            "place": "Viken :",
+            "dateOfPublication": "1963-",
+            "role": null
+        }
+    ],
+    "publicationFrequency": [],
+    "publicationRange": [],
+    "electronicAccess": [],
+    "urls": [
+        "http://www.lib.chalmers.se/framplockning"
+    ],
+    "instanceTypeId": "20d12382-98a6-4e3a-ba50-dc35445b35c0",
+    "instanceFormatId": "266d8f18-11c9-478b-85cf-99051ed0c91a",
+    "physicalDescriptions": [
+        "pd1",
+        "pd2"
+    ],
+    "languages": [],
+    "notes": [
+        "",
+        ""
+    ],
+    "statisticalCodes": [],
+    "metadata": {
+        "createdDate": null,
+        "createdByUserId": null,
+        "updatedDate": null,
+        "updatedByUserId": null
+    },
+    "links": {
+        "self": "http://localhost:8082/inventory/instances/83fc2e48-f5e7-4253-9b41-b20f04a830eb"
+    }
+}

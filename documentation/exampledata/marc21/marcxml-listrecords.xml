@@ -1,0 +1,3092 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+    <responseDate>2018-11-15T10:20:51.299Z</responseDate>
+    <request verb="ListRecords" metadataPrefix="marcxml_includehold" from="2018-11-14T08:00:00Z" until="2018-11-14T20:00:00Z" x-withDeletedData="true" set="bib:Z">http://libris.kb.se/oaipmh/</request>
+    <ListRecords>
+        <record>
+            <header>
+                <identifier>https://libris.kb.se/08fdgmvvxpk8gt7t</identifier>
+                <datestamp>2018-11-14T09:45:53.097671Z</datestamp>
+                <setSpec>bib</setSpec>
+            </header>
+            <metadata>
+                <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+                    <leader>     cam a       3  4500</leader>
+                    <controlfield tag="001">08fdgmvvxpk8gt7t</controlfield>
+                    <controlfield tag="003">OCoLC</controlfield>
+                    <controlfield tag="005">20181114044453.0</controlfield>
+                    <controlfield tag="008">150328s2016    xx |||||||||||000 ||eng|d</controlfield>
+                    <datafield ind1=" " ind2=" " tag="020">
+                        <subfield code="a">9781482249163</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="020">
+                        <subfield code="a">1482249162</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="040">
+                        <subfield code="a">Z</subfield>
+                        <subfield code="b">eng</subfield>
+                        <subfield code="c">BTCTA</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="041">
+                        <subfield code="a">eng</subfield>
+                    </datafield>
+                    <datafield ind1="0" ind2="0" tag="245">
+                        <subfield code="a">Modern Electrosynthetic Methods in Organic Chemistry</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="1" tag="264">
+                        <subfield code="c">2016</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="1" tag="264">
+                        <subfield code="b">CRC Pr I Llc,</subfield>
+                        <subfield code="c">2016.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="300">
+                        <subfield code="a">pages</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="599">
+                        <subfield code="a">Imported from: zcat.oclc.org:210/OLUCWorldCat (Do not remove)</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="720">
+                        <subfield code="a">Marken, Frank</subfield>
+                        <subfield code="4">editor</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="720">
+                        <subfield code="a">Atobe, Mahito</subfield>
+                        <subfield code="4">editor</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="887">
+                        <subfield code="a">{"@id":"08fdgmvvxpk8gt7t","modified":"2018-11-14T04:44:53.0+01:00","checksum":"43279656644"}</subfield>
+                        <subfield code="2">librisxl</subfield>
+                    </datafield>
+                </record>
+            </metadata>
+            <about>
+                <holding sigel="Z" id="hrxwz6gvf86c3x01">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       |n 4500</leader>
+                        <controlfield tag="001">hrxwz6gvf86c3x01</controlfield>
+                        <controlfield tag="005">20181114105405.0</controlfield>
+                        <controlfield tag="008">181114||0000|||||000||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Z</subfield>
+                            <subfield code="h">Beställd / On order since 181115</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"hrxwz6gvf86c3x01","modified":"2018-11-14T10:54:05.542+01:00","checksum":"12247037321"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+            </about>
+            <about>
+                <agent name="Z"/>
+            </about>
+        </record>
+        <record>
+            <header>
+                <identifier>https://libris.kb.se/fpvtxgn4c83dkrls</identifier>
+                <datestamp>2018-11-14T09:50:59.828284Z</datestamp>
+                <setSpec>bib</setSpec>
+            </header>
+            <metadata>
+                <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+                    <leader>     cam a       m  4500</leader>
+                    <controlfield tag="001">fpvtxgn4c83dkrls</controlfield>
+                    <controlfield tag="003">OCoLC</controlfield>
+                    <controlfield tag="005">20181114044941.0</controlfield>
+                    <controlfield tag="008">181008s2018    ne |||||||||||000 ||eng|d</controlfield>
+                    <datafield ind1=" " ind2=" " tag="020">
+                        <subfield code="a">9780128145210</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="020">
+                        <subfield code="a">0128145218</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="040">
+                        <subfield code="a">Z</subfield>
+                        <subfield code="b">ger</subfield>
+                        <subfield code="c">DEBSZ</subfield>
+                        <subfield code="e">rda</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="041">
+                        <subfield code="a">eng</subfield>
+                    </datafield>
+                    <datafield ind1="0" ind2="4" tag="082">
+                        <subfield code="a">546.6752</subfield>
+                    </datafield>
+                    <datafield ind1="0" ind2="0" tag="245">
+                        <subfield code="a">Gallium oxide :</subfield>
+                        <subfield code="b">technology, devices and applications /</subfield>
+                        <subfield code="c">edited by Stephen Pearton Fan Ren Michael Mastro.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="1" tag="264">
+                        <subfield code="a">Amsterdam :</subfield>
+                        <subfield code="b">Elsevier,</subfield>
+                        <subfield code="c">2018</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="300">
+                        <subfield code="a">1 volume.</subfield>
+                        <subfield code="c">23 cm.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="336">
+                        <subfield code="a">Text</subfield>
+                        <subfield code="b">txt</subfield>
+                        <subfield code="2">rdacontent/ger</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="337">
+                        <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+                        <subfield code="b">n</subfield>
+                        <subfield code="2">rdamedia/ger</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="338">
+                        <subfield code="a">Band</subfield>
+                        <subfield code="b">nc</subfield>
+                        <subfield code="2">rdacarrier/ger</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="340">
+                        <subfield code="b">23 cm.</subfield>
+                    </datafield>
+                    <datafield ind1="0" ind2=" " tag="490">
+                        <subfield code="a">Metal oxides series</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="599">
+                        <subfield code="a">Imported from: zcat.oclc.org:210/OLUCWorldCat (Do not remove)</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="0" tag="650">
+                        <subfield code="a">Gallium compounds.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="0" tag="650">
+                        <subfield code="a">Oxides.</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2=" " tag="700">
+                        <subfield code="a">Pearton, S. J.</subfield>
+                        <subfield code="e">HerausgeberIn.</subfield>
+                        <subfield code="4">editor</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2=" " tag="700">
+                        <subfield code="a">Ren, F.</subfield>
+                        <subfield code="e">HerausgeberIn.</subfield>
+                        <subfield code="4">editor</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2=" " tag="700">
+                        <subfield code="a">Mastro, Michael A.</subfield>
+                        <subfield code="e">HerausgeberIn.</subfield>
+                        <subfield code="4">editor</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="887">
+                        <subfield code="a">{"@id":"fpvtxgn4c83dkrls","modified":"2018-11-14T04:49:41.0+01:00","checksum":"27093277229"}</subfield>
+                        <subfield code="2">librisxl</subfield>
+                    </datafield>
+                </record>
+            </metadata>
+            <about>
+                <holding sigel="Z" id="6gmlpbpx46dm2m8b">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     nx  a       |n 4500</leader>
+                        <controlfield tag="001">6gmlpbpx46dm2m8b</controlfield>
+                        <controlfield tag="005">20181114105228.0</controlfield>
+                        <controlfield tag="008">181114||0000|||||000||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Z</subfield>
+                            <subfield code="h">Beställd / On order since 181115</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"6gmlpbpx46dm2m8b","modified":"2018-11-14T10:52:28.03+01:00","checksum":"42901348977"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+            </about>
+            <about>
+                <agent name="Z"/>
+            </about>
+        </record>
+        <record>
+            <header>
+                <identifier>https://libris.kb.se/jszxzfd8g8kzn9tj</identifier>
+                <datestamp>2018-11-14T09:55:02.309Z</datestamp>
+                <setSpec>bib</setSpec>
+            </header>
+            <metadata>
+                <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+                    <leader>     cam a       m  4500</leader>
+                    <controlfield tag="001">jszxzfd8g8kzn9tj</controlfield>
+                    <controlfield tag="003">OCoLC</controlfield>
+                    <controlfield tag="005">20181114103558.0</controlfield>
+                    <controlfield tag="008">181114s2018    xx |||||||||||000 ||eng|d</controlfield>
+                    <datafield ind1=" " ind2=" " tag="020">
+                        <subfield code="a">1119417597</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="020">
+                        <subfield code="a">9781119417590</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="040">
+                        <subfield code="a">Z</subfield>
+                        <subfield code="b">eng</subfield>
+                        <subfield code="c">YDX</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="041">
+                        <subfield code="a">eng</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2=" " tag="100">
+                        <subfield code="a">JACOBI, PETER A.</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2="0" tag="245">
+                        <subfield code="a">INTRODUCTION TO HETEROCYCLIC CHEMISTRY</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="1" tag="264">
+                        <subfield code="c">2018</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="1" tag="264">
+                        <subfield code="a">[S.l.] :</subfield>
+                        <subfield code="b">WILEY-BLACKWELL,</subfield>
+                        <subfield code="c">2018.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="599">
+                        <subfield code="a">Imported from: zcat.oclc.org:210/OLUCWorldCat (Do not remove)</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="887">
+                        <subfield code="a">{"@id":"jszxzfd8g8kzn9tj","modified":"2018-11-14T10:35:58.962+01:00","checksum":"11486380499"}</subfield>
+                        <subfield code="2">librisxl</subfield>
+                    </datafield>
+                </record>
+            </metadata>
+            <about>
+                <holding sigel="Z" id="kt0z1jx5h2qkpsn0">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     nx  a       |n 4500</leader>
+                        <controlfield tag="001">kt0z1jx5h2qkpsn0</controlfield>
+                        <controlfield tag="005">20181114103639.0</controlfield>
+                        <controlfield tag="008">181114||0000|||||000||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Z</subfield>
+                            <subfield code="h">Beställd / On order since 181115</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"kt0z1jx5h2qkpsn0","modified":"2018-11-14T10:36:39.322+01:00","checksum":"14770142709"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+            </about>
+            <about>
+                <agent name="Z"/>
+            </about>
+        </record>
+        <record>
+            <header>
+                <identifier>https://libris.kb.se/x6cbkn52vs1dtx7k</identifier>
+                <datestamp>2018-11-14T10:54:26.347797Z</datestamp>
+                <setSpec>bib</setSpec>
+            </header>
+            <metadata>
+                <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+                    <leader>     cam a       m  4500</leader>
+                    <controlfield tag="001">x6cbkn52vs1dtx7k</controlfield>
+                    <controlfield tag="003">OCoLC</controlfield>
+                    <controlfield tag="005">20181114055213.0</controlfield>
+                    <controlfield tag="008">170809s2018    xx |||||||||||000 ||eng|d</controlfield>
+                    <datafield ind1=" " ind2=" " tag="015">
+                        <subfield code="a">GBB8F8155</subfield>
+                        <subfield code="2">bnb</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="020">
+                        <subfield code="a">0128113618</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="020">
+                        <subfield code="a">9780128113615</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="020">
+                        <subfield code="z">9780323509671 (ePub ebook)</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="040">
+                        <subfield code="a">Z</subfield>
+                        <subfield code="b">eng</subfield>
+                        <subfield code="c">YDX</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="041">
+                        <subfield code="a">eng</subfield>
+                    </datafield>
+                    <datafield ind1="0" ind2="4" tag="082">
+                        <subfield code="a">668.4234</subfield>
+                        <subfield code="2">23</subfield>
+                    </datafield>
+                    <datafield ind1="0" ind2="0" tag="245">
+                        <subfield code="a">RECYCLING OF POLYETHYLENE TEREPHTHALATE BOTTLES</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="1" tag="264">
+                        <subfield code="c">2018</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="1" tag="264">
+                        <subfield code="a">[S.l.] :</subfield>
+                        <subfield code="b">WILLIAM ANDREW PUBLISHING,</subfield>
+                        <subfield code="c">2018.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="300">
+                        <subfield code="a">1 volume</subfield>
+                        <subfield code="c">28 cm.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="340">
+                        <subfield code="b">28 cm.</subfield>
+                    </datafield>
+                    <datafield ind1="0" ind2=" " tag="490">
+                        <subfield code="a">PDL handbook series</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="599">
+                        <subfield code="a">Imported from: zcat.oclc.org:210/OLUCWorldCat (Do not remove)</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="0" tag="650">
+                        <subfield code="a">Polyethylene terephthalate</subfield>
+                        <subfield code="x">Recycling.</subfield>
+                    </datafield>
+                    <datafield ind1="0" ind2="8" tag="776">
+                        <subfield code="i">ebook version :</subfield>
+                        <subfield code="z">9780323509671</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="887">
+                        <subfield code="a">{"@id":"x6cbkn52vs1dtx7k","modified":"2018-11-14T05:52:13.0+01:00","checksum":"32391156439"}</subfield>
+                        <subfield code="2">librisxl</subfield>
+                    </datafield>
+                </record>
+            </metadata>
+            <about>
+                <holding sigel="Z" id="8jpnw1mt63j3fqvl">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     nx  a       |n 4500</leader>
+                        <controlfield tag="001">8jpnw1mt63j3fqvl</controlfield>
+                        <controlfield tag="005">20181114115457.0</controlfield>
+                        <controlfield tag="008">181114||0000|||||000||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Z</subfield>
+                            <subfield code="h">Beställd / On order since 181115</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"8jpnw1mt63j3fqvl","modified":"2018-11-14T11:54:57.282+01:00","checksum":"38929000435"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+            </about>
+            <about>
+                <agent name="Z"/>
+            </about>
+        </record>
+        <record>
+            <header>
+                <identifier>https://libris.kb.se/q826q2x20rlxbht</identifier>
+                <datestamp>2018-11-14T11:10:55.941Z</datestamp>
+                <setSpec>bib</setSpec>
+            </header>
+            <metadata>
+                <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+                    <leader>     cam a       7  4500</leader>
+                    <controlfield tag="001">14580782</controlfield>
+                    <controlfield tag="005">20181030230000.0</controlfield>
+                    <controlfield tag="008">130710s2013    mau|||||||||||000 ||eng| </controlfield>
+                    <datafield ind1=" " ind2=" " tag="010">
+                        <subfield code="a">2012006868</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="020">
+                        <subfield code="a">9780123869807</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="020">
+                        <subfield code="a">0123869803</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="035">
+                        <subfield code="a">7195742</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="040">
+                        <subfield code="a">DLC</subfield>
+                        <subfield code="b">eng</subfield>
+                        <subfield code="c">DLC</subfield>
+                        <subfield code="d">YDX</subfield>
+                        <subfield code="d">BTCTA</subfield>
+                        <subfield code="d">YDXCP</subfield>
+                        <subfield code="d">Z</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="041">
+                        <subfield code="a">eng</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="042">
+                        <subfield code="a">pcc</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="043">
+                        <subfield code="a">e-uk---</subfield>
+                    </datafield>
+                    <datafield ind1="0" ind2="4" tag="050">
+                        <subfield code="a">QA29.T8</subfield>
+                        <subfield code="b">A45 2013</subfield>
+                    </datafield>
+                    <datafield ind1="0" ind2="0" tag="082">
+                        <subfield code="a">510.92</subfield>
+                        <subfield code="a">B</subfield>
+                        <subfield code="2">23</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="084">
+                        <subfield code="a">01A74</subfield>
+                        <subfield code="2">msc</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2="0" tag="245">
+                        <subfield code="a">Alan Turing :</subfield>
+                        <subfield code="b">his work and impact /</subfield>
+                        <subfield code="c">edited by S. Barry Cooper and Jan van Leeuwen.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="1" tag="264">
+                        <subfield code="c">2013</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="1" tag="264">
+                        <subfield code="a">Waltham, MA :</subfield>
+                        <subfield code="b">Elsevier,</subfield>
+                        <subfield code="c">2013</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="300">
+                        <subfield code="a">xxi, 914 p.</subfield>
+                        <subfield code="b">ill.</subfield>
+                        <subfield code="c">29 cm</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="340">
+                        <subfield code="b">29 cm</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="504">
+                        <subfield code="a">Includes bibliographical references and index.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="599">
+                        <subfield code="a">Imported from: z3950.library.ucla.edu:7090/voyager (Do not remove)</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2="4" tag="600">
+                        <subfield code="a">Turing, Alan Mathison,</subfield>
+                        <subfield code="d">1912-1954.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="0" tag="650">
+                        <subfield code="a">Enigma cipher system.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="0" tag="650">
+                        <subfield code="a">Logic, Symbolic and mathematical.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="0" tag="650">
+                        <subfield code="a">Mathematicians</subfield>
+                        <subfield code="z">Great Britain</subfield>
+                        <subfield code="v">Biography.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="0" tag="650">
+                        <subfield code="a">Computer science</subfield>
+                        <subfield code="x">Mathematics.</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2=" " tag="700">
+                        <subfield code="a">Cooper, S. B.</subfield>
+                        <subfield code="q">(S. Barry)</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2=" " tag="700">
+                        <subfield code="a">Leeuwen, J. van</subfield>
+                        <subfield code="q">(Jan)</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="887">
+                        <subfield code="a">{"@id":"q826q2x20rlxbht","modified":"2018-10-30T23:00:00+01:00","checksum":"34502376748"}</subfield>
+                        <subfield code="2">librisxl</subfield>
+                    </datafield>
+                </record>
+            </metadata>
+            <about>
+                <holding sigel="BOKR" id="mr0bfccs0fw3tsp">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     nx  a       1n 4500</leader>
+                        <controlfield tag="001">56688834</controlfield>
+                        <controlfield tag="004">14580782</controlfield>
+                        <controlfield tag="005">20171103092829.0</controlfield>
+                        <controlfield tag="008">171103||0000|||||000||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">BOKR</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"mr0bfccs0fw3tsp","modified":"2017-11-03T09:28:29+01:00","checksum":"69072147674"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Z" id="glsbp8bm1xwktt9">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       1n 4500</leader>
+                        <controlfield tag="001">35981749</controlfield>
+                        <controlfield tag="004">14580782</controlfield>
+                        <controlfield tag="005">20140613165141.0</controlfield>
+                        <controlfield tag="008">1307104|00008|||1001|||||0901128</controlfield>
+                        <datafield ind1=" " ind2="4" tag="050">
+                            <subfield code="a">QA 29 Turing, Alan</subfield>
+                        </datafield>
+                        <datafield ind1="8" ind2=" " tag="852">
+                            <subfield code="b">Z</subfield>
+                            <subfield code="h">qa</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"glsbp8bm1xwktt9","modified":"2014-06-13T16:51:41+02:00","checksum":"79260175726"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Uang" id="6bj8w5jc0n723g0">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       4n 4500</leader>
+                        <controlfield tag="001">41223761</controlfield>
+                        <controlfield tag="004">14580782</controlfield>
+                        <controlfield tag="005">20141209103404.0</controlfield>
+                        <controlfield tag="008">1411264|00008|||1001|||||0901128</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Uang</subfield>
+                            <subfield code="h">01</subfield>
+                            <subfield code="l">Turing</subfield>
+                            <subfield code="x">uub201412uang</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"6bj8w5jc0n723g0","modified":"2014-12-09T10:34:04+01:00","checksum":"83904763796"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Vm" id="08ffxttqxp4wp3t0">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       |n 4500</leader>
+                        <controlfield tag="001">08ffxttqxp4wp3t0</controlfield>
+                        <controlfield tag="004">14580782</controlfield>
+                        <controlfield tag="005">20181114135907.0</controlfield>
+                        <controlfield tag="008">181114||0000|||||000||||||000000</controlfield>
+                        <datafield ind1="0" ind2="4" tag="082">
+                            <subfield code="a">510.92</subfield>
+                            <subfield code="2">23/swe</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Vm</subfield>
+                            <subfield code="h">Hist. 3</subfield>
+                            <subfield code="l">[Turing]</subfield>
+                            <subfield code="x">18-039</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"08ffxttqxp4wp3t0","modified":"2018-11-14T13:59:07.069+01:00","checksum":"59284683636"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Mahd" id="fnbvj7v3c7lxs56w">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       1n 4500</leader>
+                        <controlfield tag="001">fnbvj7v3c7lxs56w</controlfield>
+                        <controlfield tag="004">14580782</controlfield>
+                        <controlfield tag="005">20180702160426.0</controlfield>
+                        <controlfield tag="008">180702||0000|||||001||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="599">
+                            <subfield code="a">SFX</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Mahd</subfield>
+                        </datafield>
+                        <datafield ind1="4" ind2="0" tag="856">
+                            <subfield code="u">http://sfxeu11.hosted.exlibrisgroup.com/mah?url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;ctx_enc=info:ofi/enc:UTF-8&amp;rfr_id=info:sid/sfxit.com:opac_856&amp;url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;sfx.ignore_date_threshold=1&amp;rft.object_id=2550000001017407&amp;svc_val_fmt=info:ofi/fmt:kev:mtx:sch_svc&amp;</subfield>
+                            <subfield code="z">Online access for Malmö University</subfield>
+                            <subfield code="z">EBSCOhost Academic Collection - World Wide:Full Text</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"fnbvj7v3c7lxs56w","modified":"2018-07-02T16:04:26.181+02:00","checksum":"52536001800"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+            </about>
+            <about>
+                <agent name="Vm"/>
+            </about>
+        </record>
+        <record>
+            <header>
+                <identifier>https://libris.kb.se/5ng248bh1bd6j4g</identifier>
+                <datestamp>2018-11-14T12:17:24.371Z</datestamp>
+                <setSpec>bib</setSpec>
+            </header>
+            <metadata>
+                <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+                    <leader>     cam a       7  4500</leader>
+                    <controlfield tag="001">804465</controlfield>
+                    <controlfield tag="005">20040916131525.0</controlfield>
+                    <controlfield tag="008">011211s1972    sw |||||||||||000 ||swe| </controlfield>
+                    <datafield ind1=" " ind2=" " tag="020">
+                        <subfield code="a">9140017435</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="035">
+                        <subfield code="9">9908265008</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="040">
+                        <subfield code="a">Lå</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="041">
+                        <subfield code="a">swe</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="080">
+                        <subfield code="a">512.64</subfield>
+                    </datafield>
+                    <datafield ind1="0" ind2="4" tag="082">
+                        <subfield code="a">512.12</subfield>
+                        <subfield code="2">23/swe</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="084">
+                        <subfield code="a">T</subfield>
+                        <subfield code="2">kssb</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="084">
+                        <subfield code="a">QA 184</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="084">
+                        <subfield code="a">QA 551</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="084">
+                        <subfield code="a">15-01</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="084">
+                        <subfield code="a">51-01</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2=" " tag="100">
+                        <subfield code="a">Hanner, Olof,</subfield>
+                        <subfield code="d">1922-</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2="0" tag="245">
+                        <subfield code="a">Geometri och lineär algebra /</subfield>
+                        <subfield code="c">Olof Hanner.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="250">
+                        <subfield code="a">[2. uppl.]</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="1" tag="264">
+                        <subfield code="a">Lund :</subfield>
+                        <subfield code="b">CWK Gleerup,</subfield>
+                        <subfield code="c">1972</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="3" tag="264">
+                        <subfield code="a">Lund :</subfield>
+                        <subfield code="b">Br. Ekstrand</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="300">
+                        <subfield code="a">248 s.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="2" tag="976">
+                        <subfield code="a">T</subfield>
+                        <subfield code="b">Matematik Allmänt</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="887">
+                        <subfield code="a">{"@id":"5ng248bh1bd6j4g","modified":"2004-09-16T13:15:25+02:00","checksum":"24743405454"}</subfield>
+                        <subfield code="2">librisxl</subfield>
+                    </datafield>
+                </record>
+            </metadata>
+            <about>
+                <holding sigel="Jox" id="37dr7q8855pzf4b">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       1n 4500</leader>
+                        <controlfield tag="001">7545608</controlfield>
+                        <controlfield tag="004">804465</controlfield>
+                        <controlfield tag="005">20180605140939.0</controlfield>
+                        <controlfield tag="008">020110||0000||||4000||||||000000</controlfield>
+                        <datafield ind1="1" ind2=" " tag="014">
+                            <subfield code="a">9908265008</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="8">1.1</subfield>
+                            <subfield code="b">Jox</subfield>
+                            <subfield code="c">RESGEOM</subfield>
+                            <subfield code="h">mat</subfield>
+                            <subfield code="j">004</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="8">1.2</subfield>
+                            <subfield code="b">Jox</subfield>
+                            <subfield code="z">EJ FJÄRRLÅN</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"37dr7q8855pzf4b","modified":"2018-06-05T14:09:39.453+02:00","checksum":"40515140311"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="L" id="48fs8r993fwxwc2">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       1n 4500</leader>
+                        <controlfield tag="001">7545609</controlfield>
+                        <controlfield tag="004">804465</controlfield>
+                        <controlfield tag="005">20180605140939.0</controlfield>
+                        <controlfield tag="008">020110||0000||||4000||||||000000</controlfield>
+                        <datafield ind1="1" ind2=" " tag="014">
+                            <subfield code="a">9908265008</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="8">1.1</subfield>
+                            <subfield code="b">L</subfield>
+                            <subfield code="c">0200</subfield>
+                            <subfield code="h">T</subfield>
+                            <subfield code="j">s73/2</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="8">1.2</subfield>
+                            <subfield code="b">L</subfield>
+                            <subfield code="z">2. tr., 1974: T s76/10</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"48fs8r993fwxwc2","modified":"2018-06-05T14:09:39.456+02:00","checksum":"43791415023"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="La" id="59gt9sbb5n1pl7c">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       1n 4500</leader>
+                        <controlfield tag="001">7545610</controlfield>
+                        <controlfield tag="004">804465</controlfield>
+                        <controlfield tag="005">20030129175317.0</controlfield>
+                        <controlfield tag="008">020110||0000||||4000||||||000000</controlfield>
+                        <datafield ind1="1" ind2=" " tag="014">
+                            <subfield code="a">9908265008</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="080">
+                            <subfield code="a">512.64</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">La</subfield>
+                            <subfield code="h">512.64</subfield>
+                            <subfield code="j">89/6046</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"59gt9sbb5n1pl7c","modified":"2003-01-29T17:53:17+01:00","checksum":"35741109868"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Mhs" id="6bhvbtcc2z7rgtz">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       1n 4500</leader>
+                        <controlfield tag="001">7545611</controlfield>
+                        <controlfield tag="004">804465</controlfield>
+                        <controlfield tag="005">20161017121848.0</controlfield>
+                        <controlfield tag="008">020110||0000||||4000||||||000000</controlfield>
+                        <datafield ind1="1" ind2=" " tag="014">
+                            <subfield code="a">9908265008</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Mhs</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"6bhvbtcc2z7rgtz","modified":"2016-10-17T12:18:48+02:00","checksum":"40131165956"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Q" id="8dkxdwff2jsqwbh">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       1n 4500</leader>
+                        <controlfield tag="001">7545613</controlfield>
+                        <controlfield tag="004">804465</controlfield>
+                        <controlfield tag="005">20091105102627.0</controlfield>
+                        <controlfield tag="008">020110||0000||||4000||||||000000</controlfield>
+                        <datafield ind1="1" ind2=" " tag="014">
+                            <subfield code="a">9908265008</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="084">
+                            <subfield code="a">T</subfield>
+                            <subfield code="2">kssb/5</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Q</subfield>
+                            <subfield code="c">fos</subfield>
+                            <subfield code="h">t 01058</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"8dkxdwff2jsqwbh","modified":"2009-11-05T10:26:27+01:00","checksum":"36812886871"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="S" id="9flzfxgg5jgj416">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       1n 4500</leader>
+                        <controlfield tag="001">7545614</controlfield>
+                        <controlfield tag="004">804465</controlfield>
+                        <controlfield tag="005">20180605140939.0</controlfield>
+                        <controlfield tag="008">020110||0000||||4000||||||000000</controlfield>
+                        <datafield ind1="1" ind2=" " tag="014">
+                            <subfield code="a">9908265008</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="084">
+                            <subfield code="a">T</subfield>
+                            <subfield code="2">kssb</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">S</subfield>
+                            <subfield code="h">t72Q</subfield>
+                            <subfield code="j">2</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"9flzfxgg5jgj416","modified":"2018-06-05T14:09:39.471+02:00","checksum":"37092796137"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Srek" id="bgm0gzhh32lj29d">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       1n 4500</leader>
+                        <controlfield tag="001">7545615</controlfield>
+                        <controlfield tag="004">804465</controlfield>
+                        <controlfield tag="005">20180605140939.0</controlfield>
+                        <controlfield tag="008">020110||0000||||4000||||||000000</controlfield>
+                        <datafield ind1="1" ind2=" " tag="014">
+                            <subfield code="a">9908265008</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Srek</subfield>
+                            <subfield code="c">Telef 951006</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"bgm0gzhh32lj29d","modified":"2018-06-05T14:09:39.474+02:00","checksum":"43099708589"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="T" id="chn1h0jj0phptjd">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       1n 4500</leader>
+                        <controlfield tag="001">7545616</controlfield>
+                        <controlfield tag="004">804465</controlfield>
+                        <controlfield tag="005">20130311123757.0</controlfield>
+                        <controlfield tag="008">020110||0000||||4000||||||000000</controlfield>
+                        <datafield ind1="1" ind2=" " tag="014">
+                            <subfield code="a">9908265008</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="084">
+                            <subfield code="a">AMS 15-01</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="084">
+                            <subfield code="a">AMS 51-01</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2="0" tag="653">
+                            <subfield code="a">Linjär algebra</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2="0" tag="653">
+                            <subfield code="a">Linear algebra</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2="0" tag="653">
+                            <subfield code="a">Geometri</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2="0" tag="653">
+                            <subfield code="a">Geometry</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">T</subfield>
+                            <subfield code="h">512.5</subfield>
+                            <subfield code="j">Hanner</subfield>
+                            <subfield code="d">KURS K15</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"chn1h0jj0phptjd","modified":"2013-03-11T12:37:57+01:00","checksum":"56166678558"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Z" id="djp2j1kk2cwmkjl">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       1n 4500</leader>
+                        <controlfield tag="001">7545617</controlfield>
+                        <controlfield tag="004">804465</controlfield>
+                        <controlfield tag="005">20180605140939.0</controlfield>
+                        <controlfield tag="008">020110||0000||||4000||||||000000</controlfield>
+                        <datafield ind1="1" ind2=" " tag="014">
+                            <subfield code="a">9908265008</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2="4" tag="050">
+                            <subfield code="a">QA 184</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2="4" tag="050">
+                            <subfield code="a">QA 551</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="8">1.1</subfield>
+                            <subfield code="b">Z</subfield>
+                            <subfield code="h">qa Hanner (1972)</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="8">1.2</subfield>
+                            <subfield code="b">Z</subfield>
+                            <subfield code="h">qa Hanner (1974)</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"djp2j1kk2cwmkjl","modified":"2018-06-05T14:09:39.48+02:00","checksum":"48245038671"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="U" id="15dff1263gfgqh4">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       4n 4500</leader>
+                        <controlfield tag="001">49082286</controlfield>
+                        <controlfield tag="004">804465</controlfield>
+                        <controlfield tag="005">20160622111733.0</controlfield>
+                        <controlfield tag="008">1606224|00008|||1001|||||0901128</controlfield>
+                        <datafield ind1=" " ind2=" " tag="500">
+                            <subfield code="a">Hit även 2. uppl 2. tr. 1974.</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">U</subfield>
+                            <subfield code="c">Sv</subfield>
+                            <subfield code="h">T</subfield>
+                            <subfield code="j">q 23</subfield>
+                            <subfield code="z">Hit även 2. uppl 2. tr. 1974.</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="949">
+                            <subfield code="A">VIRTUAITEM</subfield>
+                            <subfield code="D">10000</subfield>
+                            <subfield code="F">1</subfield>
+                            <subfield code="G">10000</subfield>
+                            <subfield code="X">1</subfield>
+                            <subfield code="6">16000000660041</subfield>
+                            <subfield code="a">Sv T q 23</subfield>
+                            <subfield code="p">k63</subfield>
+                            <subfield code="t">YNNNN</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"15dff1263gfgqh4","modified":"2016-06-22T11:17:33+02:00","checksum":"64818701655"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Lma" id="t387pr3pr41p41kl">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     nx  a       |n 4500</leader>
+                        <controlfield tag="001">t387pr3pr41p41kl</controlfield>
+                        <controlfield tag="004">804465</controlfield>
+                        <controlfield tag="005">20181114131809.0</controlfield>
+                        <controlfield tag="008">181114||0000|||||000||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Lma</subfield>
+                            <subfield code="h">15-01</subfield>
+                            <subfield code="j">Hanner.</subfield>
+                            <subfield code="x">adu</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"t387pr3pr41p41kl","modified":"2018-11-14T13:18:09.869+01:00","checksum":"18223405869"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Hib" id="26cq6p772l4gkn3">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       1n 4500</leader>
+                        <controlfield tag="001">7545607</controlfield>
+                        <controlfield tag="004">804465</controlfield>
+                        <controlfield tag="005">20180605140939.0</controlfield>
+                        <controlfield tag="008">020110||0000||||4000||||||000000</controlfield>
+                        <datafield ind1="1" ind2=" " tag="014">
+                            <subfield code="a">9908265008</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="084">
+                            <subfield code="a">Tche</subfield>
+                            <subfield code="2">kssb/6</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="084">
+                            <subfield code="a">Tel</subfield>
+                            <subfield code="2">kssb/6</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="084">
+                            <subfield code="a">Tea</subfield>
+                            <subfield code="2">kssb/6</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="8">1.1</subfield>
+                            <subfield code="b">Hib</subfield>
+                            <subfield code="h">Tc</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="8">1.2</subfield>
+                            <subfield code="b">Hib</subfield>
+                            <subfield code="z">Ex. 1</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"26cq6p772l4gkn3","modified":"2018-06-05T14:09:39.449+02:00","checksum":"37097921531"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+            </about>
+            <about>
+                <agent name="Lma"/>
+            </about>
+        </record>
+        <record>
+            <header>
+                <identifier>https://libris.kb.se/k2vflwhw40wj0kw</identifier>
+                <datestamp>2018-11-14T12:28:47.320Z</datestamp>
+                <setSpec>bib</setSpec>
+            </header>
+            <metadata>
+                <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+                    <leader>     cam a       7  4500</leader>
+                    <controlfield tag="001">27567</controlfield>
+                    <controlfield tag="005">20181114125206.0</controlfield>
+                    <controlfield tag="008">011211s1972    sw |||||||||||000 ||swe| </controlfield>
+                    <datafield ind1=" " ind2=" " tag="035">
+                        <subfield code="9">9900247647</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="040">
+                        <subfield code="a">Li</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="041">
+                        <subfield code="a">swe</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="080">
+                        <subfield code="a">512.64</subfield>
+                    </datafield>
+                    <datafield ind1="0" ind2="4" tag="082">
+                        <subfield code="a">512.12 ?</subfield>
+                        <subfield code="2">23/swe</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="084">
+                        <subfield code="a">QA 184</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="084">
+                        <subfield code="a">QA 551</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="084">
+                        <subfield code="a">15-01</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="084">
+                        <subfield code="a">00A07</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="084">
+                        <subfield code="a">51-01</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="084">
+                        <subfield code="a">Tc</subfield>
+                        <subfield code="2">kssb/5</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="084">
+                        <subfield code="a">Te</subfield>
+                        <subfield code="2">kssb/5</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2=" " tag="100">
+                        <subfield code="a">Hanner, Olof,</subfield>
+                        <subfield code="d">1922-</subfield>
+                    </datafield>
+                    <datafield ind1="0" ind2="0" tag="245">
+                        <subfield code="a">Geometri och lineär algebra :</subfield>
+                        <subfield code="b">arbetsbok /</subfield>
+                        <subfield code="c">Olof Hanner.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="1" tag="264">
+                        <subfield code="a">Lund :</subfield>
+                        <subfield code="b">CWK Gleerup,</subfield>
+                        <subfield code="c">1972</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="300">
+                        <subfield code="a">176 s.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="2" tag="976">
+                        <subfield code="a">Tc</subfield>
+                        <subfield code="b">Algebra Allmänt</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="2" tag="976">
+                        <subfield code="a">Te</subfield>
+                        <subfield code="b">Geometri Allmänt</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="887">
+                        <subfield code="a">{"@id":"k2vflwhw40wj0kw","modified":"2018-11-14T12:52:06.86+01:00","checksum":"15758283047"}</subfield>
+                        <subfield code="2">librisxl</subfield>
+                    </datafield>
+                </record>
+            </metadata>
+            <about>
+                <holding sigel="La" id="fkq0jjvl5c7q8zr">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       1n 4500</leader>
+                        <controlfield tag="001">5101458</controlfield>
+                        <controlfield tag="004">27567</controlfield>
+                        <controlfield tag="005">20030123160549.0</controlfield>
+                        <controlfield tag="008">020110||0000||||4000||||||000000</controlfield>
+                        <datafield ind1="1" ind2=" " tag="014">
+                            <subfield code="a">9900247647</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="080">
+                            <subfield code="a">512.64</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">La</subfield>
+                            <subfield code="h">512.64</subfield>
+                            <subfield code="j">89/6045</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"fkq0jjvl5c7q8zr","modified":"2003-01-23T16:05:49+01:00","checksum":"19949132558"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Lma" id="z7dcr175wff6d734">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     nx  a       |n 4500</leader>
+                        <controlfield tag="001">z7dcr175wff6d734</controlfield>
+                        <controlfield tag="004">27567</controlfield>
+                        <controlfield tag="005">20181114125257.0</controlfield>
+                        <controlfield tag="008">181114||0000|||||000||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Lma</subfield>
+                            <subfield code="h">15-01</subfield>
+                            <subfield code="j">Hanner.</subfield>
+                            <subfield code="x">adu</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"z7dcr175wff6d734","modified":"2018-11-14T12:52:57.272+01:00","checksum":"10231456718"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="L" id="chnxggsj09r7n2q">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       1n 4500</leader>
+                        <controlfield tag="001">5101456</controlfield>
+                        <controlfield tag="004">27567</controlfield>
+                        <controlfield tag="005">20180605124716.0</controlfield>
+                        <controlfield tag="008">020110||0000||||4000||||||000000</controlfield>
+                        <datafield ind1="1" ind2=" " tag="014">
+                            <subfield code="a">9900247647</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">L</subfield>
+                            <subfield code="c">0200</subfield>
+                            <subfield code="h">T</subfield>
+                            <subfield code="j">s73/10</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"chnxggsj09r7n2q","modified":"2018-06-05T12:47:16.108+02:00","checksum":"19908400187"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="U" id="glr1kkwm3mgtqxm">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       1n 4500</leader>
+                        <controlfield tag="001">5101459</controlfield>
+                        <controlfield tag="004">27567</controlfield>
+                        <controlfield tag="005">20180605124716.0</controlfield>
+                        <controlfield tag="008">020110||0000||||4000||||||000000</controlfield>
+                        <datafield ind1="1" ind2=" " tag="014">
+                            <subfield code="a">9900247647</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="084">
+                            <subfield code="a">Tc</subfield>
+                            <subfield code="2">kssb/5</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="084">
+                            <subfield code="a">Te</subfield>
+                            <subfield code="2">kssb/5</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">U</subfield>
+                            <subfield code="c">Sv</subfield>
+                            <subfield code="h">T</subfield>
+                            <subfield code="j">q, 23</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="876">
+                            <subfield code="z">Ex. 1</subfield>
+                            <subfield code="z">Ex. 2: 2. uppl., 2. tr., 1974</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"glr1kkwm3mgtqxm","modified":"2018-06-05T12:47:16.116+02:00","checksum":"30062950392"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Um" id="hms2llxn4p3mtd8">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       1n 4500</leader>
+                        <controlfield tag="001">5101460</controlfield>
+                        <controlfield tag="004">27567</controlfield>
+                        <controlfield tag="005">20180605124716.0</controlfield>
+                        <controlfield tag="008">020110||0000||||4000||||||000000</controlfield>
+                        <datafield ind1="1" ind2=" " tag="014">
+                            <subfield code="a">9900247647</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Um</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"hms2llxn4p3mtd8","modified":"2018-06-05T12:47:16.119+02:00","checksum":"18481048343"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Z" id="jnt3mmzp49c3sk4">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       1n 4500</leader>
+                        <controlfield tag="001">5101461</controlfield>
+                        <controlfield tag="004">27567</controlfield>
+                        <controlfield tag="005">20180605124716.0</controlfield>
+                        <controlfield tag="008">020110||0000||||4000||||||000000</controlfield>
+                        <datafield ind1="1" ind2=" " tag="014">
+                            <subfield code="a">9900247647</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2="4" tag="050">
+                            <subfield code="a">QA 184</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2="4" tag="050">
+                            <subfield code="a">QA 551</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Z</subfield>
+                            <subfield code="h">qa</subfield>
+                            <subfield code="t">A-B</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"jnt3mmzp49c3sk4","modified":"2018-06-05T12:47:16.121+02:00","checksum":"26655249789"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Hib" id="9flvddqg54qr554">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       1n 4500</leader>
+                        <controlfield tag="001">5101454</controlfield>
+                        <controlfield tag="004">27567</controlfield>
+                        <controlfield tag="005">20180605124716.0</controlfield>
+                        <controlfield tag="008">020110||0000||||4000||||||000000</controlfield>
+                        <datafield ind1="1" ind2=" " tag="014">
+                            <subfield code="a">9900247647</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="084">
+                            <subfield code="a">Tche</subfield>
+                            <subfield code="2">kssb/6</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="084">
+                            <subfield code="a">Tel</subfield>
+                            <subfield code="2">kssb/6</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="084">
+                            <subfield code="a">Tea</subfield>
+                            <subfield code="2">kssb/6</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="8">1.1</subfield>
+                            <subfield code="b">Hib</subfield>
+                            <subfield code="h">Tc</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="8">1.2</subfield>
+                            <subfield code="b">Hib</subfield>
+                            <subfield code="z">Ex. 1</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"9flvddqg54qr554","modified":"2018-06-05T12:47:16.103+02:00","checksum":"24363038476"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+            </about>
+            <about>
+                <agent name="Lma"/>
+            </about>
+        </record>
+        <record>
+            <header>
+                <identifier>https://libris.kb.se/0jbsvc0b28vqmms</identifier>
+                <datestamp>2018-11-14T13:11:56.243Z</datestamp>
+                <setSpec>bib</setSpec>
+            </header>
+            <metadata>
+                <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+                    <leader>     cam a       7  4500</leader>
+                    <controlfield tag="001">22573510</controlfield>
+                    <controlfield tag="005">20180829133627.0</controlfield>
+                    <controlfield tag="008">180418s2018    sw |||||||||||000 ||swe|d</controlfield>
+                    <datafield ind1=" " ind2=" " tag="020">
+                        <subfield code="a">9789198123883</subfield>
+                        <subfield code="q">häftad</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="035">
+                        <subfield code="a">(BOKR)9789198123883</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="040">
+                        <subfield code="a">BOKR</subfield>
+                        <subfield code="b">swe</subfield>
+                        <subfield code="d">L</subfield>
+                        <subfield code="e">rda</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="041">
+                        <subfield code="a">swe</subfield>
+                    </datafield>
+                    <datafield ind1="0" ind2="4" tag="082">
+                        <subfield code="a">331.25609485</subfield>
+                        <subfield code="2">23/swe</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2="0" tag="245">
+                        <subfield code="a">Arbetsmiljö :</subfield>
+                        <subfield code="b">handbok för chefer och skyddsombud /</subfield>
+                        <subfield code="c">Georg Frick.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="1" tag="264">
+                        <subfield code="a">Lidingö :</subfield>
+                        <subfield code="b">Frick Publishing ,</subfield>
+                        <subfield code="c">2018</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="300">
+                        <subfield code="a">197 sidor</subfield>
+                        <subfield code="c">21 cm</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="336">
+                        <subfield code="b">txt</subfield>
+                        <subfield code="2">rdacontent</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="337">
+                        <subfield code="b">n</subfield>
+                        <subfield code="2">rdamedia</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="338">
+                        <subfield code="b">nc</subfield>
+                        <subfield code="2">rdacarrier</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="340">
+                        <subfield code="b">21 cm</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="887">
+                        <subfield code="a">{"@id":"0jbsvc0b28vqmms","modified":"2018-08-29T13:36:27.544+02:00","checksum":"22614865309"}</subfield>
+                        <subfield code="2">librisxl</subfield>
+                    </datafield>
+                </record>
+            </metadata>
+            <about>
+                <holding sigel="L" id="fpvvff9fc71pw6dq">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     nx  a       |n 4500</leader>
+                        <controlfield tag="001">fpvvff9fc71pw6dq</controlfield>
+                        <controlfield tag="004">22573510</controlfield>
+                        <controlfield tag="005">20181114141319.0</controlfield>
+                        <controlfield tag="008">181114||0000|||||000||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">L</subfield>
+                            <subfield code="h">b18/</subfield>
+                            <subfield code="j">7007</subfield>
+                            <subfield code="x">åh</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"fpvvff9fc71pw6dq","modified":"2018-11-14T14:13:19.277+01:00","checksum":"8038584496"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="BOKR" id="x29r5n9352b460m">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       1n 4500</leader>
+                        <controlfield tag="001">59469483</controlfield>
+                        <controlfield tag="004">22573510</controlfield>
+                        <controlfield tag="005">20180702124624.0</controlfield>
+                        <controlfield tag="008">180418||0000|||||000||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">BOKR</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"x29r5n9352b460m","modified":"2018-07-02T12:46:24.872+02:00","checksum":"26085082160"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Z" id="4d7cbcfp2bcq45br">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       |n 4500</leader>
+                        <controlfield tag="001">4d7cbcfp2bcq45br</controlfield>
+                        <controlfield tag="004">22573510</controlfield>
+                        <controlfield tag="005">20180829133658.0</controlfield>
+                        <controlfield tag="008">180820||0000|||||000||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Z</subfield>
+                            <subfield code="c"/>
+                            <subfield code="h">h</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"4d7cbcfp2bcq45br","modified":"2018-08-29T13:36:58.72+02:00","checksum":"-9420555488"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+            </about>
+            <about>
+                <agent name="L"/>
+            </about>
+        </record>
+        <record>
+            <header status="deleted">
+                <identifier>https://libris.kb.se/pzz3k1ckmb5tdqsc</identifier>
+                <datestamp>2018-11-14T13:19:47.982Z</datestamp>
+                <setSpec>bib</setSpec>
+            </header>
+            <metadata>
+                <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+                    <leader>     dam a       8  4500</leader>
+                    <controlfield tag="001">pzz3k1ckmb5tdqsc</controlfield>
+                    <controlfield tag="005">20181003095344.0</controlfield>
+                    <controlfield tag="008">181003s2018    xx |||||||||||000 ||eng|d</controlfield>
+                    <datafield ind1=" " ind2=" " tag="020">
+                        <subfield code="a">9781138032811</subfield>
+                        <subfield code="q">inbunden</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="035">
+                        <subfield code="a">(BOKR)9781138032811</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="040">
+                        <subfield code="a">BOKR</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="041">
+                        <subfield code="a">eng</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2="0" tag="245">
+                        <subfield code="a">Bioenergy and biofuels</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="263">
+                        <subfield code="a">201801</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="1" tag="264">
+                        <subfield code="b">Taylor &amp; Francis Ltd,</subfield>
+                        <subfield code="c">2018</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="300">
+                        <subfield code="a">485 sidor</subfield>
+                        <subfield code="c">16.5 cm</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="336">
+                        <subfield code="b">txt</subfield>
+                        <subfield code="2">rdacontent</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="337">
+                        <subfield code="b">n</subfield>
+                        <subfield code="2">rdamedia</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="338">
+                        <subfield code="b">nc</subfield>
+                        <subfield code="2">rdacarrier</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="340">
+                        <subfield code="b">16.5 cm</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="599">
+                        <subfield code="a">Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna.</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2=" " tag="700">
+                        <subfield code="a">Konur, Ozcan</subfield>
+                        <subfield code="4">editor</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="887">
+                        <subfield code="a">{"@id":"pzz3k1ckmb5tdqsc","modified":"2018-10-03T09:53:44.691+02:00","checksum":"17016900508"}</subfield>
+                        <subfield code="2">librisxl</subfield>
+                    </datafield>
+                </record>
+            </metadata>
+            <about/>
+            <about>
+                <agent name="Z"/>
+            </about>
+        </record>
+        <record>
+            <header>
+                <identifier>https://libris.kb.se/w5bbwdk3tl14h26q</identifier>
+                <datestamp>2018-11-14T13:24:26.135Z</datestamp>
+                <setSpec>bib</setSpec>
+            </header>
+            <metadata>
+                <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+                    <leader>     cam a       7  4500</leader>
+                    <controlfield tag="001">w5bbwdk3tl14h26q</controlfield>
+                    <controlfield tag="003">OCoLC</controlfield>
+                    <controlfield tag="005">20181114142351.0</controlfield>
+                    <controlfield tag="008">181114s2018    flu|||||||||||000 ||eng| </controlfield>
+                    <datafield ind1=" " ind2=" " tag="010">
+                        <subfield code="a">2017053960</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="020">
+                        <subfield code="a">9781138032811</subfield>
+                        <subfield code="q">(hardback ;</subfield>
+                        <subfield code="q">alk. paper)</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="020">
+                        <subfield code="a">1138032816</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="020">
+                        <subfield code="z">9781351228138</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="020">
+                        <subfield code="q">(ebook)</subfield>
+                        <subfield code="z">9781351228138</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="040">
+                        <subfield code="a">Z</subfield>
+                        <subfield code="b">eng</subfield>
+                        <subfield code="c">DLC</subfield>
+                        <subfield code="e">rda</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="041">
+                        <subfield code="a">eng</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="042">
+                        <subfield code="a">pcc</subfield>
+                    </datafield>
+                    <datafield ind1="0" ind2="0" tag="050">
+                        <subfield code="a">TP339</subfield>
+                        <subfield code="b">.K665 2018</subfield>
+                    </datafield>
+                    <datafield ind1="0" ind2="0" tag="082">
+                        <subfield code="a">662/.88</subfield>
+                        <subfield code="2">23</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2=" " tag="100">
+                        <subfield code="a">Konur, Ozcan</subfield>
+                        <subfield code="e">author.</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2="0" tag="245">
+                        <subfield code="a">Bioenergy and biofuels /</subfield>
+                        <subfield code="c">Ozcan Konur.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="1" tag="264">
+                        <subfield code="c">2018</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="1" tag="264">
+                        <subfield code="a">Boca Raton :</subfield>
+                        <subfield code="b">Taylor &amp; Francis, CRC Press,</subfield>
+                        <subfield code="c">2018.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="300">
+                        <subfield code="a">485 pages </subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="500">
+                        <subfield code="a">Includes index.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="599">
+                        <subfield code="a">Imported from: zcat.oclc.org:210/OLUCWorldCat (Do not remove)</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="0" tag="650">
+                        <subfield code="a">Biomass energy.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="7" tag="650">
+                        <subfield code="a">Biomass energy.</subfield>
+                        <subfield code="2">fast</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="887">
+                        <subfield code="a">{"@id":"w5bbwdk3tl14h26q","modified":"2018-11-14T14:23:51.811+01:00","checksum":"30790676990"}</subfield>
+                        <subfield code="2">librisxl</subfield>
+                    </datafield>
+                </record>
+            </metadata>
+            <about>
+                <holding sigel="Z" id="blrrcjq68zb3k87l">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     nx  a       |n 4500</leader>
+                        <controlfield tag="001">blrrcjq68zb3k87l</controlfield>
+                        <controlfield tag="005">20181114142919.0</controlfield>
+                        <controlfield tag="008">181114||0000|||||000||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Z</subfield>
+                            <subfield code="h">TPb</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"blrrcjq68zb3k87l","modified":"2018-11-14T14:29:19.509+01:00","checksum":"36976532611"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+            </about>
+            <about>
+                <agent name="Z"/>
+            </about>
+        </record>
+        <record>
+            <header status="deleted">
+                <identifier>https://libris.kb.se/x66cdt6sv1csq1l2</identifier>
+                <datestamp>2018-11-14T13:43:19.264Z</datestamp>
+                <setSpec>bib</setSpec>
+            </header>
+            <metadata>
+                <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+                    <leader>     dam a       8  4500</leader>
+                    <controlfield tag="001">x66cdt6sv1csq1l2</controlfield>
+                    <controlfield tag="005">20181003140412.0</controlfield>
+                    <controlfield tag="008">181003s2017    xx |||||||||||000 ||eng|d</controlfield>
+                    <datafield ind1=" " ind2=" " tag="020">
+                        <subfield code="a">9783319417080</subfield>
+                        <subfield code="q">inbunden</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="035">
+                        <subfield code="a">(BOKR)9783319417080</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="040">
+                        <subfield code="a">BOKR</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="041">
+                        <subfield code="a">eng</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2=" " tag="100">
+                        <subfield code="a">Terning, John</subfield>
+                        <subfield code="4">author</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2="0" tag="245">
+                        <subfield code="a">Quantum physics, mini black holes, and the multiverse - debunking common mi</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="263">
+                        <subfield code="a">201708</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="1" tag="264">
+                        <subfield code="b">Springer International Publish,</subfield>
+                        <subfield code="c">2017</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="300">
+                        <subfield code="a">212 sidor</subfield>
+                        <subfield code="c">21.7 cm</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="336">
+                        <subfield code="b">txt</subfield>
+                        <subfield code="2">rdacontent</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="337">
+                        <subfield code="b">n</subfield>
+                        <subfield code="2">rdamedia</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="338">
+                        <subfield code="b">nc</subfield>
+                        <subfield code="2">rdacarrier</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="340">
+                        <subfield code="b">21.7 cm</subfield>
+                    </datafield>
+                    <datafield ind1="0" ind2=" " tag="490">
+                        <subfield code="a">MULTIVERSAL JOURNEYS</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="599">
+                        <subfield code="a">Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna.</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2=" " tag="700">
+                        <subfield code="a">Nekoogar, Farzad</subfield>
+                        <subfield code="4">editor</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="887">
+                        <subfield code="a">{"@id":"x66cdt6sv1csq1l2","modified":"2018-10-03T14:04:12.889+02:00","checksum":"13066379680"}</subfield>
+                        <subfield code="2">librisxl</subfield>
+                    </datafield>
+                </record>
+            </metadata>
+            <about/>
+            <about>
+                <agent name="Z"/>
+            </about>
+        </record>
+        <record>
+            <header>
+                <identifier>https://libris.kb.se/7hnn9hlh579tkqct</identifier>
+                <datestamp>2018-11-14T13:59:44.923Z</datestamp>
+                <setSpec>bib</setSpec>
+            </header>
+            <metadata>
+                <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+                    <leader>     cam a       7  4500</leader>
+                    <controlfield tag="001">7hnn9hlh579tkqct</controlfield>
+                    <controlfield tag="003">OCoLC</controlfield>
+                    <controlfield tag="005">20181114144613.0</controlfield>
+                    <controlfield tag="008">181114s2018    sz |||||||||||000 ||eng|d</controlfield>
+                    <datafield ind1=" " ind2=" " tag="020">
+                        <subfield code="a">9783319417080</subfield>
+                        <subfield code="q">(paperback)</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="020">
+                        <subfield code="a">3319417088</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="040">
+                        <subfield code="a">Z</subfield>
+                        <subfield code="b">eng</subfield>
+                        <subfield code="c">MNW</subfield>
+                        <subfield code="e">rda</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="041">
+                        <subfield code="a">eng</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="4" tag="050">
+                        <subfield code="a">QC174.12</subfield>
+                        <subfield code="b">.N66 2018</subfield>
+                    </datafield>
+                    <datafield ind1="0" ind2="4" tag="082">
+                        <subfield code="a">530.12</subfield>
+                        <subfield code="2">23</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2=" " tag="100">
+                        <subfield code="a">Nomura, Yasunori</subfield>
+                        <subfield code="e">author.</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2="0" tag="245">
+                        <subfield code="a">Quantum physics, mini black holes, and the multiverse :</subfield>
+                        <subfield code="b">debunking common misconceptions in theoretical physics /</subfield>
+                        <subfield code="c">Yasunori Nomura, Bill Poirier, John Terning ; Farzad Nekoogar, founding editor.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="1" tag="264">
+                        <subfield code="c">2018</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="1" tag="264">
+                        <subfield code="a">[Cham], Switzerland :</subfield>
+                        <subfield code="b">Springer,</subfield>
+                        <subfield code="c">2018.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="4" tag="264">
+                        <subfield code="c">©2018</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="300">
+                        <subfield code="a">xiv, 212 pages</subfield>
+                        <subfield code="b">illustrations (some color)</subfield>
+                        <subfield code="c">29 cm</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="340">
+                        <subfield code="b">29 cm</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2=" " tag="490">
+                        <subfield code="a">Multiversal journeys</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="504">
+                        <subfield code="a">Includes bibliographical references and index.</subfield>
+                    </datafield>
+                    <datafield ind1="8" ind2=" " tag="505">
+                        <subfield code="a">Misconceptions in quantum physics / Bill Poirier -- The singular quantum. Why is quantum physics weird? ; What do the experts say? -- What hope is there for the rest of us? -- What material will be covered? -- How to use this book -- The bipolar quantum: wave-particle duality. Wave, particle, or "wavicle"? ; Quantum probability waves ; Heisenberg uncertainty principle -- Quantum soccer: the double-slit experiment. A reasonable doubt ; Single-slit experiment: classical ; Single-slit experiment: quantum ; Double-slit experiment: classical -- Double-slit experiment: quantum -- The plural quanta: expanding the wavefunction. Many-particle wavefunctions ; Wavefunction measurement ; Collapse and Schrödinger's cat -- The "spooky" quantum: nonlocality. Entanglement and hidden variables ; Bell's theorem ; EPRB as a game of coin toss: classical version ; EPRB as a game of coin toss: quantum version -- Playing the "What If?" game -- Where the weird things are. Where are they? Where are we? ; Interpretations of quantum physics ; Popular depictions of quantum physics -- Appendix I: Looking under the hood: the mathematical "method" behind the "madness" -- Misconceptions about particles and spacetime / John Terning -- Particles. What are particles? ; Atoms ; Seeing atoms -- Mini black holes. Black holes ; Black holes and extra dimensions -- Particle colliders and the universe. The Higgs boson ; Parallel universes -- Physics in the news. Cell phone radiation ; Cold fusion -- Epilogue. Spinach: a cautionary tale -- Moving forward -- Extra material: the equations behind the words. Units and coordinates ; Einstein's special theory of relativity ; Quantum mechanics and scattering ; Gravity ; Black holes ; Black holes in extra dimensions ; The large Hadron collider ; Complex numbers ; Group theory: rotations and spinors ; The Higgs ; Fusion.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="520">
+                        <subfield code="a">"This book explores, explains and debunks some common misconceptions about quantum physics, particle physics, space-time, and Multiverse cosmology. It seeks to separate science from pseudoscience. The material is presented in layperson-friendly language, followed by additional technical sections which explain basic equations and principles."--Back cover.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="599">
+                        <subfield code="a">Imported from: zcat.oclc.org:210/OLUCWorldCat (Do not remove)</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="0" tag="650">
+                        <subfield code="a">Quantum theory.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="0" tag="650">
+                        <subfield code="a">Black holes (Astronomy)</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="0" tag="650">
+                        <subfield code="a">Multiverse.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="7" tag="650">
+                        <subfield code="a">SCIENCE / Energy</subfield>
+                        <subfield code="2">bisacsh</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="7" tag="650">
+                        <subfield code="a">SCIENCE / Mechanics / General</subfield>
+                        <subfield code="2">bisacsh</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="7" tag="650">
+                        <subfield code="a">SCIENCE / Physics / General</subfield>
+                        <subfield code="2">bisacsh</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="7" tag="650">
+                        <subfield code="a">Black holes (Astronomy)</subfield>
+                        <subfield code="2">fast</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="7" tag="650">
+                        <subfield code="a">Multiverse.</subfield>
+                        <subfield code="2">fast</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="7" tag="650">
+                        <subfield code="a">Quantum theory.</subfield>
+                        <subfield code="2">fast</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2=" " tag="700">
+                        <subfield code="a">Poirier, Bill</subfield>
+                        <subfield code="e">author.</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2=" " tag="700">
+                        <subfield code="a">Terning, John,</subfield>
+                        <subfield code="d">1962-</subfield>
+                        <subfield code="e">author.</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2=" " tag="700">
+                        <subfield code="a">Nekoogar, Farzad</subfield>
+                        <subfield code="e">editor.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="0" tag="830">
+                        <subfield code="a">Multiversal journeys</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="887">
+                        <subfield code="a">{"@id":"7hnn9hlh579tkqct","modified":"2018-11-14T14:46:13.992+01:00","checksum":"62132512216"}</subfield>
+                        <subfield code="2">librisxl</subfield>
+                    </datafield>
+                </record>
+            </metadata>
+            <about>
+                <holding sigel="Z" id="2bhh4jcr0bkv69xz">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       |n 4500</leader>
+                        <controlfield tag="001">2bhh4jcr0bkv69xz</controlfield>
+                        <controlfield tag="005">20181114144742.0</controlfield>
+                        <controlfield tag="008">181114||0000|||||000||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Z</subfield>
+                            <subfield code="h">qc</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"2bhh4jcr0bkv69xz","modified":"2018-11-14T14:47:42.431+01:00","checksum":"83272579414"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+            </about>
+            <about>
+                <agent name="Z"/>
+            </about>
+        </record>
+        <record>
+            <header>
+                <identifier>https://libris.kb.se/g0s8gcms1b7p859</identifier>
+                <datestamp>2018-11-14T14:24:52.674Z</datestamp>
+                <setSpec>bib</setSpec>
+            </header>
+            <metadata>
+                <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+                    <leader>     cam a          4500</leader>
+                    <controlfield tag="001">22696074</controlfield>
+                    <controlfield tag="005">20180711142347.0</controlfield>
+                    <controlfield tag="008">180529s2018    sw |||||||||||000 ||swe|d</controlfield>
+                    <datafield ind1=" " ind2=" " tag="020">
+                        <subfield code="a">9789173338967</subfield>
+                        <subfield code="q">häftad</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="035">
+                        <subfield code="a">(BOKR)9789173338967</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="040">
+                        <subfield code="a">BOKR</subfield>
+                        <subfield code="b">swe</subfield>
+                        <subfield code="d">L</subfield>
+                        <subfield code="e">rda</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="041">
+                        <subfield code="a">swe</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="042">
+                        <subfield code="9">NB</subfield>
+                    </datafield>
+                    <datafield ind1="0" ind2="4" tag="082">
+                        <subfield code="a">658.4609485</subfield>
+                        <subfield code="2">23/swe</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2="0" tag="245">
+                        <subfield code="a">Konsultansvar /</subfield>
+                        <subfield code="c">Jan Elfström &amp; Lars Erik Ashton.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="250">
+                        <subfield code="a">Tredje, reviderade utgåvan</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="1" tag="264">
+                        <subfield code="a">Stockholm :</subfield>
+                        <subfield code="b">Svensk byggtjänst,</subfield>
+                        <subfield code="c">[2018]</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="3" tag="264">
+                        <subfield code="a">Halmstad :</subfield>
+                        <subfield code="b">Bulls Graphics,</subfield>
+                        <subfield code="c">2018</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="300">
+                        <subfield code="a">260 sidor</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="500">
+                        <subfield code="a">Första utgåvan, 2003, av Jan Elfström, med titeln:  "Rådgivarens professionsansvar"</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="7" tag="650">
+                        <subfield code="a">Konsulter</subfield>
+                        <subfield code="x">juridik och lagstiftning</subfield>
+                        <subfield code="2">sao</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="7" tag="650">
+                        <subfield code="a">Ansvarsfrågor</subfield>
+                        <subfield code="x">juridik och lagstiftning</subfield>
+                        <subfield code="2">sao</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="7" tag="650">
+                        <subfield code="a">Skadestånd</subfield>
+                        <subfield code="x">juridik och lagstiftning</subfield>
+                        <subfield code="2">sao</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="887">
+                        <subfield code="a">{"@id":"g0s8gcms1b7p859","modified":"2018-07-11T14:23:47.592+02:00","checksum":"30260618137"}</subfield>
+                        <subfield code="2">librisxl</subfield>
+                    </datafield>
+                </record>
+            </metadata>
+            <about>
+                <holding sigel="Lju" id="w57pcf5ctjzwrp5x">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     nx  a       |n 4500</leader>
+                        <controlfield tag="001">w57pcf5ctjzwrp5x</controlfield>
+                        <controlfield tag="004">22696074</controlfield>
+                        <controlfield tag="005">20181023131415.0</controlfield>
+                        <controlfield tag="008">181023||0000|||||000||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Lju</subfield>
+                            <subfield code="x">Lju184243 vk</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"w57pcf5ctjzwrp5x","modified":"2018-10-23T13:14:15.512+02:00","checksum":"44745860475"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Udhj" id="blpzxzxw8xk9ggx3">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     nx  a       |n 4500</leader>
+                        <controlfield tag="001">blpzxzxw8xk9ggx3</controlfield>
+                        <controlfield tag="004">22696074</controlfield>
+                        <controlfield tag="005">20181030135445.0</controlfield>
+                        <controlfield tag="008">181030||0000|||||000||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Udhj</subfield>
+                            <subfield code="h">650</subfield>
+                            <subfield code="l">Elfström</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"blpzxzxw8xk9ggx3","modified":"2018-10-30T13:54:45.584+01:00","checksum":"41369274225"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Za" id="8jh02qvf6dkrtswd">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     nx  a       |n 4500</leader>
+                        <controlfield tag="001">8jh02qvf6dkrtswd</controlfield>
+                        <controlfield tag="004">22696074</controlfield>
+                        <controlfield tag="005">20180927182830.0</controlfield>
+                        <controlfield tag="008">180927||0000|||||000||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="080">
+                            <subfield code="a">351:69</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Za</subfield>
+                            <subfield code="c"/>
+                            <subfield code="h">351:69</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"8jh02qvf6dkrtswd","modified":"2018-09-27T18:28:30.222+02:00","checksum":"46470341843"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Ge" id="193r7c5pz2jw7gtg">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     nx  a       |n 4500</leader>
+                        <controlfield tag="001">193r7c5pz2jw7gtg</controlfield>
+                        <controlfield tag="004">22696074</controlfield>
+                        <controlfield tag="005">20180816095330.0</controlfield>
+                        <controlfield tag="008">180816||0000|||||000||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Ge</subfield>
+                            <subfield code="h">658.4</subfield>
+                            <subfield code="j">18-27</subfield>
+                            <subfield code="x">Ge1808f</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"193r7c5pz2jw7gtg","modified":"2018-08-16T09:53:30.093+02:00","checksum":"34739400208"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Q" id="s277z503q2bl7mkc">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     nx_ a       |n 4500</leader>
+                        <controlfield tag="001">s277z503q2bl7mkc</controlfield>
+                        <controlfield tag="004">22696074</controlfield>
+                        <controlfield tag="005">20181114152528.0</controlfield>
+                        <controlfield tag="008">181114||0000|||||000||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Q</subfield>
+                            <subfield code="c">ddk</subfield>
+                            <subfield code="h">658. 460 948 5 Elf</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"s277z503q2bl7mkc","modified":"2018-11-14T15:25:28.562+01:00","checksum":"59048075436"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="L" id="r0nkqvqtp4d7f9g4">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     nx  a       |n 4500</leader>
+                        <controlfield tag="001">r0nkqvqtp4d7f9g4</controlfield>
+                        <controlfield tag="004">22696074</controlfield>
+                        <controlfield tag="005">20180705171546.0</controlfield>
+                        <controlfield tag="008">180705||0000|||||000||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">L</subfield>
+                            <subfield code="h">b18/</subfield>
+                            <subfield code="j">4552</subfield>
+                            <subfield code="x">ka</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"r0nkqvqtp4d7f9g4","modified":"2018-07-05T17:15:46.046+02:00","checksum":"34199776018"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="BOKR" id="jnwccckp424bzsd">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       1n 4500</leader>
+                        <controlfield tag="001">59958801</controlfield>
+                        <controlfield tag="004">22696074</controlfield>
+                        <controlfield tag="005">20180627083936.0</controlfield>
+                        <controlfield tag="008">180529||0000|||||000||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">BOKR</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"jnwccckp424bzsd","modified":"2018-06-27T08:39:36.905+02:00","checksum":"40356880961"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="S" id="fpcw9zrkc3m9zf3g">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       |n 4500</leader>
+                        <controlfield tag="001">fpcw9zrkc3m9zf3g</controlfield>
+                        <controlfield tag="004">22696074</controlfield>
+                        <controlfield tag="005">20180711142627.0</controlfield>
+                        <controlfield tag="008">180711||0000|||||000||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">S</subfield>
+                            <subfield code="h">Sv2018</subfield>
+                            <subfield code="j">4621</subfield>
+                            <subfield code="x">nb2018mon</subfield>
+                            <subfield code="x">nbv201828</subfield>
+                            <subfield code="x">ingper</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"fpcw9zrkc3m9zf3g","modified":"2018-07-11T14:26:27.201+02:00","checksum":"32909205430"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Z" id="3c5qnb0s1139x1b2">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     nx  a       |n 4500</leader>
+                        <controlfield tag="001">3c5qnb0s1139x1b2</controlfield>
+                        <controlfield tag="004">22696074</controlfield>
+                        <controlfield tag="005">20180815160559.0</controlfield>
+                        <controlfield tag="008">180815||0000|||||000||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Z</subfield>
+                            <subfield code="c"/>
+                            <subfield code="h">k</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"3c5qnb0s1139x1b2","modified":"2018-08-15T16:05:59.795+02:00","checksum":"32184630172"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Li" id="blh06q868ztctznb">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     nx  a       |n 4500</leader>
+                        <controlfield tag="001">blh06q868ztctznb</controlfield>
+                        <controlfield tag="004">22696074</controlfield>
+                        <controlfield tag="005">20180910082418.0</controlfield>
+                        <controlfield tag="008">180910||0000|||||000||||||000000</controlfield>
+                        <datafield ind1="1" ind2=" " tag="541">
+                            <subfield code="a">Pliktex.</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Li</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"blh06q868ztctznb","modified":"2018-09-10T08:24:18.854+02:00","checksum":"41147154396"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+            </about>
+            <about>
+                <agent name="Q"/>
+            </about>
+        </record>
+        <record>
+            <header>
+                <identifier>https://libris.kb.se/tb43hs251chcdrz</identifier>
+                <datestamp>2018-11-14T14:35:44.421Z</datestamp>
+                <setSpec>bib</setSpec>
+            </header>
+            <metadata>
+                <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+                    <leader>     cam a       7  4500</leader>
+                    <controlfield tag="001">9467915</controlfield>
+                    <controlfield tag="005">20120809112055.0</controlfield>
+                    <controlfield tag="008">040422s2003    xxk|||||||||||000 ||eng| </controlfield>
+                    <datafield ind1=" " ind2=" " tag="020">
+                        <subfield code="a">9781587991868</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="020">
+                        <subfield code="a">1587991861</subfield>
+                        <subfield code="q">inb.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="040">
+                        <subfield code="a">Q</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="041">
+                        <subfield code="a">eng</subfield>
+                    </datafield>
+                    <datafield ind1="0" ind2="0" tag="082">
+                        <subfield code="a">332.63</subfield>
+                        <subfield code="2">22</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="084">
+                        <subfield code="a">Qaeca</subfield>
+                        <subfield code="2">kssb/7</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="084">
+                        <subfield code="a">Qbccc</subfield>
+                        <subfield code="2">kssb/7</subfield>
+                    </datafield>
+                    <datafield ind1="0" ind2="0" tag="245">
+                        <subfield code="a">Real options :</subfield>
+                        <subfield code="b">a practitioner's guide /</subfield>
+                        <subfield code="c">Tom Copeland, Vladimir Antikarov.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="250">
+                        <subfield code="a">[New ed.]</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="1" tag="264">
+                        <subfield code="c">2003</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="1" tag="264">
+                        <subfield code="a">London :</subfield>
+                        <subfield code="b">Texere,</subfield>
+                        <subfield code="c">cop. 2003</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="300">
+                        <subfield code="a">xiv, 370 s.</subfield>
+                        <subfield code="b">ill.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="0" tag="650">
+                        <subfield code="a">Real options (Finance)</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="7" tag="650">
+                        <subfield code="a">finance</subfield>
+                        <subfield code="2">agrovoc</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="7" tag="650">
+                        <subfield code="a">investment</subfield>
+                        <subfield code="2">agrovoc</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="7" tag="650">
+                        <subfield code="a">banking</subfield>
+                        <subfield code="2">agrovoc</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2=" " tag="700">
+                        <subfield code="a">Antikarov, Vladimir</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="887">
+                        <subfield code="a">{"@id":"tb43hs251chcdrz","modified":"2012-08-09T11:20:55+02:00","checksum":"27504587797"}</subfield>
+                        <subfield code="2">librisxl</subfield>
+                    </datafield>
+                </record>
+            </metadata>
+            <about>
+                <holding sigel="Z" id="59g8m01b1pl8dc4">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       1n 4500</leader>
+                        <controlfield tag="001">17541640</controlfield>
+                        <controlfield tag="004">9467915</controlfield>
+                        <controlfield tag="005">20041217182532.0</controlfield>
+                        <controlfield tag="008">0412034|00008|||1001|||||0901128</controlfield>
+                        <datafield ind1=" " ind2="4" tag="050">
+                            <subfield code="a">HB 700</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="541">
+                            <subfield code="a">DAW</subfield>
+                            <subfield code="h">GBP 36.00</subfield>
+                        </datafield>
+                        <datafield ind1="8" ind2=" " tag="852">
+                            <subfield code="b">Z</subfield>
+                            <subfield code="h">h</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="541">
+                            <subfield code="a">DAW</subfield>
+                            <subfield code="h">GBP 36.00</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"59g8m01b1pl8dc4","modified":"2004-12-17T18:25:32+01:00","checksum":"29074465648"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Lehl" id="chpjm3kj1h9n6c8">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       1n 4500</leader>
+                        <controlfield tag="001">18996346</controlfield>
+                        <controlfield tag="004">9467915</controlfield>
+                        <controlfield tag="005">20060104135333.0</controlfield>
+                        <controlfield tag="008">051230||0000|||||001||||||000000</controlfield>
+                        <datafield ind1="8" ind2=" " tag="852">
+                            <subfield code="b">Lehl</subfield>
+                            <subfield code="9">Inst215</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"chpjm3kj1h9n6c8","modified":"2006-01-04T13:53:33+01:00","checksum":"36030525839"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Krh" id="pt11b6fv4wcd6nn">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     nx  a       1n 4500</leader>
+                        <controlfield tag="001">23337536</controlfield>
+                        <controlfield tag="004">9467915</controlfield>
+                        <controlfield tag="005">20090126114438.0</controlfield>
+                        <controlfield tag="008">090126||0000|||||001||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Krh</subfield>
+                            <subfield code="h">Qae</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"pt11b6fv4wcd6nn","modified":"2009-01-26T11:44:38+01:00","checksum":"24098178599"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Ju" id="qv2dmhvw4747d2r">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       4n 4500</leader>
+                        <controlfield tag="001">31661097</controlfield>
+                        <controlfield tag="004">9467915</controlfield>
+                        <controlfield tag="005">20111206121821.0</controlfield>
+                        <controlfield tag="008">1111244|00008|||1001|||||0901128</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Ju</subfield>
+                            <subfield code="h">3 mon</subfield>
+                            <subfield code="j">11/838</subfield>
+                            <subfield code="x">Ju111207</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"qv2dmhvw4747d2r","modified":"2011-12-06T12:18:21+01:00","checksum":"27898248269"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Ge" id="26dth1c73dwvr9w">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       4n 4500</leader>
+                        <controlfield tag="001">33717727</controlfield>
+                        <controlfield tag="004">9467915</controlfield>
+                        <controlfield tag="005">20120809112145.0</controlfield>
+                        <controlfield tag="008">1208034|00008|||1001|||||0901128</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Ge</subfield>
+                            <subfield code="h">332.6 12-19</subfield>
+                            <subfield code="x">Ge12k</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"26dth1c73dwvr9w","modified":"2012-08-09T11:21:45+02:00","checksum":"32058587506"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Q" id="48f6z3t92g696bf">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       1n 4500</leader>
+                        <controlfield tag="001">17032089</controlfield>
+                        <controlfield tag="004">9467915</controlfield>
+                        <controlfield tag="005">20040519164722.0</controlfield>
+                        <controlfield tag="008">040422||0000|||||001||||||000000</controlfield>
+                        <datafield ind1="4" ind2=" " tag="852">
+                            <subfield code="b">Q</subfield>
+                            <subfield code="c">fos</subfield>
+                            <subfield code="h">qa 05713</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"48f6z3t92g696bf","modified":"2004-05-19T16:47:22+02:00","checksum":"24525102751"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+            </about>
+            <about>
+                <agent name="Ldix"/>
+            </about>
+        </record>
+        <record>
+            <header>
+                <identifier>https://libris.kb.se/g0s657js1dl64hf</identifier>
+                <datestamp>2018-11-14T15:13:11.188Z</datestamp>
+                <setSpec>bib</setSpec>
+            </header>
+            <metadata>
+                <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+                    <leader>     cam a          4500</leader>
+                    <controlfield tag="001">20829384</controlfield>
+                    <controlfield tag="005">20180828102716.0</controlfield>
+                    <controlfield tag="008">170524s2017    sw |||||||||||000 ||swe| </controlfield>
+                    <datafield ind1=" " ind2=" " tag="020">
+                        <subfield code="a">9789144117683</subfield>
+                        <subfield code="q">häftad</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="035">
+                        <subfield code="a">(BOKR)9789144117683</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="040">
+                        <subfield code="a">BOKR</subfield>
+                        <subfield code="b">swe</subfield>
+                        <subfield code="d">S</subfield>
+                        <subfield code="e">rda</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="041">
+                        <subfield code="a">swe</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="042">
+                        <subfield code="9">NB</subfield>
+                    </datafield>
+                    <datafield ind1="0" ind2="4" tag="082">
+                        <subfield code="a">512.00712</subfield>
+                        <subfield code="2">23/swe</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2="0" tag="245">
+                        <subfield code="a">Algebra för lärare /</subfield>
+                        <subfield code="c">Kajsa Bråting, Håkan Sollervall, Erika Stadler.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="250">
+                        <subfield code="a">Upplaga 1</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="1" tag="264">
+                        <subfield code="c">2017</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="1" tag="264">
+                        <subfield code="a">Lund :</subfield>
+                        <subfield code="b">Studentlitteratur,</subfield>
+                        <subfield code="c">[2017]</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="1" tag="264">
+                        <subfield code="a">Lund :</subfield>
+                        <subfield code="b">Studentlitteratur,</subfield>
+                        <subfield code="c">[2017]</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="3" tag="264">
+                        <subfield code="c">2017</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="300">
+                        <subfield code="a">195 sidor</subfield>
+                        <subfield code="b">illustrationer, karta</subfield>
+                        <subfield code="c">25 cm</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="336">
+                        <subfield code="b">txt</subfield>
+                        <subfield code="2">rdacontent</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="337">
+                        <subfield code="b">n</subfield>
+                        <subfield code="2">rdamedia</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="338">
+                        <subfield code="b">nc</subfield>
+                        <subfield code="2">rdacarrier</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="340">
+                        <subfield code="b">25 cm</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="500">
+                        <subfield code="a">Härtill kompletterande material på Internet</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="887">
+                        <subfield code="a">{"@id":"g0s657js1dl64hf","modified":"2018-08-28T10:27:16.824+02:00","checksum":"23649252829"}</subfield>
+                        <subfield code="2">librisxl</subfield>
+                    </datafield>
+                </record>
+            </metadata>
+            <about>
+                <holding sigel="Hudi" id="pz27pw6xmjbznfk9">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     nx  a       |n 4500</leader>
+                        <controlfield tag="001">pz27pw6xmjbznfk9</controlfield>
+                        <controlfield tag="004">20829384</controlfield>
+                        <controlfield tag="005">20181029133051.0</controlfield>
+                        <controlfield tag="008">181029||0000|||||000||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Hudi</subfield>
+                            <subfield code="l">Eab</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"pz27pw6xmjbznfk9","modified":"2018-10-29T13:30:51.594+01:00","checksum":"35673136472"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="LnuV" id="w18h0rj21bsjltt">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       4n 4500</leader>
+                        <controlfield tag="001">54505322</controlfield>
+                        <controlfield tag="004">20829384</controlfield>
+                        <controlfield tag="005">20171023150452.0</controlfield>
+                        <controlfield tag="008">1706164|00008|||1001|||||0901128</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">LnuV</subfield>
+                            <subfield code="h">Kursref</subfield>
+                            <subfield code="l">Bråting</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">LnuV</subfield>
+                            <subfield code="h">512</subfield>
+                            <subfield code="l">Bråting</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"w18h0rj21bsjltt","modified":"2017-10-23T15:04:52+02:00","checksum":"55585579996"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Z" id="x29k3tw35hpx809">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       1n 4500</leader>
+                        <controlfield tag="001">54560523</controlfield>
+                        <controlfield tag="004">20829384</controlfield>
+                        <controlfield tag="005">20170802112443.0</controlfield>
+                        <controlfield tag="008">170626||0000||||4001||||||000000</controlfield>
+                        <datafield ind1=" " ind2="4" tag="050">
+                            <subfield code="a">QA 155</subfield>
+                        </datafield>
+                        <datafield ind1="8" ind2=" " tag="852">
+                            <subfield code="b">Z</subfield>
+                            <subfield code="h">qa</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"x29k3tw35hpx809","modified":"2017-08-02T11:24:43+02:00","checksum":"60210663940"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Li" id="8dmwlzlf4s4mhs4">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     nx  a       4n 4500</leader>
+                        <controlfield tag="001">54689563</controlfield>
+                        <controlfield tag="004">20829384</controlfield>
+                        <controlfield tag="005">20170803092306.0</controlfield>
+                        <controlfield tag="008">1708034|00008|||1001|||||0901128</controlfield>
+                        <datafield ind1=" " ind2=" " tag="500">
+                            <subfield code="a">Pliktex.</subfield>
+                        </datafield>
+                        <datafield ind1="1" ind2=" " tag="852">
+                            <subfield code="b">Li</subfield>
+                            <subfield code="h">512</subfield>
+                            <subfield code="z">Pliktex.</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"8dmwlzlf4s4mhs4","modified":"2017-08-03T09:23:06+02:00","checksum":"57117032906"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Q" id="ns19771t3kh463r">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     nxo a       1n 4500</leader>
+                        <controlfield tag="001">54875005</controlfield>
+                        <controlfield tag="004">20829384</controlfield>
+                        <controlfield tag="005">20170816082320.0</controlfield>
+                        <controlfield tag="008">170816||0000|||||001a|||||011126</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Q</subfield>
+                            <subfield code="c">mag</subfield>
+                            <subfield code="h">2017-03079</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"ns19771t3kh463r","modified":"2017-08-16T08:23:20+02:00","checksum":"33350082917"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Gp" id="26fpn1w70j275ng">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     nx  a       4n 4500</leader>
+                        <controlfield tag="001">54913207</controlfield>
+                        <controlfield tag="004">20829384</controlfield>
+                        <controlfield tag="005">20170817125054.0</controlfield>
+                        <controlfield tag="008">1708174|00008|||1001|||||0901128</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Gp</subfield>
+                            <subfield code="h">500</subfield>
+                            <subfield code="j">17:5</subfield>
+                            <subfield code="x">Gp1708f</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"26fpn1w70j275ng","modified":"2017-08-17T12:50:54+02:00","checksum":"54701697518"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Hdf" id="9fn21czg4fmr3w4">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     nx  a       4n 4500</leader>
+                        <controlfield tag="001">58263764</controlfield>
+                        <controlfield tag="004">20829384</controlfield>
+                        <controlfield tag="005">20180119123747.0</controlfield>
+                        <controlfield tag="008">1801194|00008|||1001|||||0901128</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Hdf</subfield>
+                            <subfield code="c">Kursref</subfield>
+                            <subfield code="h">Eabt</subfield>
+                            <subfield code="i">Ej fjärrlån</subfield>
+                            <subfield code="l">Bråting</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"9fn21czg4fmr3w4","modified":"2018-01-19T12:37:47+01:00","checksum":"59869577157"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Mhs" id="pz35hwz5m0q446wq">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       |n 4500</leader>
+                        <controlfield tag="001">pz35hwz5m0q446wq</controlfield>
+                        <controlfield tag="004">20829384</controlfield>
+                        <controlfield tag="005">20181114161336.0</controlfield>
+                        <controlfield tag="008">181106||0000|||||000||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Mhs</subfield>
+                            <subfield code="i">Ej fjärrlån</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"pz35hwz5m0q446wq","modified":"2018-11-14T16:13:36.277+01:00","checksum":"27579010619"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Ugot" id="cmhj920l938412d5">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       |n 4500</leader>
+                        <controlfield tag="001">cmhj920l938412d5</controlfield>
+                        <controlfield tag="004">20829384</controlfield>
+                        <controlfield tag="005">20180828111400.0</controlfield>
+                        <controlfield tag="008">180828||0000|||||000||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Ugot</subfield>
+                            <subfield code="c"/>
+                            <subfield code="h">Eabt</subfield>
+                            <subfield code="l">Bråting</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"cmhj920l938412d5","modified":"2018-08-28T11:14:00.599+02:00","checksum":"26821226633"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Mo" id="48hrbg093j2fgv5">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     nx  a       |n 4500</leader>
+                        <controlfield tag="001">54572139</controlfield>
+                        <controlfield tag="004">20829384</controlfield>
+                        <controlfield tag="005">20170627160722.0</controlfield>
+                        <controlfield tag="008">170627||0000|||||000||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Mo</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"48hrbg093j2fgv5","modified":"2017-06-27T16:07:22+02:00","checksum":"55683165846"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Krh" id="ns19zd4t2jfqlxr">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     nx  a       1n 4500</leader>
+                        <controlfield tag="001">54663595</controlfield>
+                        <controlfield tag="004">20829384</controlfield>
+                        <controlfield tag="005">20170718084944.0</controlfield>
+                        <controlfield tag="008">170718||0000|||||001||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Krh</subfield>
+                            <subfield code="h">Eabt</subfield>
+                            <subfield code="l">Bråting</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"ns19zd4t2jfqlxr","modified":"2017-07-18T08:49:44+02:00","checksum":"56546907067"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="L" id="bgpzn1zh1qgrn9p">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     nxo a       1n 4500</leader>
+                        <controlfield tag="001">54689835</controlfield>
+                        <controlfield tag="004">20829384</controlfield>
+                        <controlfield tag="005">20170803103301.0</controlfield>
+                        <controlfield tag="008">170803||00008|||1001|||||0901128</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">L</subfield>
+                            <subfield code="h">b17/</subfield>
+                            <subfield code="j">6265</subfield>
+                            <subfield code="x">on</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"bgpzn1zh1qgrn9p","modified":"2017-08-03T10:33:01+02:00","checksum":"38577471124"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Hasb" id="hmv4416n0n0nscs">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     nx  a       4n 4500</leader>
+                        <controlfield tag="001">54928400</controlfield>
+                        <controlfield tag="004">20829384</controlfield>
+                        <controlfield tag="005">20170821143645.0</controlfield>
+                        <controlfield tag="008">170821||0000|||||001||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Hasb</subfield>
+                            <subfield code="h">Eab</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"hmv4416n0n0nscs","modified":"2017-08-21T14:36:45+02:00","checksum":"58223940828"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="LnuK" id="x29kk05318kfkr1">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     nx  a       4n 4500</leader>
+                        <controlfield tag="001">54942363</controlfield>
+                        <controlfield tag="004">20829384</controlfield>
+                        <controlfield tag="005">20170824082735.0</controlfield>
+                        <controlfield tag="008">1708244|00008|||1001|||||0901128</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">LnuK</subfield>
+                            <subfield code="h">512</subfield>
+                            <subfield code="l">Bråting</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"x29kk05318kfkr1","modified":"2017-08-24T08:27:35+02:00","checksum":"53600768756"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Mde" id="z3bmwgn45rszdqf">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     nx  a       4n 4500</leader>
+                        <controlfield tag="001">55980484</controlfield>
+                        <controlfield tag="004">20829384</controlfield>
+                        <controlfield tag="005">20170919151447.0</controlfield>
+                        <controlfield tag="008">1709194|00008|||1001|||||0901128</controlfield>
+                        <datafield ind1="8" ind2=" " tag="852">
+                            <subfield code="b">Mde</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="876">
+                            <subfield code="a">MDE</subfield>
+                            <subfield code="b">OPPEN</subfield>
+                            <subfield code="c">1</subfield>
+                            <subfield code="e">b</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="877">
+                            <subfield code="a">B</subfield>
+                            <subfield code="b">Default</subfield>
+                            <subfield code="c">MDE</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"z3bmwgn45rszdqf","modified":"2017-09-19T15:14:47+02:00","checksum":"78227710725"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="D" id="59jt76zb441stk7">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     nx  a       1n 4500</leader>
+                        <controlfield tag="001">56102980</controlfield>
+                        <controlfield tag="004">20829384</controlfield>
+                        <controlfield tag="005">20170929133302.0</controlfield>
+                        <controlfield tag="008">170929||0000|||||001||||||000000</controlfield>
+                        <datafield ind1="8" ind2=" " tag="852">
+                            <subfield code="b">D</subfield>
+                            <subfield code="h">Eab Brå</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"59jt76zb441stk7","modified":"2017-09-29T13:33:02+02:00","checksum":"59691208277"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Htut" id="59jvlxlb1rx12m3">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       |n 4500</leader>
+                        <controlfield tag="001">56392450</controlfield>
+                        <controlfield tag="004">20829384</controlfield>
+                        <controlfield tag="005">20171208132048.0</controlfield>
+                        <controlfield tag="008">171023||0000|||||000||||||000000</controlfield>
+                        <datafield ind1="1" ind2=" " tag="852">
+                            <subfield code="b">Htut</subfield>
+                            <subfield code="h">512</subfield>
+                            <subfield code="l">Bråting</subfield>
+                            <subfield code="x">20171023</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"59jvlxlb1rx12m3","modified":"2017-12-08T13:20:48+01:00","checksum":"56173637587"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Mah" id="bgp2536h3t74xbd">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     nx  a       4n 4500</leader>
+                        <controlfield tag="001">57526845</controlfield>
+                        <controlfield tag="004">20829384</controlfield>
+                        <controlfield tag="005">20171205162014.0</controlfield>
+                        <controlfield tag="008">1712054|00008|||1001|||||0901128</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Mah</subfield>
+                            <subfield code="h">512</subfield>
+                            <subfield code="l">brå</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"bgp2536h3t74xbd","modified":"2017-12-05T16:20:14+01:00","checksum":"70030890060"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Tore" id="26ftmtf73nxp7k8">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     nx  a       |n 4500</leader>
+                        <controlfield tag="001">58120387</controlfield>
+                        <controlfield tag="004">20829384</controlfield>
+                        <controlfield tag="005">20180108182451.0</controlfield>
+                        <controlfield tag="008">180108||0000|||||000||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Tore</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"26ftmtf73nxp7k8","modified":"2018-01-08T18:24:51+01:00","checksum":"50836574238"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Gbg" id="26ftskc73fcjkd3">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     nx  a       1n 4500</leader>
+                        <controlfield tag="001">58248127</controlfield>
+                        <controlfield tag="004">20829384</controlfield>
+                        <controlfield tag="005">20180119082245.0</controlfield>
+                        <controlfield tag="008">180119||0000|||||000||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Gbg</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"26ftskc73fcjkd3","modified":"2018-01-19T08:22:45+01:00","checksum":"50742359012"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Hib" id="djr59zhk0sghl96">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     nx  a       1n 4500</leader>
+                        <controlfield tag="001">58385657</controlfield>
+                        <controlfield tag="004">20829384</controlfield>
+                        <controlfield tag="005">20180124174449.0</controlfield>
+                        <controlfield tag="008">1801244|00008|||4001||swe0901128</controlfield>
+                        <datafield ind1="1" ind2=" " tag="852">
+                            <subfield code="b">Hib</subfield>
+                            <subfield code="h">512</subfield>
+                            <subfield code="i">Bråting</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"djr59zhk0sghl96","modified":"2018-01-24T17:44:49+01:00","checksum":"60247030423"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="O" id="59jspfjb3666gfk">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       4n 4500</leader>
+                        <controlfield tag="001">54839890</controlfield>
+                        <controlfield tag="004">20829384</controlfield>
+                        <controlfield tag="005">20171204151258.0</controlfield>
+                        <controlfield tag="008">1708154|00008|||1001|||||0901128</controlfield>
+                        <datafield ind1=" " ind2=" " tag="599">
+                            <subfield code="a">Kurs 17/18</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">O</subfield>
+                            <subfield code="c">COURSE</subfield>
+                            <subfield code="h">512</subfield>
+                            <subfield code="i">Bråting</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">O</subfield>
+                            <subfield code="c">COURSE_SH</subfield>
+                            <subfield code="h">KURSREF</subfield>
+                            <subfield code="i">Bråting</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"59jspfjb3666gfk","modified":"2017-12-04T15:12:58+01:00","checksum":"63665177323"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="BOKR" id="qv3bhzjw2slh1r0">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       1n 4500</leader>
+                        <controlfield tag="001">54218397</controlfield>
+                        <controlfield tag="004">20829384</controlfield>
+                        <controlfield tag="005">20180905090127.0</controlfield>
+                        <controlfield tag="008">170524||0000|||||000||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">BOKR</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"qv3bhzjw2slh1r0","modified":"2018-09-05T09:01:27.051+02:00","checksum":"51955073478"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="S" id="qv3czc4w4mj3sr6">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     nx  a       1n 4500</leader>
+                        <controlfield tag="001">54606837</controlfield>
+                        <controlfield tag="004">20829384</controlfield>
+                        <controlfield tag="005">20170628133753.0</controlfield>
+                        <controlfield tag="008">170628||0000|||||001||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="599">
+                            <subfield code="a">nbv201726</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">S</subfield>
+                            <subfield code="h">Sv2017</subfield>
+                            <subfield code="j">4501</subfield>
+                            <subfield code="x">nb2017mon</subfield>
+                            <subfield code="x">annbjo</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"qv3czc4w4mj3sr6","modified":"2017-06-28T13:37:53+02:00","checksum":"58981204488"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Hal" id="59jxt7rb2kkbrx5">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       1n 4500</leader>
+                        <controlfield tag="001">58209700</controlfield>
+                        <controlfield tag="004">20829384</controlfield>
+                        <controlfield tag="005">20180223130932.0</controlfield>
+                        <controlfield tag="008">180115||0000||||4000||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Hal</subfield>
+                            <subfield code="c">Eabt  BRÅTING</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"59jxt7rb2kkbrx5","modified":"2018-02-23T13:09:32+01:00","checksum":"52164451035"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Ubl" id="qv3cztcw5d2s6s3">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       4n 4500</leader>
+                        <controlfield tag="001">54619647</controlfield>
+                        <controlfield tag="004">20829384</controlfield>
+                        <controlfield tag="005">20180521142439.0</controlfield>
+                        <controlfield tag="008">1707034|00008|||1001|||||0901128</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Ubl</subfield>
+                            <subfield code="h">Kurs</subfield>
+                            <subfield code="l">Bråting</subfield>
+                            <subfield code="x">uub201707ubl</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"qv3cztcw5d2s6s3","modified":"2018-05-21T14:24:39+02:00","checksum":"66358916255"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+                <holding sigel="Oxel" id="4cz2cwb12lw1k2vt">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  2       |n 4500</leader>
+                        <controlfield tag="001">4cz2cwb12lw1k2vt</controlfield>
+                        <controlfield tag="004">20829384</controlfield>
+                        <controlfield tag="005">20180703110536.0</controlfield>
+                        <controlfield tag="008">180611||0000|||||000||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Oxel</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"4cz2cwb12lw1k2vt","modified":"2018-07-03T11:05:36.731+02:00","checksum":"26987926297"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+            </about>
+            <about>
+                <agent name="Mhs"/>
+            </about>
+        </record>
+        <record>
+            <header>
+                <identifier>https://libris.kb.se/x6ccbmzzvzt0q7h3</identifier>
+                <datestamp>2018-11-14T16:09:27.804Z</datestamp>
+                <setSpec>bib</setSpec>
+            </header>
+            <metadata>
+                <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+                    <leader>     cam a       3  4500</leader>
+                    <controlfield tag="001">x6ccbmzzvzt0q7h3</controlfield>
+                    <controlfield tag="005">20181114170423.0</controlfield>
+                    <controlfield tag="008">181114s2018    sw |||||||||||000 ||eng| </controlfield>
+                    <datafield ind1=" " ind2=" " tag="020">
+                        <subfield code="a">9789175977676</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="040">
+                        <subfield code="a">Z</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="041">
+                        <subfield code="a">eng</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2="0" tag="245">
+                        <subfield code="a">Human Centred Design for Maritime Safety: A User Perspective on the Benefits and Success Factors of User Participation in the Design of Ships and Ship Systems /</subfield>
+                        <subfield code="c">Nicole A. Costa.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="1" tag="264">
+                        <subfield code="a">Göteborg :</subfield>
+                        <subfield code="b">Chalmers University of Technology,</subfield>
+                        <subfield code="c">2018</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="300">
+                        <subfield code="a">xiv, 55 sidor.</subfield>
+                        <subfield code="b">illustrerad.</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2=" " tag="490">
+                        <subfield code="a">Doktorsavhandlingar vid Chalmers tekniska högskola. Ny serie,</subfield>
+                        <subfield code="x">0346-718X ;</subfield>
+                        <subfield code="v">4448</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="500">
+                        <subfield code="a">Härtill 6 uppsatser.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="502">
+                        <subfield code="a">Diss. (sammanfattning) Göteborg : Chalmers tekniska högskola, 2018</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="0" tag="650">
+                        <subfield code="a"> Naval architecture: Human factors</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="0" tag="650">
+                        <subfield code="a">Marinas</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="0" tag="650">
+                        <subfield code="a">Design: Human factors</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="887">
+                        <subfield code="a">{"@id":"x6ccbmzzvzt0q7h3","modified":"2018-11-14T17:04:23.834+01:00","checksum":"35678422969"}</subfield>
+                        <subfield code="2">librisxl</subfield>
+                    </datafield>
+                </record>
+            </metadata>
+            <about>
+                <holding sigel="Z" id="7hnnnhx25b94s0cv">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     nx  a       |n 4500</leader>
+                        <controlfield tag="001">7hnnnhx25b94s0cv</controlfield>
+                        <controlfield tag="005">20181114171221.0</controlfield>
+                        <controlfield tag="008">181114||0000|||||000||||||000000</controlfield>
+                        <datafield ind1=" " ind2="0" tag="653">
+                            <subfield code="a">Institutionen för Mekanik och maritima vetenskaper .</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2="0" tag="653">
+                            <subfield code="a">CTH</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Z</subfield>
+                            <subfield code="h">Chalmers tekniska högskola. Doktorsavhandlingar. Ny serie. 4448</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Z</subfield>
+                            <subfield code="j">Diss. sv. 8075</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"7hnnnhx25b94s0cv","modified":"2018-11-14T17:12:21.521+01:00","checksum":"21209969758"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+            </about>
+            <about>
+                <agent name="Z"/>
+            </about>
+        </record>
+        <record>
+            <header>
+                <identifier>https://libris.kb.se/ktt0xg0mhlvcxb39</identifier>
+                <datestamp>2018-11-14T18:39:50.598Z</datestamp>
+                <setSpec>bib</setSpec>
+            </header>
+            <metadata>
+                <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+                    <leader>     cam a       8  4500</leader>
+                    <controlfield tag="001">ktt0xg0mhlvcxb39</controlfield>
+                    <controlfield tag="005">20181114193904.0</controlfield>
+                    <controlfield tag="008">181003s2018    xxu|||||||||||000 ||eng|d</controlfield>
+                    <datafield ind1=" " ind2=" " tag="020">
+                        <subfield code="a">9781593278274</subfield>
+                        <subfield code="q">pocket</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="035">
+                        <subfield code="a">(BOKR)9781593278274</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="040">
+                        <subfield code="a">BOKR</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="041">
+                        <subfield code="a">eng</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2=" " tag="100">
+                        <subfield code="a">DeBarros, Anthony</subfield>
+                        <subfield code="4">author</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2="0" tag="245">
+                        <subfield code="a">Practical SQL</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="1" tag="264">
+                        <subfield code="b">No Starch Press,</subfield>
+                        <subfield code="c">2018</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="300">
+                        <subfield code="a">xix, 288 sidor, illustrationer</subfield>
+                        <subfield code="c">24.7 cm</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="336">
+                        <subfield code="b">txt</subfield>
+                        <subfield code="2">rdacontent</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="337">
+                        <subfield code="b">n</subfield>
+                        <subfield code="2">rdamedia</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="338">
+                        <subfield code="b">nc</subfield>
+                        <subfield code="2">rdacarrier</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="340">
+                        <subfield code="b">24.7 cm</subfield>
+                    </datafield>
+                    <datafield ind1="8" ind2=" " tag="505">
+                        <subfield code="a">Introduction -- Chapter 1: Creating your first database &amp; table -- Chapter 2: Beginning Data Exploration with SELECT -- Chapter 3: Understanding Data Types -- Chapter 4: Importing and Exporting Data -- Chapter 5: Basic Math and Stats -- Chapter 6: Joining Tables in a Relational Database -- Chapter 7: Table Design that Works for You -- Chapter 8: Grouping and Summarizing Data -- Chapter 9: Cleaning , Modifying, Deleting Data -- Chapter 10: Ranks, Rates, asnd Stats -- Chapter 11: Dealing with Dates -- Chapter 12: Advanced Queries -- Chapter 13: Full-Text Search -- Chapter 14: GIS -- Chapter 15: Views -- Chapter 16: Working from the command line -- Chapter 17: Maintenance -- Appendix A: Alternative software and text editors -- Appendix B: Solutions.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="599">
+                        <subfield code="a">Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna.</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="887">
+                        <subfield code="a">{"@id":"ktt0xg0mhlvcxb39","modified":"2018-11-14T19:39:04.872+01:00","checksum":"34541267385"}</subfield>
+                        <subfield code="2">librisxl</subfield>
+                    </datafield>
+                </record>
+            </metadata>
+            <about>
+                <holding sigel="Z" id="ktwmd6fphn4kjq6j">
+                    <record xmlns="http://www.loc.gov/MARC21/slim" type="Holdings">
+                        <leader>     cx  a       |n 4500</leader>
+                        <controlfield tag="001">ktwmd6fphn4kjq6j</controlfield>
+                        <controlfield tag="005">20181114194005.0</controlfield>
+                        <controlfield tag="008">181017||0000|||||000||||||000000</controlfield>
+                        <datafield ind1=" " ind2=" " tag="852">
+                            <subfield code="b">Z</subfield>
+                            <subfield code="h">qad</subfield>
+                        </datafield>
+                        <datafield ind1=" " ind2=" " tag="887">
+                            <subfield code="a">{"@id":"ktwmd6fphn4kjq6j","modified":"2018-11-14T19:40:05.01+01:00","checksum":"-6125297051"}</subfield>
+                            <subfield code="2">librisxl</subfield>
+                        </datafield>
+                    </record>
+                </holding>
+            </about>
+            <about>
+                <agent name="Z"/>
+            </about>
+        </record>
+    </ListRecords>
+</OAI-PMH>
