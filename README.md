@@ -2,7 +2,7 @@
 
 **Cha**lmers Library **mi**ddleware for transferring bibliographic data from Swedish Union Catalog LIBRIS to library service platform FOLIO.
 
-![alt text](/pictures/chami_workflow_slim.gif)
+![alt text](/pictures/chami_workflow_trim.gif)
 
 ## What is Chami?
 
