@@ -17,3 +17,22 @@ The record is transformed and added to FOLIO (as a new record, or updating an ex
 
 ### Scheduled fetching of new/updated records
 In order to keep Inventory up to date with changes to bibliographic instancea in LIBRIS, whether made by Chalmers or by any other lirbary in the LIBRIS community, Chami regularly fetches all updates made to LIBRIS isntances with Chalmers holdings. For this, Chami makes a request to the LIBRIS MARC21 export API. 
+
+## How data mapping is done in Chami
+TBA
+
+## How to run Chami
+### Install NodeJS
+Chami is built with NodeJS, so first Install NodeJS using your favourite package manager:   
+```choco install nodejs```[Choclatey](https://chocolatey.org/) (Windows)   
+```brew install node``` [Homebrew](https://brew.sh) (MacOS)   
+Linux users will know what to use.    
+   
+An alternative is the [official installers](https://nodejs.org/en/download/) as well.   
+### Clone this repo
+Clone it into your computer. Open up a terminal and get to the root catalog
+### Install required packages
+run ```npm install```
+### runt the tests
+run ```npm test```
+### start the server
