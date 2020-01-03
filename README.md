@@ -12,13 +12,13 @@ Chami fetches bibliographic records from LIBRIS, transforms them from MARC-XML i
 
 ### Adding or updating new records on demand
 
-With one click, cataloguers can add a new instance from LIBRIS to FOLIO. When the cataloguer is on the page of an isntance record in LIBRIS and clicks the Chami bookmarklet, Chami sends a request to LIBRIS' OAI-PMH server for the record at hand.
+With one click, cataloguers can add a new instance from LIBRIS to FOLIO. When the cataloguer is on the page of an instance record in LIBRIS and clicks the Chami bookmarklet, Chami sends a request to LIBRIS' OAI-PMH server for the record at hand.
 
-The record is transformed and added to FOLIO (as a new record, or updating an existing one), and the cataloguer is automatically redirected from LIBRIS the new/updated isntance in FOLIO Inventory.
+The record is transformed and added to FOLIO (as a new record, or updating an existing one), and the cataloguer is automatically redirected from LIBRIS the new/updated instance in FOLIO Inventory.
 
 ### Scheduled fetching of new/updated records
 
-In order to keep Inventory up to date with changes to bibliographic instancea in LIBRIS, whether made by Chalmers or by any other lirbary in the LIBRIS community, Chami regularly fetches all updates made to LIBRIS isntances with Chalmers holdings. For this, Chami makes a request to the LIBRIS MARC21 export API.
+In order to keep Inventory up to date with changes to bibliographic instances in LIBRIS, whether made by Chalmers or by any other library in the LIBRIS community, Chami regularly fetches all updates made to LIBRIS isntances with Chalmers holdings. For this, Chami makes a request to the LIBRIS MARC21 export API.
 
 ## How data mapping is done in Chami
 
