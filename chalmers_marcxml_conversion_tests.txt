@@ -589,7 +589,7 @@ Should add classifications (050, 082, 090, 086) to the classifications list
   },
   {
     "classificationNumber": "ITC 1.12:TA-503 (A)-18 AND 332-279",
-    "classificationTypeId": "sudoc-identifier"
+    "classificationTypeId": "40d2f1ee-c8ef-420b-b74a-bbddcc2ac2dd"
   },
   {
     "classificationNumber": "HV6089 .M37 1989a",

@@ -671,13 +671,12 @@ module.exports = class Inventory {
         classificationTypeId: '42471af9-7d25-4f3a-bf78-60d29dcf463b'
       });
     });
-    // SUDOC - 086
-    // todo: get classificationTypeId for SUDOCs
+    // Government Document Classification Number - 086
     let subfields_086 = ['a'];
-    let sudoc_nodes = this.record.dataFields.filter(
+    let govdocs_nodes = this.record.dataFields.filter(
       dataField => dataField.tag === '086'
     );
-    sudoc_nodes.forEach(function(node) {
+    govdocs_nodes.forEach(function(node) {
       let composed = '';
       node.subfields.forEach(function(subField) {
         if (subfields_086.includes(subField.code)) {
@@ -686,7 +685,7 @@ module.exports = class Inventory {
       });
       classifications.push({
         classificationNumber: composed.trim(),
-        classificationTypeId: 'sudoc-identifier'
+        classificationTypeId: '40d2f1ee-c8ef-420b-b74a-bbddcc2ac2dd'
       });
     });
     // Library of Congress (local) - 090

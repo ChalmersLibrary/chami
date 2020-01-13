@@ -526,10 +526,10 @@ describe('DataConverter', () => {
         classificationNumber: 'HV6089 .M37 1989a',
         classificationTypeId: 'ce176ace-a53e-4b4d-aa89-725ed7b2edac'
       })
-      // SuDOC 086
+      // Government Document Classification Number 086
       expect(item[ 0 ].classifications).toContain({
         classificationNumber: 'ITC 1.12:TA-503 (A)-18 AND 332-279',
-        classificationTypeId: 'sudoc-identifier'
+        classificationTypeId: '40d2f1ee-c8ef-420b-b74a-bbddcc2ac2dd'
       })
       if (logging) {
         log(data, assert_18,
