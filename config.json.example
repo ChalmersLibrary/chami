@@ -8,5 +8,6 @@
   "okapiUrl": "",
   "folioUsername": "",
   "folioPassword": "",
-  "serverurl": ""
+  "serverurl": "",
+  "folioUrl": ""
 }

@@ -68,6 +68,32 @@ app.get("/bookmarklet.js", (req, res) => {
   res.send(jsString);
 });
 
+app.get("/eds-to-folio", function(req, res, next) {
+  res.send(
+    `<a href="javascript:(function(){window.s0=document.createElement('script');window.s0.setAttribute('type','text/javascript');window.s0.setAttribute('src','${process.env.serverurl}/eds-to-folio.js?t='+Date.now());document.getElementsByTagName('body')[0].appendChild(window.s0);})();">EDS->FOLIO</a>`
+  );
+});
+
+app.get("/eds-to-folio.js", (req, res) => {
+  let jsString = `
+  if(location.host.includes("ebscohost.com")) {
+    if(location.pathname.includes('eds/detail')) {
+      let clc=/.+clc\\.([0-9a-f]{32})/.exec(window.location.hash)[1];
+      let uidparts=/(.{8})(.{4})(.{4})(.{4})(.{12})/.exec(clc);
+      let uid=uidparts[1]+'-'+uidparts[2]+'-'+uidparts[3]+'-'+uidparts[4]+'-'+uidparts[5];
+      let url=\`${process.env.folioUrl}/inventory/view/\${uid}?qindex=id&query=\${uid}\`;
+      location.href=url;
+    } else {
+        alert('Du står inte på detaljsidesvyn.')
+    }
+  } else {
+      alert("Du besöker inte eds!")
+  }
+  `;
+  res.set("Content-Type", "application/javascript");
+  res.send(jsString);
+});
+
 /**
  * Module dependencies.
  */
