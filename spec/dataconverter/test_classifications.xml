@@ -79,6 +79,11 @@
                         <subfield code="a">HV6089</subfield>
                         <subfield code="b">.M37 1989a</subfield>
                     </datafield>
+                    <datafield ind1=" " ind2=" " tag="080">
+                        <subfield code="a">72.03(092)</subfield>
+                        <subfield code="b">Le Corbusier</subfield>
+                        <subfield code="x">Idées</subfield>
+                    </datafield>
 
                     <datafield ind1="1" ind2=" " tag="100">
                         <subfield code="a">Chin, Stephen,</subfield>

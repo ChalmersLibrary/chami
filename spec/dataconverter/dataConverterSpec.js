@@ -505,8 +505,8 @@ describe('DataConverter', () => {
     })
   })
 
-  // CLASSIFICATIONS: 050, 082, 090, 086
-  let assert_18 = 'Should add classifications (050, 082, 090, 086) to the classifications list'
+  // CLASSIFICATIONS: 050, 082, 090, 086, 080
+  let assert_18 = 'Should add classifications (050, 082, 090, 086, 080) to the classifications list'
   it(assert_18, function () {
     let data = fs.readFileSync('spec/dataconverter/test_classifications.xml', 'utf8')
     return dataConverter.convertMarcToFolio(data).then((item) => {
@@ -531,6 +531,12 @@ describe('DataConverter', () => {
         classificationNumber: 'ITC 1.12:TA-503 (A)-18 AND 332-279',
         classificationTypeId: '40d2f1ee-c8ef-420b-b74a-bbddcc2ac2dd'
       })
+      // UDC 080
+      expect(item[ 0 ].classifications).toContain({
+        classificationNumber: '72.03(092) Le Corbusier Idées',
+        classificationTypeId: 'e8662436-75a8-4984-bebc-531e38c774a0'
+      })
+
       if (logging) {
         log(data, assert_18,
           "//marc:datafield[@tag='050' or @tag='082' or @tag='090' or @tag='086']",

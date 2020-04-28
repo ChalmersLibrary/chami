@@ -705,6 +705,25 @@ module.exports = class Inventory {
         classificationTypeId: 'ce176ace-a53e-4b4d-aa89-725ed7b2edac'
       });
     });
+
+    // Universal Decimal Classification (UDC) - 080
+    let subfields_080 = ['a', 'b', 'x'];
+    let udc_nodes = this.record.dataFields.filter(
+      dataField => dataField.tag === '080'
+    );
+    udc_nodes.forEach(function(node) {
+      let composed = '';
+      node.subfields.forEach(function(subField) {
+        if (subfields_080.includes(subField.code)) {
+          composed += subField.data + ' ';
+        }
+      });
+      classifications.push({
+        classificationNumber: composed.trim(),
+        classificationTypeId: 'e8662436-75a8-4984-bebc-531e38c774a0'
+      });
+    });
+    
     return classifications;
   }
 
