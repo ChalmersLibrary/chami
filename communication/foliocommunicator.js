@@ -49,7 +49,7 @@ module.exports = class FolioCommunicator {
   }
   // Logs in to FOLIO to acquire a X-OKAPI-TOKEN
   login() {
-    console.log("Logging in");
+    //console.log("Logging in");
     return new Promise((resolve, reject) => {
       if (global.folioToken && global.folioToken.length > 5) {
         resolve();
@@ -143,9 +143,9 @@ module.exports = class FolioCommunicator {
   }
 
   instanceExists(librisId, bibId) {
-    console.log(
-      `instanceExists running for LibrisId: ${librisId} and/or ${bibId}`
-    );
+    // console.log(
+    //   `instanceExists running for LibrisId: ${librisId} and/or ${bibId}`
+    // );
     let self = this;
     return new Promise((resolve, reject) => {
       let path = "/inventory/instances?limit=1&query=";
@@ -169,7 +169,7 @@ module.exports = class FolioCommunicator {
           '"';
       }
       query += ")";
-      console.log(`${path} (${query})`);
+      // console.log(`${path} (${query})`);
       // console.log(
       //   `folioToken: ${global.folioToken}, folioTenant: ${process.env.tenantId}`
       // );
