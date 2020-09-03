@@ -78,8 +78,8 @@ app.get("/eds-to-folio.js", (req, res) => {
   let jsString = `
   if(location.host.includes("ebscohost.com")) {
     if(location.pathname.includes('eds/detail')) {
-      let clc=/.+clc\\.([0-9a-f]{32})/.exec(window.location.hash)[1];
-      let uidparts=/(.{8})(.{4})(.{4})(.{4})(.{12})/.exec(clc);
+      let clc=/.+clc\\.([0-9a-f\.\-]{36})/.exec(window.location.hash)[1];
+      let uidparts=/(.{8}).(.{4}).(.{4}).(.{4}).(.{12})/.exec(clc);
       let uid=uidparts[1]+'-'+uidparts[2]+'-'+uidparts[3]+'-'+uidparts[4]+'-'+uidparts[5];
       let url=\`${process.env.folioUrl}/inventory/view/\${uid}?qindex=id&query=\${uid}\`;
       location.href=url;
