@@ -94,6 +94,31 @@ app.get("/eds-to-folio.js", (req, res) => {
   res.send(jsString);
 });
 
+app.get("/folio-to-eds", function(req, res, next) {
+  res.send(
+    `<a href="javascript:(function(){window.s0=document.createElement('script');window.s0.setAttribute('type','text/javascript');window.s0.setAttribute('src','${process.env.serverurl}/folio-to-eds.js?t='+Date.now());document.getElementsByTagName('body')[0].appendChild(window.s0);})();">FOLIO->EDS</a>`
+  );
+});
+
+app.get("/folio-to-eds.js", (req, res) => {
+  let jsString = `
+  if(location.host.includes("chalmers.folio.ebsco.com")) {
+    if(location.pathname.includes('inventory/view/')) {
+      let uuid = location.pathname.split('/')[3];
+      let url='https://search.ebscohost.com/login.aspx?direct=true&scope=site&site=eds-live&authtype=guest&custid=s3911979&groupid=main&profile=eds&lang=en&bquery=' + uuid;
+      window.open(url);
+    } else {
+        alert('Du står inte på detaljsidesvyn.')
+    }
+  } else {
+      alert("Du besöker inte Folio!")
+  }
+  `;
+  res.set("Content-Type", "application/javascript");
+  res.send(jsString);
+});
+
+
 /**
  * Module dependencies.
  */
