@@ -1,89 +1,87 @@
-var express = require("express");
-var router = express.Router();
-var util = require("util");
-var cron = require("../scheduling/cron.js");
+const express = require("express");
+const router = express.Router();
+const util = require("util");
+const cron = require("../scheduling/cron.js");
 
-var fetchScheduler = new (require("../scheduling/fetchscheduler.js"))();
-var librisCommunicator = new (require("../communication/libriscommunicator.js"))();
-var dataConverter = new (require("../data/dataconverter.js"))();
-var folioCommunicator = new (require("../communication/foliocommunicator.js"))();
+const logger = new (require("../logger/logger.js"))();
+const elasticsearchCommunicator = new (require('../communication/elasticsearchcommunicator'))();
+const fetchScheduler = new (require("../scheduling/fetchscheduler.js"))(elasticsearchCommunicator);
+const librisCommunicator = new (require("../communication/libriscommunicator.js"))();
+const dataConverter = new (require("../data/dataconverter.js"))();
+const folioCommunicator = new (require("../communication/foliocommunicator.js"))();
 
-var librisFolioDataMover = new (require("../librisfoliodatamover"))(
+const librisFolioDataMover = new (require("../librisfoliodatamover"))(
   fetchScheduler,
   librisCommunicator,
   dataConverter,
   folioCommunicator
 );
 
-router.post("/InstancesAndHoldings", function(req, res, next) {
-  let id = req.query.id;
-  let from = req.query.from;
-  let until = req.query.until;
-
-  librisFolioDataMover
-    .moveData(id, from, until)
-    .then(function(value) {
-      res.send(
-        "Instances and holdings in FOLIO has been updated with data from Libris."
-      );
-    })
-    .catch(function(reason) {
-      console.error(reason);
-      res.status(500).send(reason);
-    });
+router.post("/InstancesAndHoldings", async function(req, res) {
+  const id = req.query.id;
+  const from = req.query.from;
+  const until = req.query.until;
+  try {
+    if (id) {
+      await librisFolioDataMover.moveDataById(id);
+    } else {
+      await librisFolioDataMover.moveDataByTimestamps(from, until);
+    }
+    res.send(
+      "Instances and holdings in FOLIO has been updated with data from Libris."
+    );
+  } catch (error) {
+    await logger.error('InstancesAndHoldings', error);
+    res.status(500).send(error.message);
+  }
 });
 
-router.get("/FetchTimes", function(req, res, next) {
-  fetchScheduler
-    .getLatestFetchTimestamps()
-    .then(function(value) {
-      res.json(value);
-    })
-    .catch(function(reason) {
-      console.error(reason);
-      res.status(500).send(reason);
-    });
+router.get("/FetchTimes", async function(req, res) {
+  try {
+    const timestamp = await fetchScheduler.getLatestFetchTimestamps();
+    return res.json(timestamp);
+  } catch (error) {
+    await logger.error('FetchTimes:', error);
+    res.status(500).send(error);
+  }
 });
 
-router.get("/Bookmarklet", function(req, res, next) {
+router.get("/Bookmarklet", function(req, res) {
   res.send(
     `<a href="javascript:(function(){window.s0=document.createElement('script');window.s0.setAttribute('type','text/javascript');window.s0.setAttribute('src','${process.env.serverurl}/bookmarklet.js?t='+Date.now());document.getElementsByTagName('body')[0].appendChild(window.s0);})();">LIBRIS->FOLIO</a>`
   );
 });
 
-router.get("/PostAndRedirect", async (req, res, next) => {
+router.get("/PostAndRedirect", async (req, res) => {
   try {
-    await folioCommunicator.login();
+    await folioCommunicator.acquireTokenFromFolio();
     let librisId = req.query.id;
-    await librisFolioDataMover.moveData(librisId, null, null);
+    await librisFolioDataMover.moveDataById(librisId);
     let value = await folioCommunicator.instanceExists(librisId);
-    console.log(JSON.stringify(value));
     let i = 0;
     while (!value.exists && i < 4) {
       i++;
       value = await folioCommunicator.instanceExists(librisId);
-      console.log(JSON.stringify(value));
-      console.log("Attempt " + i);
     }
     let uriTemp =
       "https://chalmers.folio.ebsco.com/inventory/view/%s?sort=title";
     let uri = util.format(uriTemp, value.folioId);
     if (value.exists) {
-      console.log(util.format("Redirecting to %s", uri));
       res.redirect(uri);
     } else {
       throw new Error("Record was not found in FOLIO");
     }
-  } catch (reason) {
-    console.error(reason);
-    res.status(500).send(reason);
+  } catch (error) {
+    await logger.error('PostAndRedirect:', error);
+    res.status(500).send(error);
   }
 });
 
-router.get("/NextDailyRunTime", (req, res, next) => {
+router.get("/NextDailyRunTime", async (req, res) => {
   try {
     res.json(cron.nextDailyRun());
   } catch (error) {
+    await logger.error('NextDailyRunTime:', error);
     res.status(500).send(error);
   }
 });

@@ -1,11 +1,12 @@
-var scheduler = require("node-schedule");
+const scheduler = require("node-schedule");
 
-var fetchScheduler = new (require("../scheduling/fetchscheduler.js"))();
-var librisCommunicator = new (require("../communication/libriscommunicator.js"))();
-var dataConverter = new (require("../data/dataconverter.js"))();
-var folioCommunicator = new (require("../communication/foliocommunicator.js"))();
+const elasticsearchCommunicator = new (require('../communication/elasticsearchcommunicator'))();
+const fetchScheduler = new (require("../scheduling/fetchscheduler.js"))(elasticsearchCommunicator);
+const librisCommunicator = new (require("../communication/libriscommunicator.js"))();
+const dataConverter = new (require("../data/dataconverter.js"))();
+const folioCommunicator = new (require("../communication/foliocommunicator.js"))();
 
-var librisFolioDataMover = new (require("../librisfoliodatamover.js"))(
+const librisFolioDataMover = new (require("../librisfoliodatamover"))(
   fetchScheduler,
   librisCommunicator,
   dataConverter,
@@ -35,17 +36,16 @@ module.exports = {
       dailySchedule = scheduler.scheduleJob("15 03 * * *", () => {
         try {
           console.log("dauilySchedule run.");
-          librisFolioDataMover.moveData(null, null, null);
-        } catch (err) {
-          console.log("Something went wrong with scheduled daily run.");
-          console.log(err.message);
+          librisFolioDataMover.moveDataByTimestamps(null, null);
+        } catch (error) {
+          error.message = `Something went wrong with scheduled daily run: ${error.message}`;
+          throw error;
         }
       });
     } else {
       console.log("Cron jobs not enabled.");
     }
   },
-
   nextDailyRun: () => {
     return dailySchedule.nextInvocation();
   }

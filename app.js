@@ -2,7 +2,6 @@ var express = require("express");
 var path = require("path");
 var cookieParser = require("cookie-parser");
 var logger = require("morgan");
-var validator = require("jsonschema").Validator;
 var cron = require("./scheduling/cron.js");
 
 // Load dev config if suitable.
@@ -68,7 +67,7 @@ app.get("/bookmarklet.js", (req, res) => {
   res.send(jsString);
 });
 
-app.get("/eds-to-folio", function(req, res, next) {
+app.get("/eds-to-folio", function(req, res) {
   res.send(
     `<a href="javascript:(function(){window.s0=document.createElement('script');window.s0.setAttribute('type','text/javascript');window.s0.setAttribute('src','${process.env.serverurl}/eds-to-folio.js?t='+Date.now());document.getElementsByTagName('body')[0].appendChild(window.s0);})();">EDS->FOLIO</a>`
   );
@@ -94,7 +93,7 @@ app.get("/eds-to-folio.js", (req, res) => {
   res.send(jsString);
 });
 
-app.get("/folio-to-eds", function(req, res, next) {
+app.get("/folio-to-eds", function(req, res) {
   res.send(
     `<a href="javascript:(function(){window.s0=document.createElement('script');window.s0.setAttribute('type','text/javascript');window.s0.setAttribute('src','${process.env.serverurl}/folio-to-eds.js?t='+Date.now());document.getElementsByTagName('body')[0].appendChild(window.s0);})();">FOLIO->EDS</a>`
   );

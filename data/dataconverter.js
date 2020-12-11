@@ -3,33 +3,36 @@
 var xpath = require("xpath");
 var dom = require("xmldom").DOMParser;
 var marc4js = require("marc4js");
-var uuidv4 = require("uuid/v4");
 const Inventory = require("../data/Inventory");
 
 module.exports = class DataConverter {
-  convert(list) {
-    console.log("List length:", list.length);
-    let self = this;
-    return new Promise(async function(resolve, reject) {
-      try {
-        let res = [];
-        for (let i = 0; i < list.length; i++) {
-          try {
-            let folioData = await self.convertMarcToFolio(list[i]);
-            res = res.concat(folioData);
-          } catch (error) {
-            console.log(error.message);
-          }
-        }
-        resolve(res);
-      } catch (err) {
-        reject(err);
-      }
-    });
+
+  async convert(list) {
+    try {
+      this.validateList(list);
+      return await this.convertData(list);
+    } catch (error) {
+      error.message = `Failed to convert record(s) - ${error.message}`;
+      throw error;
+    }
+  }
+
+  validateList(list) {
+    if(Array.isArray(list) === false || list.length === 0 || list[0] === '') {
+      throw new Error('Missing records');
+    }
+  }
+
+  async convertData(list) {
+    let res = [];
+    for (let i = 0, j = list.length; i < j; i++) {
+      let folioData = await this.convertMarcToFolio(list[i]);
+      res = res.concat(folioData);
+    }
+    return res;
   }
 
   convertMarcToFolio(data) {
-    // console.log("Data Length:", data.length);
     return new Promise((resolve, reject) => {
       if (typeof data === "object") {
         data = data.toString();
@@ -41,7 +44,7 @@ module.exports = class DataConverter {
       });
 
       var error = select("//oai:error", doc);
-      // console.log("Error", error);
+
       if (error[0] == null && error[0] === undefined) {
         let inventoryJson = [];
         try {
@@ -87,8 +90,6 @@ module.exports = class DataConverter {
                 _err,
                 records
               ) {
-                // console.log("rec len", records.length);
-                // console.log(JSON.stringify(records[0]));
 
                 let tag001 = records[0].controlFields
                   .filter(fields => {
@@ -138,11 +139,9 @@ module.exports = class DataConverter {
             });
           }
         } catch (e) {
-          console.log(e.stack);
           reject(e);
         }
       } else {
-        console.log("Rejecting");
         reject(new Error("Error from Libris."));
       }
     });

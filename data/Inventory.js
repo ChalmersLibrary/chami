@@ -1,4 +1,3 @@
-// const S = require("string");
 const uuidv4 = require('uuid/v4');
 const bibLangs = require('langs');
 const contributorTypeIds = require('./contributorTypes.json');
@@ -8,7 +7,6 @@ var marc4js = require('marc4js');
 const Ajv = require('Ajv');
 const ajv = new Ajv({ schemaId: 'id', allErrors: true });
 ajv.addMetaSchema(require('ajv/lib/refs/json-schema-draft-04.json'));
-const schema = require('../schemas/instance.json');
 
 // transformer
 let transformer = marc4js.transform({ toFormat: 'xml' });
@@ -70,7 +68,6 @@ module.exports = class Inventory {
       instanceTypeId: this.instanceTypeId,
       modeOfIssuanceId: this.modeOfIssuanceId,
       source: this.source,
-      instanceTypeId: this.instanceTypeId,
       title: this.title,
       indexTitle: this.indexTitle,
       alternativeTitles: this.alternativeTitles,
@@ -1235,7 +1232,6 @@ module.exports = class Inventory {
     );
     contribs.forEach(function(node) {
       var composed_node = '';
-      var contrib_type_text = '';
       var contrib_identifier = '5daa3848-958c-4dd8-9724-b7ae83a99a27';
       var contrib_type =
         node.findSubfield('e') ||
