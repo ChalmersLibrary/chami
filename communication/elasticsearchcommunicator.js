@@ -12,7 +12,7 @@ module.exports = class ElasticsearchCommunicator {
         username: process.env.elasticsearchUsername,
         password: process.env.elasticsearchPassword
       },
-      node: process.env.elasticsearchHostt
+      node: process.env.elasticsearchHost
     });
   }
 
