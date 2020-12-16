@@ -95,6 +95,7 @@
           return res;
         },
         updateInstancesAndHoldings: async function() {
+          this.errorMessage = '';
           if (this.id) {
             await this.instanceById(this.id);
           } else {
