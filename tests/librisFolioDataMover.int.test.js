@@ -60,7 +60,7 @@ describe("LibrisFolioDataMover", function() {
       ])('should crash with invalid from timestamp: %s', async (from) => {
         let until = '2020-12-07T10:34:37Z';
   
-        await expect(sut.moveDataByTimestamps(from, until))
+        await expect(sut.moveDataByTimestamps(from, until, false))
           .rejects
           .toEqual(new Error(`Libris: Failed fetching with timestamp: from ${from} - Until ${until} - Invalid timestamp(s)`));
       });  
@@ -71,7 +71,7 @@ describe("LibrisFolioDataMover", function() {
       //  ['2020-11-18T07:00:00Z', '2020-11-18T07:03:00Z' ],
         [null, null]
       ])('with valid timestamps from %s until %s', async (from, until) => {
-        await expect(sut.moveDataByTimestamps(from, until))
+        await expect(sut.moveDataByTimestamps(from, until, false))
           .resolves
           .not
           .toThrow();

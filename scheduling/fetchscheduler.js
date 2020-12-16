@@ -7,20 +7,21 @@ module.exports = class FetchScheduler {
 
   async registerSuccessfulFetchWithId(id, now) {
     const data = {
-      id: id,
       created: this.createUTCDateTimeString(now),
-      success: true,
-      message: `Successful fetch with id ${id}`
+      id: id,
+      message: `Successful fetch with id ${id}`,
+      success: true
     };
     await this.registerSuccessfulFetch(data);
   }
 
-  async registerSuccessfulFetchWithTimestamps(from, until, now, totalRecords) {
+  async registerSuccessfulFetchWithTimestamps(from, until, now, totalRecords, isCronJob) {
     const data = {
-      from: from,
       created: this.createUTCDateTimeString(now),
-      success: true,
-      message: `Timestamp: from ${from} - until ${until} Total records: ${totalRecords}`
+      cronjob: isCronJob,
+      from: from,
+      message: `Timestamp: from ${from} - until ${until} Total records: ${totalRecords}`,
+      success: true     
     };
     await this.registerSuccessfulFetch(data);
   }
@@ -40,7 +41,7 @@ module.exports = class FetchScheduler {
         size: 1,
         query: {
           query_string: {
-            query: 'success:true && !_exists_:id'
+            query: 'cronJob:true && success:true && !_exists_:id'
           }
         },
         sort: [{ created: { order: 'desc' }}]

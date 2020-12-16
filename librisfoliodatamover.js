@@ -20,14 +20,14 @@ module.exports = class LibrisFolioDataMover {
     await this.fetchScheduler.registerSuccessfulFetchWithId(id, now);
   }
 
-  async moveDataByTimestamps(from, until) {
+  async moveDataByTimestamps(from, until, isCronJob) {
     const now = new Date();
     from = await this.getTimestamp(from);
     until = this.getUntilTimestamp(until, now);
     const res = await this.librisCommunicator.getDataByTimestamp(from, until);
     const convertedData = await this.dataConverter.convert(res);
     await this.folioCommunicator.sendDataToFolio(convertedData);
-    await this.fetchScheduler.registerSuccessfulFetchWithTimestamps(from, until, now, convertedData.length);
+    await this.fetchScheduler.registerSuccessfulFetchWithTimestamps(from, until, now, convertedData.length, isCronJob);
   }
 
   async getTimestamp(from) {

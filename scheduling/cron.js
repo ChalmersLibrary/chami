@@ -13,7 +13,7 @@ const librisFolioDataMover = new (require("../librisfoliodatamover"))(
   folioCommunicator
 );
 
-var dailySchedule;
+let dailySchedule;
 
 module.exports = {
   initialize: function(enabled) {
@@ -36,7 +36,7 @@ module.exports = {
       dailySchedule = scheduler.scheduleJob("15 03 * * *", () => {
         try {
           console.log("dauilySchedule run.");
-          librisFolioDataMover.moveDataByTimestamps(null, null);
+          librisFolioDataMover.moveDataByTimestamps(null, null, true);
         } catch (error) {
           error.message = `Something went wrong with scheduled daily run: ${error.message}`;
           throw error;

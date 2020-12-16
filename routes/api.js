@@ -34,7 +34,7 @@ router.post("/InstancesAndHoldingsWithTimestamps", async function(req, res) {
   try {
     const from = req.query.from;
     const until = req.query.until;
-    await librisFolioDataMover.moveDataByTimestamps(from, until);
+    await librisFolioDataMover.moveDataByTimestamps(from, until, false);
     res.send(
       "Instances and holdings in FOLIO has been updated with data from Libris."
     );
@@ -52,7 +52,7 @@ router.post("/InstancesAndHoldings", async function(req, res) {
     if (id) {
       await librisFolioDataMover.moveDataById(id);
     } else {
-      await librisFolioDataMover.moveDataByTimestamps(from, until);
+      await librisFolioDataMover.moveDataByTimestamps(from, until, false);
     }
     res.send(
       "Instances and holdings in FOLIO has been updated with data from Libris."
