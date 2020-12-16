@@ -2,7 +2,7 @@ const fetch = require("node-fetch");
 
 module.exports = class Logger {
   constructor() {
-    this.logstashBaseUrl = process.env.LogstashBaseUrlWithHttps;
+    this.logstashBaseUrl = process.env.LogstashBaseUrl;
     this.logstashUsername = process.env.LogstashUsername;
     this.logstashPassword = process.env.LogstashPassword;
     this.source = "chami";
