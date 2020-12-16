@@ -1,0 +1,1724 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collection xmlns="http://www.loc.gov/MARC21/slim">
+    <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+        <leader>     cam a       8i 4500</leader>
+        <controlfield tag="001">22159938</controlfield>
+        <controlfield tag="003">SE-LIBR</controlfield>
+        <controlfield tag="005">20201214080030.0</controlfield>
+        <controlfield tag="008">171221s2018    xx |||||||||||000 1|eng|d</controlfield>
+        <datafield ind1=" " ind2=" " tag="020">
+            <subfield code="a">9780393356182</subfield>
+            <subfield code="q">pocket</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(BOKR)9780393356182</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">BOKR</subfield>
+            <subfield code="e">i</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="041">
+            <subfield code="a">eng</subfield>
+        </datafield>
+        <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">Gaiman, Neil</subfield>
+            <subfield code="4">aut</subfield>
+        </datafield>
+        <datafield ind1="1" ind2="0" tag="245">
+            <subfield code="a">Norse Mythology</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="263">
+            <subfield code="a">201803</subfield>
+        </datafield>
+        <datafield ind1=" " ind2="1" tag="264">
+            <subfield code="b">Wiley,</subfield>
+            <subfield code="c">2018</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="c">21 cm</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="336">
+            <subfield code="a">text</subfield>
+            <subfield code="b">txt</subfield>
+            <subfield code="2">rdacontent</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="337">
+            <subfield code="a">unmediated</subfield>
+            <subfield code="b">n</subfield>
+            <subfield code="2">rdamedia</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="338">
+            <subfield code="a">volume</subfield>
+            <subfield code="b">nc</subfield>
+            <subfield code="2">rdacarrier</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="520">
+            <subfield code="a">Bestselling and much loved author Neil Gaiman, whose novel American Gods has been adapted into a major television series, brings vividly to life the stories of Norse mythology that have inspired his own extraordinary writing in this number one Sunday Times bestseller The great Norse myths are woven into the fabric of our storytelling - from Tolkien, Alan Garner and Rosemary Sutcliff to Game of Thrones and Marvel Comics. They are also an inspiration for Neil Gaiman's own award-bedecked, bestselling fiction. Now he reaches back through time to the original source stories in a thrilling and vivid rendition of the great Norse tales. Gaiman's gods are thoroughly alive on the page - irascible, visceral, playful, passionate - and the tales carry us from the beginning of everything to Ragnarok and the twilight of the gods. Galvanised by Gaiman's prose, Thor, Loki, Odin and Freya are irresistible forces for modern readers and the crackling, brilliant writing demands to be read aloud around an open fire on a freezing, starlit night.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="599">
+            <subfield code="a">Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="a">{"@id":"8sl2lbql4zp1hcv","modified":"2020-12-14T08:00:30.595+01:00","checksum":"71716924941"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="841">
+            <subfield code="5">Za</subfield>
+            <subfield code="a">x  a</subfield>
+            <subfield code="b">190107||0000|||||000||||||000000</subfield>
+            <subfield code="e">u</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="852">
+            <subfield code="5">Za</subfield>
+            <subfield code="b">Za</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="5">Za</subfield>
+            <subfield code="a">{"@id":"hr4bg8w0fk68w31f","modified":"2019-05-08T14:05:02.109+02:00","checksum":"68510866225"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+    </record>
+    <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+        <leader>     cam a       8i 4500</leader>
+        <controlfield tag="001">21597017</controlfield>
+        <controlfield tag="003">SE-LIBR</controlfield>
+        <controlfield tag="005">20201212080042.0</controlfield>
+        <controlfield tag="008">170925s2018    xx |||||||||||000 1|eng|d</controlfield>
+        <datafield ind1=" " ind2=" " tag="020">
+            <subfield code="a">9781471162770</subfield>
+            <subfield code="q">pocket</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(BOKR)9781471162770</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">BOKR</subfield>
+            <subfield code="e">i</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="041">
+            <subfield code="a">eng</subfield>
+        </datafield>
+        <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">Lunde, Maja</subfield>
+            <subfield code="4">aut</subfield>
+        </datafield>
+        <datafield ind1="1" ind2="4" tag="245">
+            <subfield code="a">The History of Bees</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="263">
+            <subfield code="a">201804</subfield>
+        </datafield>
+        <datafield ind1=" " ind2="1" tag="264">
+            <subfield code="b">Simon &amp; Schuster UK,</subfield>
+            <subfield code="c">2018</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">337 sidor</subfield>
+            <subfield code="c">19.8 cm</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="336">
+            <subfield code="a">text</subfield>
+            <subfield code="b">txt</subfield>
+            <subfield code="2">rdacontent</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="337">
+            <subfield code="a">unmediated</subfield>
+            <subfield code="b">n</subfield>
+            <subfield code="2">rdamedia</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="338">
+            <subfield code="a">volume</subfield>
+            <subfield code="b">nc</subfield>
+            <subfield code="2">rdacarrier</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="520">
+            <subfield code="a">In the spirit of Station Eleven and Never Let Me Go, this dazzling and ambitious literary debut follows three generations of beekeepers from the past, present, and future, weaving a spellbinding story of their relationship to the bees - and to their children and one another - against the backdrop of an urgent, global crisis.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="599">
+            <subfield code="a">Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="a">{"@id":"7rk0vf7k5r61dk7","modified":"2020-12-12T08:00:42.531+01:00","checksum":"46974547460"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="841">
+            <subfield code="5">Zl</subfield>
+            <subfield code="a">x  a</subfield>
+            <subfield code="b">190107||0000|||||000||||||000000</subfield>
+            <subfield code="e">u</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="852">
+            <subfield code="5">Zl</subfield>
+            <subfield code="b">Zl</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="5">Zl</subfield>
+            <subfield code="a">{"@id":"z7lrltkbwjqtzf8g","modified":"2019-05-08T15:05:11.112+02:00","checksum":"73110018154"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+    </record>
+    <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+        <leader>     cam a       8i 4500</leader>
+        <controlfield tag="001">22445564</controlfield>
+        <controlfield tag="003">SE-LIBR</controlfield>
+        <controlfield tag="005">20201212080051.0</controlfield>
+        <controlfield tag="008">180214s2018    xx |||||||||||000 1|eng|d</controlfield>
+        <datafield ind1=" " ind2=" " tag="020">
+            <subfield code="a">9780857503954</subfield>
+            <subfield code="q">pocket</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(BOKR)9780857503954</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">BOKR</subfield>
+            <subfield code="e">i</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="041">
+            <subfield code="a">eng</subfield>
+        </datafield>
+        <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">Child, Lee</subfield>
+            <subfield code="4">aut</subfield>
+        </datafield>
+        <datafield ind1="1" ind2="4" tag="245">
+            <subfield code="a">The Midnight Line</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="263">
+            <subfield code="a">201804</subfield>
+        </datafield>
+        <datafield ind1=" " ind2="1" tag="264">
+            <subfield code="b">Random House UK,</subfield>
+            <subfield code="c">2018</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">400 sidor</subfield>
+            <subfield code="c">17.8 cm</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="336">
+            <subfield code="a">text</subfield>
+            <subfield code="b">txt</subfield>
+            <subfield code="2">rdacontent</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="337">
+            <subfield code="a">unmediated</subfield>
+            <subfield code="b">n</subfield>
+            <subfield code="2">rdamedia</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="338">
+            <subfield code="a">volume</subfield>
+            <subfield code="b">nc</subfield>
+            <subfield code="2">rdacarrier</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="520">
+            <subfield code="a">Jack Reacher takes an aimless stroll past a pawn shop in a small Midwestern town. In the window he sees a West Point class ring from 2005. Its tiny. Its a woman cadets graduation present to herself. Why would she give it up? Reachers a West Pointer too, and he knows what she went through to get it.  Reacher tracks the ring back to its owner, step by step, down a criminal trail leading west. Like Big Foot come out of the forest, he arrives in the deserted wilds of Wyoming. All he wants is to find the woman. If shes OK, hell walk away. If shes not  hell stop at nothing.  Hes still shaken by the recent horrors of Make Me, and now The Midnight Line sees him set on a raw and elemental quest for simple justice. Best advice: dont get in his way.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="599">
+            <subfield code="a">Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="a">{"@id":"4ngxtrzg3020jhr","modified":"2020-12-12T08:00:51.243+01:00","checksum":"62352145223"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="841">
+            <subfield code="5">Zl</subfield>
+            <subfield code="a">x  a</subfield>
+            <subfield code="b">190107||0000|||||000||||||000000</subfield>
+            <subfield code="e">u</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="852">
+            <subfield code="5">Zl</subfield>
+            <subfield code="b">Zl</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="5">Zl</subfield>
+            <subfield code="a">{"@id":"fp27b4vvc2vnfwd4","modified":"2019-05-08T15:08:12.976+02:00","checksum":"73130047519"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+    </record>
+    <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+        <leader>     cam a       8i 4500</leader>
+        <controlfield tag="001">22551126</controlfield>
+        <controlfield tag="003">SE-LIBR</controlfield>
+        <controlfield tag="005">20201212080051.0</controlfield>
+        <controlfield tag="008">180411s2018    xx |||||||||||000 1|eng|d</controlfield>
+        <datafield ind1=" " ind2=" " tag="020">
+            <subfield code="a">9781473221192</subfield>
+            <subfield code="q">pocket</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(BOKR)9781473221192</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">BOKR</subfield>
+            <subfield code="e">i</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="041">
+            <subfield code="a">eng</subfield>
+        </datafield>
+        <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">Hill, Joe</subfield>
+            <subfield code="4">aut</subfield>
+        </datafield>
+        <datafield ind1="1" ind2="0" tag="245">
+            <subfield code="a">Strange Weather</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="263">
+            <subfield code="a">201807</subfield>
+        </datafield>
+        <datafield ind1=" " ind2="1" tag="264">
+            <subfield code="b">Orion Publishing Group,</subfield>
+            <subfield code="c">2018</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">432 sidor</subfield>
+            <subfield code="c">19.8 cm</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="336">
+            <subfield code="a">text</subfield>
+            <subfield code="b">txt</subfield>
+            <subfield code="2">rdacontent</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="337">
+            <subfield code="a">unmediated</subfield>
+            <subfield code="b">n</subfield>
+            <subfield code="2">rdamedia</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="338">
+            <subfield code="a">volume</subfield>
+            <subfield code="b">nc</subfield>
+            <subfield code="2">rdacarrier</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="520">
+            <subfield code="a">Four short novels from the author of THE FIREMAN and HORNS, ranging from creepy horror to powerful explorations of our modern society.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="599">
+            <subfield code="a">Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="a">{"@id":"vd6npd062pmrv91","modified":"2020-12-12T08:00:51.567+01:00","checksum":"44493574320"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="841">
+            <subfield code="5">Zl</subfield>
+            <subfield code="a">x  a</subfield>
+            <subfield code="b">190107||0000|||||000||||||000000</subfield>
+            <subfield code="e">u</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="852">
+            <subfield code="5">Zl</subfield>
+            <subfield code="b">Zl</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="5">Zl</subfield>
+            <subfield code="a">{"@id":"7hv1339p5x9qxhd0","modified":"2019-05-08T15:08:28.319+02:00","checksum":"63139688410"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+    </record>
+    <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+        <leader>     cam a       8i 4500</leader>
+        <controlfield tag="001">x66cx6thv7h2vcvp</controlfield>
+        <controlfield tag="003">SE-LIBR</controlfield>
+        <controlfield tag="005">20201212080046.0</controlfield>
+        <controlfield tag="008">181003s2018    xx |||||||||||000 1|eng|d</controlfield>
+        <datafield ind1=" " ind2=" " tag="020">
+            <subfield code="a">9781788543002</subfield>
+            <subfield code="q">pocket</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(BOKR)9781788543002</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">BOKR</subfield>
+            <subfield code="e">i</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="041">
+            <subfield code="a">eng</subfield>
+        </datafield>
+        <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">Liu, Cixin</subfield>
+            <subfield code="4">aut</subfield>
+        </datafield>
+        <datafield ind1="1" ind2="4" tag="245">
+            <subfield code="a">The Three-Body Problem</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="263">
+            <subfield code="a">201809</subfield>
+        </datafield>
+        <datafield ind1=" " ind2="1" tag="264">
+            <subfield code="b">MacMillan Ltd.</subfield>
+            <subfield code="c">2018</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">434 sidor</subfield>
+            <subfield code="c">19.8 cm</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="336">
+            <subfield code="a">text</subfield>
+            <subfield code="b">txt</subfield>
+            <subfield code="2">rdacontent</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="337">
+            <subfield code="a">unmediated</subfield>
+            <subfield code="b">n</subfield>
+            <subfield code="2">rdamedia</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="338">
+            <subfield code="a">volume</subfield>
+            <subfield code="b">nc</subfield>
+            <subfield code="2">rdacarrier</subfield>
+        </datafield>
+        <datafield ind1="0" ind2=" " tag="490">
+            <subfield code="a">The three-body problem</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="520">
+            <subfield code="a">1967: Ye Wenjie witnesses Red Guards beat her father to death during China's Cultural Revolution. This singular event will shape not only the rest of her life but also the future of mankind.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="599">
+            <subfield code="a">Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna.</subfield>
+        </datafield>
+        <datafield ind1="1" ind2=" " tag="700">
+            <subfield code="a">Liu, Ken</subfield>
+            <subfield code="4">trl</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="a">{"@id":"x66cx6thv7h2vcvp","modified":"2020-12-12T08:00:46.351+01:00","checksum":"116599613315"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="841">
+            <subfield code="5">Za</subfield>
+            <subfield code="a">x  a</subfield>
+            <subfield code="b">190913||0000|||||000||||||000000</subfield>
+            <subfield code="e">u</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="852">
+            <subfield code="5">Za</subfield>
+            <subfield code="b">Za</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="5">Za</subfield>
+            <subfield code="a">{"@id":"v5h6w8z8skq0nl1n","modified":"2019-09-13T13:16:52.95+02:00","checksum":"108026290894"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+    </record>
+    <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+        <leader>     cam a       8i 4500</leader>
+        <controlfield tag="001">lv17xv1bjf43w0lb</controlfield>
+        <controlfield tag="003">SE-LIBR</controlfield>
+        <controlfield tag="005">20201212080052.0</controlfield>
+        <controlfield tag="008">181116s2019    xx |||||||||||000 1|eng|d</controlfield>
+        <datafield ind1=" " ind2=" " tag="020">
+            <subfield code="a">9781786498229</subfield>
+            <subfield code="q">pocket</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(BOKR)9781786498229</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">BOKR</subfield>
+            <subfield code="e">i</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="041">
+            <subfield code="a">eng</subfield>
+        </datafield>
+        <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">Jackson, Stina</subfield>
+            <subfield code="4">aut</subfield>
+        </datafield>
+        <datafield ind1="1" ind2="4" tag="245">
+            <subfield code="a">The Silver Road</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="263">
+            <subfield code="a">201903</subfield>
+        </datafield>
+        <datafield ind1=" " ind2="1" tag="264">
+            <subfield code="b">Atlantic,</subfield>
+            <subfield code="c">2019</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="c">19.8 cm</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="336">
+            <subfield code="a">text</subfield>
+            <subfield code="b">txt</subfield>
+            <subfield code="2">rdacontent</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="337">
+            <subfield code="a">unmediated</subfield>
+            <subfield code="b">n</subfield>
+            <subfield code="2">rdamedia</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="338">
+            <subfield code="a">volume</subfield>
+            <subfield code="b">nc</subfield>
+            <subfield code="2">rdacarrier</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="520">
+            <subfield code="a">Three years ago, Lelle's daughter went missing in a remote part of Northern Sweden. Lelle has spent the intervening summers driving the Silver Road under the midnight sun, frantically searching for his lost daughter, for himself and for redemption. Meanwhile, seventeen-year-old Meja arrives in town hoping for a fresh start. She is the same age as Lelle's daughter was - a girl on the brink of adulthood. But for Meja, there are dangers to be found in this isolated place. As autumn's darkness slowly creeps in, Lelle and Meja's lives are intertwined in ways, both haunting and tragic, that they could never have imagined.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="599">
+            <subfield code="a">Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="a">{"@id":"lv17xv1bjf43w0lb","modified":"2020-12-12T08:00:52.792+01:00","checksum":"38891424791"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="841">
+            <subfield code="5">Zl</subfield>
+            <subfield code="a">x  a</subfield>
+            <subfield code="b">190417||0000|||||000||||||000000</subfield>
+            <subfield code="e">u</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="852">
+            <subfield code="5">Zl</subfield>
+            <subfield code="b">Zl</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="5">Zl</subfield>
+            <subfield code="a">{"@id":"p0qb892nmhcfj2fn","modified":"2019-04-17T08:40:41.758+02:00","checksum":"75034837309"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+    </record>
+    <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+        <leader>     cam a       8i 4500</leader>
+        <controlfield tag="001">pzwmrbdtm9pv0cl1</controlfield>
+        <controlfield tag="003">SE-LIBR</controlfield>
+        <controlfield tag="005">20201212080047.0</controlfield>
+        <controlfield tag="008">180912s2019    xx |||||||||||000 1|eng|d</controlfield>
+        <datafield ind1=" " ind2=" " tag="020">
+            <subfield code="a">9780751575453</subfield>
+            <subfield code="q">pocket</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(BOKR)9780751575453</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">BOKR</subfield>
+            <subfield code="e">i</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="041">
+            <subfield code="a">eng</subfield>
+        </datafield>
+        <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">McDermid, Val</subfield>
+            <subfield code="4">aut</subfield>
+        </datafield>
+        <datafield ind1="1" ind2="0" tag="245">
+            <subfield code="a">Broken Ground</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="263">
+            <subfield code="a">201902</subfield>
+        </datafield>
+        <datafield ind1=" " ind2="1" tag="264">
+            <subfield code="b">Little, Brown,</subfield>
+            <subfield code="c">2019</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">512 sidor</subfield>
+            <subfield code="c">17.7 cm</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="336">
+            <subfield code="a">text</subfield>
+            <subfield code="b">txt</subfield>
+            <subfield code="2">rdacontent</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="337">
+            <subfield code="a">unmediated</subfield>
+            <subfield code="b">n</subfield>
+            <subfield code="2">rdamedia</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="338">
+            <subfield code="a">volume</subfield>
+            <subfield code="b">nc</subfield>
+            <subfield code="2">rdacarrier</subfield>
+        </datafield>
+        <datafield ind1="0" ind2=" " tag="490">
+            <subfield code="a">Karen pirie</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="520">
+            <subfield code="a">'Somebody has been here before us. And he's still here . . .' When a body is discovered in the remote depths of the Highlands, DCI Karen Pirie finds herself in the right place at the right time. Unearthed with someone's long-buried inheritance, the victim seems to belong to the distant past - until new evidence suggests otherwise, and Karen is called in to unravel a case where nothing is as it seems. It's not long before an overheard conversation draws Karen into the heart of a different case, however - a shocking crime she thought she'd already prevented. As she inches closer to the twisted truths at the centre of these murders, it becomes clear that she's dealing with a version of justice terrifyingly different to her own . . . Number one bestseller and queen of crime Val McDermid returns with her most breathtakingly atmospheric and exhilarating novel yet.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="599">
+            <subfield code="a">Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="a">{"@id":"pzwmrbdtm9pv0cl1","modified":"2020-12-12T08:00:47.699+01:00","checksum":"67418048506"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="841">
+            <subfield code="5">Za</subfield>
+            <subfield code="a">x  a</subfield>
+            <subfield code="b">190913||0000|||||000||||||000000</subfield>
+            <subfield code="e">u</subfield>
+        </datafield>
+        <datafield ind1=" " ind2="7" tag="650">
+            <subfield code="5">Za</subfield>
+            <subfield code="a">Skönlitteratur</subfield>
+            <subfield code="0">https://id.kb.se/term/sao/Sk%C3%B6nlitteratur</subfield>
+            <subfield code="2">sao</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="852">
+            <subfield code="5">Za</subfield>
+            <subfield code="b">Za</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="5">Za</subfield>
+            <subfield code="a">{"@id":"8kwl9tq86nfn49k8","modified":"2019-10-13T15:21:17.897+02:00","checksum":"122924933579"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+    </record>
+    <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+        <leader>     cam a       8i 4500</leader>
+        <controlfield tag="001">22573401</controlfield>
+        <controlfield tag="003">SE-LIBR</controlfield>
+        <controlfield tag="005">20201212080042.0</controlfield>
+        <controlfield tag="008">180418s2018    xx |||||||||||000 1|eng|d</controlfield>
+        <datafield ind1=" " ind2=" " tag="020">
+            <subfield code="a">9781787461109</subfield>
+            <subfield code="q">pocket</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(BOKR)9781787461109</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">BOKR</subfield>
+            <subfield code="e">i</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="041">
+            <subfield code="a">eng</subfield>
+        </datafield>
+        <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">Leon, Donna</subfield>
+            <subfield code="4">aut</subfield>
+        </datafield>
+        <datafield ind1="1" ind2="4" tag="245">
+            <subfield code="a">The Temptation of Forgiveness</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="263">
+            <subfield code="a">201809</subfield>
+        </datafield>
+        <datafield ind1=" " ind2="1" tag="264">
+            <subfield code="b">Random House UK,</subfield>
+            <subfield code="c">2018</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">300 sidor</subfield>
+            <subfield code="c">17.8 cm</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="336">
+            <subfield code="a">text</subfield>
+            <subfield code="b">txt</subfield>
+            <subfield code="2">rdacontent</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="337">
+            <subfield code="a">unmediated</subfield>
+            <subfield code="b">n</subfield>
+            <subfield code="2">rdamedia</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="338">
+            <subfield code="a">volume</subfield>
+            <subfield code="b">nc</subfield>
+            <subfield code="2">rdacarrier</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="520">
+            <subfield code="a">A suspicious accident draws Brunetti into Venice's underworld - with unintended, disturbing consequences...</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="599">
+            <subfield code="a">Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="a">{"@id":"cwp57q7p08bb8tj","modified":"2020-12-12T08:00:42.384+01:00","checksum":"74917288786"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="841">
+            <subfield code="5">Zl</subfield>
+            <subfield code="a">x  a</subfield>
+            <subfield code="b">190107||0000|||||000||||||000000</subfield>
+            <subfield code="e">u</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="852">
+            <subfield code="5">Zl</subfield>
+            <subfield code="b">Zl</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="5">Zl</subfield>
+            <subfield code="a">{"@id":"cm0575cx93d7m0qb","modified":"2019-05-08T15:08:29.159+02:00","checksum":"68791055488"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+    </record>
+    <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+        <leader>     cam a       8i 4500</leader>
+        <controlfield tag="001">22271410</controlfield>
+        <controlfield tag="003">SE-LIBR</controlfield>
+        <controlfield tag="005">20201213080034.0</controlfield>
+        <controlfield tag="008">180111s2018    xx |||||||||||000 0|eng|d</controlfield>
+        <datafield ind1=" " ind2=" " tag="020">
+            <subfield code="a">9780241957851</subfield>
+            <subfield code="q">pocket</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(BOKR)9780241957851</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">BOKR</subfield>
+            <subfield code="e">i</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="041">
+            <subfield code="a">eng</subfield>
+        </datafield>
+        <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">Mercier, Hugo</subfield>
+            <subfield code="4">aut</subfield>
+        </datafield>
+        <datafield ind1="1" ind2="4" tag="245">
+            <subfield code="a">The Enigma of Reason</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="263">
+            <subfield code="a">201804</subfield>
+        </datafield>
+        <datafield ind1=" " ind2="1" tag="264">
+            <subfield code="b">Penguin,</subfield>
+            <subfield code="c">2018</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">416 sidor</subfield>
+            <subfield code="c">19.7 cm</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="336">
+            <subfield code="a">text</subfield>
+            <subfield code="b">txt</subfield>
+            <subfield code="2">rdacontent</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="337">
+            <subfield code="a">unmediated</subfield>
+            <subfield code="b">n</subfield>
+            <subfield code="2">rdamedia</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="338">
+            <subfield code="a">volume</subfield>
+            <subfield code="b">nc</subfield>
+            <subfield code="2">rdacarrier</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="520">
+            <subfield code="a">Reason, we are told, is what makes us human, the source of our knowledge and wisdom. If reason is so useful, why didn't it also evolve in other animals? If reason is that reliable, why do we produce so much thoroughly reasoned nonsense? In their ground-breaking account of the evolution and workings of reason, Hugo Mercier and Dan Sperber set out to solve this double enigma. Reason, they argue with a compelling mix of real-life and experimental evidence, is not geared to solitary use, to arriving at better beliefs and decisions on our own. What reason does, rather, is help us justify our beliefs and actions to others, convince them through argumentation, and evaluate the justifications and arguments that others address to us.In other words, reason has evolved to help humans better exploit their uniquely rich social environment. This illuminating interpretation of reason makes sense of strengths and weaknesses that have long puzzled philosophers and psychologists - why reason is biased in favour of what we already believe, why it may lead to terrible ideas and yet is indispensable to spreading good ones. Ambitious, provocative, and entertaining, The Enigma of Reason will spark debate among psychologists and philosophers, and make many reasonable people rethink their own thinking.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="599">
+            <subfield code="a">Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna.</subfield>
+        </datafield>
+        <datafield ind1="1" ind2=" " tag="700">
+            <subfield code="a">Sperber, Dan</subfield>
+            <subfield code="4">aut</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="a">{"@id":"0jbsg6bb4w2b7dq","modified":"2020-12-13T08:00:34.29+01:00","checksum":"84504231676"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="841">
+            <subfield code="5">Z</subfield>
+            <subfield code="a">x  a</subfield>
+            <subfield code="b">190513||0000|||||000||||||000000</subfield>
+            <subfield code="e">u</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="852">
+            <subfield code="5">Z</subfield>
+            <subfield code="b">Z</subfield>
+            <subfield code="h">on order since 190513</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="5">Z</subfield>
+            <subfield code="a">{"@id":"5g9x3fnv35bcqqz5","modified":"2019-05-13T14:49:46.003+02:00","checksum":"72623734243"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+    </record>
+    <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+        <leader>     cam a       7i 4500</leader>
+        <controlfield tag="001">22663426</controlfield>
+        <controlfield tag="003">SE-LIBR</controlfield>
+        <controlfield tag="005">20201208155500.0</controlfield>
+        <controlfield tag="008">180509s2018    nyu|||||||||||000 ||eng|d</controlfield>
+        <datafield ind1=" " ind2=" " tag="020">
+            <subfield code="a">9780525540397</subfield>
+            <subfield code="q">pocket</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="020">
+            <subfield code="z">9780525540397 (International edition)</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(BOKR)9780525540397</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">BOKR</subfield>
+            <subfield code="d">Z</subfield>
+            <subfield code="e">i</subfield>
+            <subfield code="e">rda</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="041">
+            <subfield code="a">eng</subfield>
+        </datafield>
+        <datafield ind1=" " ind2="0" tag="050">
+            <subfield code="a">HD9999.I492</subfield>
+        </datafield>
+        <datafield ind1="0" ind2="0" tag="082">
+            <subfield code="a">338.7/61004678</subfield>
+            <subfield code="2">23</subfield>
+        </datafield>
+        <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">Galloway, Scott,</subfield>
+            <subfield code="d">1964-</subfield>
+            <subfield code="4">aut</subfield>
+        </datafield>
+        <datafield ind1="1" ind2="4" tag="245">
+            <subfield code="a">The Four :</subfield>
+            <subfield code="b">the hidden DNA of Amazon, Apple, Facebook, and Google /</subfield>
+            <subfield code="c">Scott Galloway.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="250">
+            <subfield code="a">International edition.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2="1" tag="264">
+            <subfield code="a">New York, New York :</subfield>
+            <subfield code="b">Portfolio/Penguin,</subfield>
+            <subfield code="c">[2018]</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">viii, 323 pages</subfield>
+            <subfield code="c">17.2 cm</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="336">
+            <subfield code="a">text</subfield>
+            <subfield code="b">txt</subfield>
+            <subfield code="2">rdacontent</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="337">
+            <subfield code="a">unmediated</subfield>
+            <subfield code="b">n</subfield>
+            <subfield code="2">rdamedia</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="338">
+            <subfield code="a">volume</subfield>
+            <subfield code="b">nc</subfield>
+            <subfield code="2">rdacarrier</subfield>
+        </datafield>
+        <datafield ind1="8" ind2=" " tag="505">
+            <subfield code="a">The four -- Who are these companies and why write about them? -- Amazon -- How Amazon became the most disruptive firm in the largest economy -- Apple -- Tech goes luxury -- Facebook -- Love is key to longevity and great advertising -- Google -- Our modern-day god -- Lie to me -- The four and funny business -- Business and the body -- All businesses appeal to one of three organs -- The T algorithm -- What it takes to get to a trillion -- The fifth horseman? -- Who will be next? -- The four and you -- Follow your talent, not your passion -- Yes, and now what? -- Where are the four taking us? -- Acknowledgments -- Notes -- Illustration credits -- Index.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="520">
+            <subfield code="a">Amazon, Apple, Facebook, and Google are the four most influential companies on the planet. Just about everyone thinks they know how they got there. Just about everyone is wrong.   For all thats been written about the Four over the last two decades, no one has captured their power and staggering success as insightfully as Scott Galloway.  Instead of buying the myths these compa­nies broadcast, Galloway asks fundamental questions. How did the Four infiltrate our lives so completely that theyre almost impossible to avoid (or boycott)? Why does the stock market forgive them for sins that would destroy other firms? And as they race to become the worlds first trillion-dollar company, can anyone chal­lenge them?  In the same irreverent style that has made him one of the worlds most celebrated business professors, Galloway deconstructs the strategies of the Four that lurk beneath their shiny veneers. He shows how they manipulate the fundamental emotional needs that have driven us since our ancestors lived in caves, at a speed and scope others cant match. And he reveals how you can apply the lessons of their ascent to your own business or career.  Whether you want to compete with them, do business with them, or simply live in the world they dominate, you need to understand the Four.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="599">
+            <subfield code="a">Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2="0" tag="650">
+            <subfield code="a">Information services industry</subfield>
+            <subfield code="x">History.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2="0" tag="650">
+            <subfield code="a">Internet industry</subfield>
+            <subfield code="x">History.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2="7" tag="655">
+            <subfield code="a">History.</subfield>
+            <subfield code="2">fast</subfield>
+        </datafield>
+        <datafield ind1="0" ind2="8" tag="776">
+            <subfield code="i">Online version:</subfield>
+            <subfield code="a">Galloway, Scott 1964- author.</subfield>
+            <subfield code="t">Four</subfield>
+            <subfield code="d">New York : Portfolio, [2017]</subfield>
+            <subfield code="z">9780735213661</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="a">{"@id":"6qj05w3j0m3hpg1","modified":"2020-12-08T15:55:00.369+01:00","checksum":"89784520614"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="841">
+            <subfield code="5">Z</subfield>
+            <subfield code="a">x  a</subfield>
+            <subfield code="b">200804||0000|||||000||||||000000</subfield>
+            <subfield code="e">u</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="852">
+            <subfield code="5">Z</subfield>
+            <subfield code="b">Z</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="5">Z</subfield>
+            <subfield code="a">{"@id":"kxhj7clsh1wd7vfd","modified":"2020-08-04T16:53:44.992+02:00","checksum":"104207616833"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+    </record>
+    <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+        <leader>     cam a       8i 4500</leader>
+        <controlfield tag="001">22444887</controlfield>
+        <controlfield tag="003">SE-LIBR</controlfield>
+        <controlfield tag="005">20201212080402.0</controlfield>
+        <controlfield tag="008">180214s2018    xx |||||||||||000 1|eng|d</controlfield>
+        <datafield ind1=" " ind2=" " tag="020">
+            <subfield code="a">9781509897681</subfield>
+            <subfield code="q">pocket</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(BOKR)9781509897681</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">BOKR</subfield>
+            <subfield code="e">i</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="041">
+            <subfield code="a">eng</subfield>
+        </datafield>
+        <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">Aubyn, Edward St.</subfield>
+            <subfield code="4">aut</subfield>
+        </datafield>
+        <datafield ind1="1" ind2="0" tag="245">
+            <subfield code="a">Patrick Melrose Volume 1 (TV Tie-In)</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="263">
+            <subfield code="a">201805</subfield>
+        </datafield>
+        <datafield ind1=" " ind2="1" tag="264">
+            <subfield code="b">Pan Macmillan,</subfield>
+            <subfield code="c">2018</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">464 sidor</subfield>
+            <subfield code="c">19.7 cm</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="336">
+            <subfield code="a">text</subfield>
+            <subfield code="b">txt</subfield>
+            <subfield code="2">rdacontent</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="337">
+            <subfield code="a">unmediated</subfield>
+            <subfield code="b">n</subfield>
+            <subfield code="2">rdamedia</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="338">
+            <subfield code="a">volume</subfield>
+            <subfield code="b">nc</subfield>
+            <subfield code="2">rdacarrier</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="520">
+            <subfield code="a">Now a major Sky TV series starring Benedict Cumberbatch.Moving from Provence to New York to Gloucestershire, from the savageries of a childhood with a cruel father and an alcoholic mother to an adulthood fraught with addiction, Patrick Melrose is on a mission to escape himself. But the drugs don't make him forget his past, and the glittering parties offer him no redemption . . . Searingly funny and deeply humane, Patrick Melrose: The Early Years contains the first three novels in the Patrick Melrose series, Never Mind, Bad News and Some Hope. Also available: Patrick Melrose The Later Years, containing the final two novels in the series, Mother's Milk and At Last.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="599">
+            <subfield code="a">Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="a">{"@id":"k3wc85mw170h24m","modified":"2020-12-12T08:04:02.03+01:00","checksum":"64329044403"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="841">
+            <subfield code="5">Zl</subfield>
+            <subfield code="a">x  a</subfield>
+            <subfield code="b">190107||0000|||||000||||||000000</subfield>
+            <subfield code="e">u</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="852">
+            <subfield code="5">Zl</subfield>
+            <subfield code="b">Zl</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="5">Zl</subfield>
+            <subfield code="a">{"@id":"z7lrmdk0w8mxlwft","modified":"2019-05-08T15:05:10.505+02:00","checksum":"66491314824"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+    </record>
+    <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+        <leader>     cam a       8i 4500</leader>
+        <controlfield tag="001">22445477</controlfield>
+        <controlfield tag="003">SE-LIBR</controlfield>
+        <controlfield tag="005">20201212080402.0</controlfield>
+        <controlfield tag="008">180214s2018    xx |||||||||||000 1|eng|d</controlfield>
+        <datafield ind1=" " ind2=" " tag="020">
+            <subfield code="a">9781509897704</subfield>
+            <subfield code="q">pocket</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(BOKR)9781509897704</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">BOKR</subfield>
+            <subfield code="e">i</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="041">
+            <subfield code="a">eng</subfield>
+        </datafield>
+        <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">Aubyn, Edward St.</subfield>
+            <subfield code="4">aut</subfield>
+        </datafield>
+        <datafield ind1="1" ind2="0" tag="245">
+            <subfield code="a">Patrick Melrose Volume 2 (TV Tie-In)</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="263">
+            <subfield code="a">201805</subfield>
+        </datafield>
+        <datafield ind1=" " ind2="1" tag="264">
+            <subfield code="b">Pan Macmillan,</subfield>
+            <subfield code="c">2018</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">448 sidor</subfield>
+            <subfield code="c">19.7 cm</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="336">
+            <subfield code="a">text</subfield>
+            <subfield code="b">txt</subfield>
+            <subfield code="2">rdacontent</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="337">
+            <subfield code="a">unmediated</subfield>
+            <subfield code="b">n</subfield>
+            <subfield code="2">rdamedia</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="338">
+            <subfield code="a">volume</subfield>
+            <subfield code="b">nc</subfield>
+            <subfield code="2">rdacarrier</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="520">
+            <subfield code="a">Now a major Sky TV series starring Benedict Cumberbatch.The once illustrious, once wealthy Melroses are in peril, and Patrick Melrose, now a husband and father, is trying to gather together the pieces of his life. Caught up in the turmoil of broken promises, assisted suicide, adultery and - most tender and terrifying of all - fatherhood, Patrick is still a long way from salvation, but even as the family struggles against the pull of its dark past, a new generation promises new light, new hope and - perhaps - the promise of a brighter future. Deeply moving, hilarious and heartbreaking, Patrick Melrose The Later Years contains the final two novels in the Patrick Melrose series: Mother's Milk and At Last. Also available: Patrick Melrose The Early Years, containing the first three novels in the series, Never Mind, Bad News and Some Hope.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="599">
+            <subfield code="a">Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="a">{"@id":"7rk1xvzk02hcw3r","modified":"2020-12-12T08:04:02.242+01:00","checksum":"65779276227"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="841">
+            <subfield code="5">Zl</subfield>
+            <subfield code="a">x  a</subfield>
+            <subfield code="b">190107||0000|||||000||||||000000</subfield>
+            <subfield code="e">u</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="852">
+            <subfield code="5">Zl</subfield>
+            <subfield code="b">Zl</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="5">Zl</subfield>
+            <subfield code="a">{"@id":"9kx3sc4z7h7q9qb4","modified":"2019-05-08T15:06:07.175+02:00","checksum":"52615347465"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+    </record>
+    <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+        <leader>     cam a       8i 4500</leader>
+        <controlfield tag="001">22662481</controlfield>
+        <controlfield tag="003">SE-LIBR</controlfield>
+        <controlfield tag="005">20201212080427.0</controlfield>
+        <controlfield tag="008">180509s2018    xx |||||||||||000 1|eng|d</controlfield>
+        <datafield ind1=" " ind2=" " tag="020">
+            <subfield code="a">9781524744137</subfield>
+            <subfield code="q">häftad</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(BOKR)9781524744137</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">BOKR</subfield>
+            <subfield code="e">i</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="041">
+            <subfield code="a">eng</subfield>
+        </datafield>
+        <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">Green, Hank</subfield>
+            <subfield code="4">aut</subfield>
+        </datafield>
+        <datafield ind1="1" ind2="3" tag="245">
+            <subfield code="a">An Absolutely Remarkable Thing</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="263">
+            <subfield code="a">201809</subfield>
+        </datafield>
+        <datafield ind1=" " ind2="1" tag="264">
+            <subfield code="b">Penguin USA,</subfield>
+            <subfield code="c">2018</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="c">22.8 cm</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="336">
+            <subfield code="a">text</subfield>
+            <subfield code="b">txt</subfield>
+            <subfield code="2">rdacontent</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="337">
+            <subfield code="a">unmediated</subfield>
+            <subfield code="b">n</subfield>
+            <subfield code="2">rdamedia</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="338">
+            <subfield code="a">volume</subfield>
+            <subfield code="b">nc</subfield>
+            <subfield code="2">rdacarrier</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="520">
+            <subfield code="a">In his much-anticipated debut novel, Hank Greencocreator of Crash Course, Vlogbrothers, and SciShowspins a sweeping, cinematic tale about a young woman who becomes an overnight celebrity before realizing shes part of something bigger, and stranger, than anyone could have possibly imagined.  The Carls just appeared. Coming home from work at three a.m., twenty-three-year-old April May stumbles across a giant sculpture. Delighted by its appearance and craftsmanshiplike a ten-foot-tall Transformer wearing a suit of samurai armorApril and her friend Andy make a video with it, which Andy uploads to YouTube. The next day April wakes up to a viral video and a new life. News quickly spreads that there are Carls in dozens of cities around the worldeverywhere from Beijing to Buenos Airesand April, as their first documentarian, finds herself at the center of an intense international media spotlight.   Now April has to deal with the pressure on her relationships, her identity, and her safety that this new position brings, all while being on the front lines of the quest to find out not just what the Carls are, but what they want from us.  Compulsively entertaining and powerfully relevant, An Absolutely Remarkable Thing grapples with big themes, including how the social internet is changing fame, rhetoric, and radicalization; how our culture deals with fear and uncertainty; and how vilification and adoration spring from the same dehumanization that follows a life in the public eye.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="599">
+            <subfield code="a">Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="a">{"@id":"p71hnck14kqrc3h","modified":"2020-12-12T08:04:27.795+01:00","checksum":"83268042157"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="841">
+            <subfield code="5">Za</subfield>
+            <subfield code="a">x  a</subfield>
+            <subfield code="b">190913||0000|||||000||||||000000</subfield>
+            <subfield code="e">u</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="852">
+            <subfield code="5">Za</subfield>
+            <subfield code="b">Za</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="5">Za</subfield>
+            <subfield code="a">{"@id":"x7k80vznvzpc9344","modified":"2019-09-13T13:24:03.451+02:00","checksum":"79524005545"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+    </record>
+    <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+        <leader>     cam a       8i 4500</leader>
+        <controlfield tag="001">r13qqmz1ppvxq64r</controlfield>
+        <controlfield tag="003">SE-LIBR</controlfield>
+        <controlfield tag="005">20201213080036.0</controlfield>
+        <controlfield tag="008">181016s2019    xx |||||||||||000 1|eng|d</controlfield>
+        <datafield ind1=" " ind2=" " tag="020">
+            <subfield code="a">9780399587269</subfield>
+            <subfield code="q">pocket</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(BOKR)9780399587269</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">BOKR</subfield>
+            <subfield code="e">i</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="041">
+            <subfield code="a">eng</subfield>
+        </datafield>
+        <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">Bishop, Anne</subfield>
+            <subfield code="4">aut</subfield>
+        </datafield>
+        <datafield ind1="1" ind2="0" tag="245">
+            <subfield code="a">Lake Silence</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="263">
+            <subfield code="a">201901</subfield>
+        </datafield>
+        <datafield ind1=" " ind2="1" tag="264">
+            <subfield code="b">Penguin USA,</subfield>
+            <subfield code="c">2019</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">464 sidor</subfield>
+            <subfield code="c">17.2 cm</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="336">
+            <subfield code="a">text</subfield>
+            <subfield code="b">txt</subfield>
+            <subfield code="2">rdacontent</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="337">
+            <subfield code="a">unmediated</subfield>
+            <subfield code="b">n</subfield>
+            <subfield code="2">rdamedia</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="338">
+            <subfield code="a">volume</subfield>
+            <subfield code="b">nc</subfield>
+            <subfield code="2">rdacarrier</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="520">
+            <subfield code="a">Human laws do not apply in the territory controlled by the Others--vampires, shape-shifters, and even deadlier paranormal beings. And this is a fact that humans should never, ever forget.... After her divorce, Vicki DeVine took over a rustic resort near Lake Silence, in a human town that is not human controlled. Towns such as Vicki's don't have any distance from the Others, the dominant predators who rule most of the land and all of the water throughout the world. And when a place has no boundaries, you never really know what is out there watching you. Vicki was hoping to find a new career and a new life. But when her lodger, Aggie Crowe--one of the shape-shifting Others--discovers a murdered man, Vicki finds trouble instead. The detectives want to pin the death on her, despite the evidence that nothing human could have killed the victim. As Vicki and her friends search for answers, ancient forces are roused by the disturbance in their domain. They have rules that must not be broken--and all the destructive powers of nature at their command.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="599">
+            <subfield code="a">Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="a">{"@id":"r13qqmz1ppvxq64r","modified":"2020-12-13T08:00:36.838+01:00","checksum":"38812340406"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="841">
+            <subfield code="5">Zl</subfield>
+            <subfield code="a">x  a</subfield>
+            <subfield code="b">190417||0000|||||000||||||000000</subfield>
+            <subfield code="e">u</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="852">
+            <subfield code="5">Zl</subfield>
+            <subfield code="b">Zl</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="5">Zl</subfield>
+            <subfield code="a">{"@id":"mxn865z4kql3hkj3","modified":"2019-04-17T08:39:47.336+02:00","checksum":"74871171845"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+    </record>
+    <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+        <leader>     cam a       8i 4500</leader>
+        <controlfield tag="001">21139840</controlfield>
+        <controlfield tag="003">SE-LIBR</controlfield>
+        <controlfield tag="005">20201212080421.0</controlfield>
+        <controlfield tag="008">170818s2017    xx |||||||||||000 1|eng|d</controlfield>
+        <datafield ind1=" " ind2=" " tag="020">
+            <subfield code="a">9781784978518</subfield>
+            <subfield code="q">pocket</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(BOKR)9781784978518</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">BOKR</subfield>
+            <subfield code="e">i</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="041">
+            <subfield code="a">eng</subfield>
+        </datafield>
+        <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">Liu, Cixin</subfield>
+            <subfield code="4">aut</subfield>
+        </datafield>
+        <datafield ind1="1" ind2="4" tag="245">
+            <subfield code="a">The Wandering Earth</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="263">
+            <subfield code="a">201710</subfield>
+        </datafield>
+        <datafield ind1=" " ind2="1" tag="264">
+            <subfield code="b">Head of Zeus,</subfield>
+            <subfield code="c">2017</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">528 sidor</subfield>
+            <subfield code="c">19.7 cm</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="336">
+            <subfield code="a">text</subfield>
+            <subfield code="b">txt</subfield>
+            <subfield code="2">rdacontent</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="337">
+            <subfield code="a">unmediated</subfield>
+            <subfield code="b">n</subfield>
+            <subfield code="2">rdamedia</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="338">
+            <subfield code="a">volume</subfield>
+            <subfield code="b">nc</subfield>
+            <subfield code="2">rdacarrier</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="520">
+            <subfield code="a">Cixin Liu is China's bestselling science fiction author and one of the most important voices in world SF. His novel, The Three-Body Problem, was the first translated work of SF ever to win the Hugo Award.  Here is the first collection of his short fiction: eleven stories, including five Chinese Galaxy Award-winners, form a blazingly original ode to planet earth, its pasts and its futures.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="599">
+            <subfield code="a">Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="a">{"@id":"0jbq281b0v9wtsc","modified":"2020-12-12T08:04:21.463+01:00","checksum":"60088872181"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="841">
+            <subfield code="5">Zl</subfield>
+            <subfield code="a">x  a</subfield>
+            <subfield code="b">201119||0000|||||000||||||000000</subfield>
+            <subfield code="e">u</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="852">
+            <subfield code="5">Zl</subfield>
+            <subfield code="b">Zl</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="5">Zl</subfield>
+            <subfield code="a">{"@id":"q32c9d26ncszjgjb","modified":"2020-11-19T12:11:35.309+01:00","checksum":"99577839595"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+    </record>
+    <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+        <leader>     cam a       8i 4500</leader>
+        <controlfield tag="001">jspmqgx9gjzlk6w5</controlfield>
+        <controlfield tag="003">SE-LIBR</controlfield>
+        <controlfield tag="005">20201213080045.0</controlfield>
+        <controlfield tag="008">180905s2018    xx |||||||||||000 1|eng|d</controlfield>
+        <datafield ind1=" " ind2=" " tag="020">
+            <subfield code="a">9780241985175</subfield>
+            <subfield code="q">pocket</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(BOKR)9780241985175</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">BOKR</subfield>
+            <subfield code="e">i</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="041">
+            <subfield code="a">eng</subfield>
+        </datafield>
+        <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">Hornby, Nick</subfield>
+            <subfield code="4">aut</subfield>
+        </datafield>
+        <datafield ind1="1" ind2="0" tag="245">
+            <subfield code="a">Juliet, Naked (Film Tie-in)</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="263">
+            <subfield code="a">201809</subfield>
+        </datafield>
+        <datafield ind1=" " ind2="1" tag="264">
+            <subfield code="b">Penguin,</subfield>
+            <subfield code="c">2018</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">256 sidor</subfield>
+            <subfield code="c">19.7 cm</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="336">
+            <subfield code="a">text</subfield>
+            <subfield code="b">txt</subfield>
+            <subfield code="2">rdacontent</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="337">
+            <subfield code="a">unmediated</subfield>
+            <subfield code="b">n</subfield>
+            <subfield code="2">rdamedia</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="338">
+            <subfield code="a">volume</subfield>
+            <subfield code="b">nc</subfield>
+            <subfield code="2">rdacarrier</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="520">
+            <subfield code="a">Juliet, Naked is bestselling author Nick Hornby's moving, funny account of life's second chances Annie's put fifteen years into safe, slightly obsessive Duncan, and now she'd like her money back, please. It's time to move on. But she lives in Gooleness, the north's answer to a question nobody asked. Is she really going to find real, proper, feel-it-deep-down-in-your-boots love on a damp and windy seafront? Or perhaps she should follow her heart and pursue Tucker, the reclusive American rock star, who keeps emailing her his smart advice. But between Annie and her second chance lie a few obstacles. There's Malcolm, the world's most judgemental therapist, and Barnesy, the north's most extrovert dancer. There's what men and women will do and won't do for love. And, of course, there's Tucker...</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="599">
+            <subfield code="a">Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="a">{"@id":"jspmqgx9gjzlk6w5","modified":"2020-12-13T08:00:45.778+01:00","checksum":"55368510605"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="841">
+            <subfield code="5">Zl</subfield>
+            <subfield code="a">x  a</subfield>
+            <subfield code="b">190107||0000|||||000||||||000000</subfield>
+            <subfield code="e">u</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="852">
+            <subfield code="5">Zl</subfield>
+            <subfield code="b">Zl</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="5">Zl</subfield>
+            <subfield code="a">{"@id":"pzbh9pm3mhxshfsg","modified":"2019-05-08T15:06:08.409+02:00","checksum":"74721985889"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+    </record>
+    <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+        <leader>     cam a       8i 4500</leader>
+        <controlfield tag="001">21735952</controlfield>
+        <controlfield tag="003">SE-LIBR</controlfield>
+        <controlfield tag="005">20201212080441.0</controlfield>
+        <controlfield tag="008">171017s2018    xx |||||||||||000 1|eng|d</controlfield>
+        <datafield ind1=" " ind2=" " tag="020">
+            <subfield code="a">9780751571974</subfield>
+            <subfield code="q">pocket</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(BOKR)9780751571974</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">BOKR</subfield>
+            <subfield code="e">i</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="041">
+            <subfield code="a">eng</subfield>
+        </datafield>
+        <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">Lehane, Dennis</subfield>
+            <subfield code="4">aut</subfield>
+        </datafield>
+        <datafield ind1="1" ind2="0" tag="245">
+            <subfield code="a">Since We Fell</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="263">
+            <subfield code="a">201805</subfield>
+        </datafield>
+        <datafield ind1=" " ind2="1" tag="264">
+            <subfield code="b">Little, Brown,</subfield>
+            <subfield code="c">2018</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="c">17.8 cm</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="336">
+            <subfield code="a">text</subfield>
+            <subfield code="b">txt</subfield>
+            <subfield code="2">rdacontent</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="337">
+            <subfield code="a">unmediated</subfield>
+            <subfield code="b">n</subfield>
+            <subfield code="2">rdamedia</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="338">
+            <subfield code="a">volume</subfield>
+            <subfield code="b">nc</subfield>
+            <subfield code="2">rdacarrier</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="520">
+            <subfield code="a">I LOVED YOU I HATED YOU I NEVER KNEW YOU...  Rachel's husband adores her. When she hit rock bottom, he was there with her every step of the way as she slowly regained her confidence, and her sanity. But his mysterious behaviour forces her to probe for the truth about her beloved husband.  How can she feel certain that she ever knew him?  And was she right to ever trust him?  Bringing together Dennis Lehane's trademark insightful and emphathetic characterisation, razor-sharp dialogue, stunning atmosphere and breakneck twists and turns, Since We Fell is a true masterpiece that will keep you in suspense until the very end.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="599">
+            <subfield code="a">Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="a">{"@id":"dxq57rrq1qs42cq","modified":"2020-12-12T08:04:41.279+01:00","checksum":"62874135169"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="841">
+            <subfield code="5">Za</subfield>
+            <subfield code="a">x  a</subfield>
+            <subfield code="b">190107||0000|||||000||||||000000</subfield>
+            <subfield code="e">u</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="852">
+            <subfield code="5">Za</subfield>
+            <subfield code="b">Za</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="5">Za</subfield>
+            <subfield code="a">{"@id":"t3gnsz8lrl5v9sr5","modified":"2019-05-08T14:14:53.867+02:00","checksum":"62160467680"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+    </record>
+    <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+        <leader>     cam a       8i 4500</leader>
+        <controlfield tag="001">19418280</controlfield>
+        <controlfield tag="003">SE-LIBR</controlfield>
+        <controlfield tag="005">20201212080439.0</controlfield>
+        <controlfield tag="008">160419s2016    xx |||||||||||000 1|eng|d</controlfield>
+        <datafield ind1=" " ind2=" " tag="020">
+            <subfield code="a">9781784161767</subfield>
+            <subfield code="q">pocket</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(BOKR)9781784161767</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">BOKR</subfield>
+            <subfield code="e">i</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="041">
+            <subfield code="a">eng</subfield>
+        </datafield>
+        <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">Hawkins, Paula</subfield>
+            <subfield code="4">aut</subfield>
+        </datafield>
+        <datafield ind1="1" ind2="4" tag="245">
+            <subfield code="a">The Girl on the Train FTI</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="263">
+            <subfield code="a">201609</subfield>
+        </datafield>
+        <datafield ind1=" " ind2="1" tag="264">
+            <subfield code="b">Transworld,</subfield>
+            <subfield code="c">2016</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">408 sidor</subfield>
+            <subfield code="c">17.8 cm</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="336">
+            <subfield code="a">text</subfield>
+            <subfield code="b">txt</subfield>
+            <subfield code="2">rdacontent</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="337">
+            <subfield code="a">unmediated</subfield>
+            <subfield code="b">n</subfield>
+            <subfield code="2">rdamedia</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="338">
+            <subfield code="a">volume</subfield>
+            <subfield code="b">nc</subfield>
+            <subfield code="2">rdacarrier</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="520">
+            <subfield code="a">THE RUNAWAY SUNDAY TIMES NO.1 BESTSELLER AND THRILLER OF THE YEAR. "Really great suspense novel. Kept me up most of the night. The alcoholic narrator is dead perfect". (Stephen King). Rachel catches the same commuter train every morning.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="599">
+            <subfield code="a">Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="a">{"@id":"n60bm5v03vjjl0r","modified":"2020-12-12T08:04:39.506+01:00","checksum":"47154656857"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="841">
+            <subfield code="5">Zl</subfield>
+            <subfield code="a">x  a</subfield>
+            <subfield code="b">190107||0000|||||000||||||000000</subfield>
+            <subfield code="e">u</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="852">
+            <subfield code="5">Zl</subfield>
+            <subfield code="b">Zl</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="5">Zl</subfield>
+            <subfield code="a">{"@id":"blz58xp78n8j4mf0","modified":"2019-05-08T15:08:27.698+02:00","checksum":"74555193562"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+    </record>
+    <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+        <leader>     cam a       8i 4500</leader>
+        <controlfield tag="001">dp7q4sd2brfqxx5d</controlfield>
+        <controlfield tag="003">SE-LIBR</controlfield>
+        <controlfield tag="005">20201212080525.0</controlfield>
+        <controlfield tag="008">191103s2020    xx |||||||||||000 1|eng|d</controlfield>
+        <datafield ind1=" " ind2=" " tag="020">
+            <subfield code="a">9781788542401</subfield>
+            <subfield code="q">pocket</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(BOKR)9781788542401</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">BOKR</subfield>
+            <subfield code="e">i</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="041">
+            <subfield code="a">eng</subfield>
+        </datafield>
+        <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">Liu, Cixin</subfield>
+            <subfield code="4">aut</subfield>
+        </datafield>
+        <datafield ind1="1" ind2="4" tag="245">
+            <subfield code="a">The Supernova Era</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="263">
+            <subfield code="a">202004</subfield>
+        </datafield>
+        <datafield ind1=" " ind2="1" tag="264">
+            <subfield code="b">MacMillan Ltd.</subfield>
+            <subfield code="c">2020</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">426 sidor</subfield>
+            <subfield code="c">19.6 cm</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="336">
+            <subfield code="a">text</subfield>
+            <subfield code="b">txt</subfield>
+            <subfield code="2">rdacontent</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="337">
+            <subfield code="a">unmediated</subfield>
+            <subfield code="b">n</subfield>
+            <subfield code="2">rdamedia</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="338">
+            <subfield code="a">volume</subfield>
+            <subfield code="b">nc</subfield>
+            <subfield code="2">rdacarrier</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="520">
+            <subfield code="a">Eight years ago and eight light years away, a supermassive star died. Tonight, a supernova tsunami of high energy will finally reach Earth.  Dark skies will shine bright as a new star blooms in the heavens and within a year everyone over the age of thirteen will be dead, their chromosomes irreversibly damaged.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="599">
+            <subfield code="a">Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna.</subfield>
+        </datafield>
+        <datafield ind1="1" ind2=" " tag="700">
+            <subfield code="a">Martinsen, Joel</subfield>
+            <subfield code="4">trl</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="a">{"@id":"dp7q4sd2brfqxx5d","modified":"2020-12-12T08:05:25.567+01:00","checksum":"70071354561"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="841">
+            <subfield code="5">Za</subfield>
+            <subfield code="a">x  a</subfield>
+            <subfield code="b">201106||0000|||||000||||||000000</subfield>
+            <subfield code="e">u</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="852">
+            <subfield code="5">Za</subfield>
+            <subfield code="b">Za</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="5">Za</subfield>
+            <subfield code="a">{"@id":"kxvmgxfwhw4ttwjs","modified":"2020-11-06T09:07:46.584+01:00","checksum":"91244320604"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+    </record>
+    <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+        <leader>     cam a       8i 4500</leader>
+        <controlfield tag="001">nzck4bqjlknd280s</controlfield>
+        <controlfield tag="003">SE-LIBR</controlfield>
+        <controlfield tag="005">20201212080500.0</controlfield>
+        <controlfield tag="008">191005s2020    xx |||||||||||000 1|eng|d</controlfield>
+        <datafield ind1=" " ind2=" " tag="020">
+            <subfield code="a">9781509889600</subfield>
+            <subfield code="q">pocket</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(BOKR)9781509889600</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">BOKR</subfield>
+            <subfield code="e">i</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="041">
+            <subfield code="a">eng</subfield>
+        </datafield>
+        <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">Cleeves, Ann</subfield>
+            <subfield code="4">aut</subfield>
+        </datafield>
+        <datafield ind1="1" ind2="4" tag="245">
+            <subfield code="a">The Long Call</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="263">
+            <subfield code="a">202002</subfield>
+        </datafield>
+        <datafield ind1=" " ind2="1" tag="264">
+            <subfield code="b">Pan Macmillan,</subfield>
+            <subfield code="c">2020</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">384 sidor</subfield>
+            <subfield code="c">19.7 cm</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="336">
+            <subfield code="a">text</subfield>
+            <subfield code="b">txt</subfield>
+            <subfield code="2">rdacontent</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="337">
+            <subfield code="a">unmediated</subfield>
+            <subfield code="b">n</subfield>
+            <subfield code="2">rdamedia</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="338">
+            <subfield code="a">volume</subfield>
+            <subfield code="b">nc</subfield>
+            <subfield code="2">rdacarrier</subfield>
+        </datafield>
+        <datafield ind1="0" ind2=" " tag="490">
+            <subfield code="a">Two rivers</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="520">
+            <subfield code="a">The Long Call is the captivating first novel in a brand new series from Sunday Times bestseller and creator of Vera and Shetland, Ann Cleeves. In North Devon, where the rivers Taw and Torridge converge and run into the sea, Detective Matthew Venn stands outside the church as his father's funeral takes place. The day Matthew turned his back on the strict evangelical community in which he grew up, he lost his family too. Now he's back, not just to mourn his father at a distance, but to take charge of his first major case in the Two Rivers region; a complex place not quite as idyllic as tourists suppose. A body has been found on the beach near to Matthew's new home: a man with the tattoo of an albatross on his neck, stabbed to death. Finding the killer is Venn's only focus, and his team's investigation will take him straight back into the community he left behind, and the deadly secrets that lurk there.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="599">
+            <subfield code="a">Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="a">{"@id":"nzck4bqjlknd280s","modified":"2020-12-12T08:05:00.861+01:00","checksum":"38789522456"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="841">
+            <subfield code="5">Zl</subfield>
+            <subfield code="a">x  a</subfield>
+            <subfield code="b">201119||0000|||||000||||||000000</subfield>
+            <subfield code="e">u</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="852">
+            <subfield code="5">Zl</subfield>
+            <subfield code="b">Zl</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="5">Zl</subfield>
+            <subfield code="a">{"@id":"fsr2vx0rcg9q7dj1","modified":"2020-11-19T11:15:26.478+01:00","checksum":"58303522419"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+    </record>
+    <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+        <leader>     cam a       8i 4500</leader>
+        <controlfield tag="001">kwx4d92zhtwd4ztw</controlfield>
+        <controlfield tag="003">SE-LIBR</controlfield>
+        <controlfield tag="005">20201214080053.0</controlfield>
+        <controlfield tag="008">200319s2020    xx |||||||||||000 1|eng|d</controlfield>
+        <datafield ind1=" " ind2=" " tag="020">
+            <subfield code="a">9781473686687</subfield>
+            <subfield code="q">pocket</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(BOKR)9781473686687</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">BOKR</subfield>
+            <subfield code="e">i</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="041">
+            <subfield code="a">eng</subfield>
+        </datafield>
+        <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">Ghosh, Amitav</subfield>
+            <subfield code="4">aut</subfield>
+        </datafield>
+        <datafield ind1="1" ind2="0" tag="245">
+            <subfield code="a">Gun Island</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="263">
+            <subfield code="a">202004</subfield>
+        </datafield>
+        <datafield ind1=" " ind2="1" tag="264">
+            <subfield code="b">Hachette UK Distribution,</subfield>
+            <subfield code="c">2020</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">313 sidor</subfield>
+            <subfield code="c">19.8 cm</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="336">
+            <subfield code="a">text</subfield>
+            <subfield code="b">txt</subfield>
+            <subfield code="2">rdacontent</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="337">
+            <subfield code="a">unmediated</subfield>
+            <subfield code="b">n</subfield>
+            <subfield code="2">rdamedia</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="338">
+            <subfield code="a">volume</subfield>
+            <subfield code="b">nc</subfield>
+            <subfield code="2">rdacarrier</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="520">
+            <subfield code="a">Bundook. Gun. A common word, but one which turns Deen Datta's world upside down.A dealer of rare books, Deen is used to a quiet life spent indoors, but  as his once-solid beliefs begin to shift, he is forced to set out on an extraordinary journey; one that takes him from India to Los Angeles and Venice via a tangled route through the memories and experiences of &amp;nbsp;</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="599">
+            <subfield code="a">Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="a">{"@id":"kwx4d92zhtwd4ztw","modified":"2020-12-14T08:00:53.9+01:00","checksum":"46753399439"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="841">
+            <subfield code="5">Zl</subfield>
+            <subfield code="a">x  a</subfield>
+            <subfield code="b">201119||0000|||||000||||||000000</subfield>
+            <subfield code="e">u</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="852">
+            <subfield code="5">Zl</subfield>
+            <subfield code="b">Zl</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="887">
+            <subfield code="5">Zl</subfield>
+            <subfield code="a">{"@id":"4hgrl9jh2p1kfq1t","modified":"2020-11-19T11:24:21.997+01:00","checksum":"70798209562"}</subfield>
+            <subfield code="2">librisxl</subfield>
+        </datafield>
+    </record>
+</collection>

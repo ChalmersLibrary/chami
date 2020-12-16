@@ -10,7 +10,6 @@ describe('foliocommunicator unit tests', () => {
 
   describe('sendDataToFolio', () => {
     test.each([
-      [],
       null,
       undefined,
       '',
@@ -21,7 +20,7 @@ describe('foliocommunicator unit tests', () => {
       expect.assertions(2);
       await expect(sut.sendDataToFolio(records))
         .rejects
-        .toStrictEqual(new Error('FOLIO: Failed to send data: Found no records'));
+        .toStrictEqual(new Error('FOLIO: Failed to send data: Wrong input type, should be list.'));
       expect(sut.acquireTokenFromFolio).not.toHaveBeenCalled();
     });
   });

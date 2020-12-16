@@ -13,7 +13,7 @@ describe('LibrisCommunicator integration tests', () => {
 
       const response = await sut.getDataById(id);
 
-      expect(response.length).toBe(1);
+      expect(response).toBeTruthy();
     });
 
     test('with invalid id, should throw error', async () => {

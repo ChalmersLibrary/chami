@@ -54,7 +54,7 @@ describe('FolioCommunicator integration tests', () => {
   
         await expect(sut.sendDataToFolio([instance]))
           .rejects
-          .toStrictEqual(new Error(['FOLIO: Failed to send data:', 
+          .toThrow(new Error(['FOLIO: Failed to send data:', 
             ' Failed to post record - Url: ',
             'https://folio-goldenrod-okapi.dev.folio.org/instance-storage/instances',
             ', Status: 400, Message: Bad Request'].join('')));

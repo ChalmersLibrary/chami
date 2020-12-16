@@ -35,7 +35,7 @@ module.exports = class LibrisCommunicator {
         'authcreate=on',
         'format=marcxml',
         'longname=Chalmers tekniska högskola',
-        'extrafields=Z\:698 ; Za\:698 ; Zl\:698 ; Enll\:698',
+        'extrafields=Z:698 ; Za:698 ; Zl:698 ; Enll:698',
         'biblevel=off',
         'issnhyphenate=off',
         'issndehyphenate=off',
@@ -92,7 +92,7 @@ module.exports = class LibrisCommunicator {
     this.validateResponse(response);
     const data = await response.text();
     this.validateXML(data);
-    return [data];
+    return data;
   }
 
   validateResponse(response) {

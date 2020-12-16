@@ -15,12 +15,12 @@ module.exports = class FetchScheduler {
     await this.registerSuccessfulFetch(data);
   }
 
-  async registerSuccessfulFetchWithTimestamps(from, until, now) {
+  async registerSuccessfulFetchWithTimestamps(from, until, now, totalRecords) {
     const data = {
       from: from,
       created: this.createUTCDateTimeString(now),
       success: true,
-      message: `Successful fetch with timestamp from ${from} - until ${until}`
+      message: `Timestamp: from ${from} - until ${until} Total records: ${totalRecords}`
     };
     await this.registerSuccessfulFetch(data);
   }

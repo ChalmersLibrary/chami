@@ -53,25 +53,30 @@ describe("LibrisFolioDataMover", function() {
   });
 
   describe('moveDataByTimestamps', () => {
-    test.each([
-      '2012-01-02',
-      1234,
-    ])('should crash with invalid from timestamp: %s', async (from) => {
-      let until = '2020-12-07T10:34:37Z';
-
-      await expect(sut.moveDataByTimestamps(from, until))
-        .rejects
-        .toEqual(new Error(`Libris: Failed fetching with timestamp: from ${from} - Until ${until} - Invalid timestamp(s)`));
+    describe('invalid', () => {
+      test.each([
+        '2012-01-02',
+        1234,
+      ])('should crash with invalid from timestamp: %s', async (from) => {
+        let until = '2020-12-07T10:34:37Z';
+  
+        await expect(sut.moveDataByTimestamps(from, until))
+          .rejects
+          .toEqual(new Error(`Libris: Failed fetching with timestamp: from ${from} - Until ${until} - Invalid timestamp(s)`));
+      });  
     });
 
-    test.each([
-      ['2020-11-18T07:00:00Z', '2020-11-18T07:03:00Z' ],
-      [null, null]
-    ])('with valid timestamps from %s until %s', async (from, until) => {
-      await expect(sut.moveDataByTimestamps(from, until))
-        .resolves
-        .not
-        .toThrow();
-    }, 10000);
+    describe('valid', () => {
+      test.each([
+      //  ['2020-11-18T07:00:00Z', '2020-11-18T07:03:00Z' ],
+        [null, null]
+      ])('with valid timestamps from %s until %s', async (from, until) => {
+        await expect(sut.moveDataByTimestamps(from, until))
+          .resolves
+          .not
+          .toThrow();
+  
+      }, 10000);
+    });
   });
 });

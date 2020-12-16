@@ -14,33 +14,67 @@ describe('dataConverter unit tests', () => {
         {},
         null,
         undefined,
-        ['']
-      ])('missing records with list %s', async (list) => {
-        await expect(sut.convert(list))
+        [''],
+        123
+      ])('missing records with list %s', async (input) => {
+        await expect(sut.convert(input))
           .rejects
-          .toThrow(new Error('Failed to convert record(s) - Missing records'));
+          .toThrow(new Error('Failed to convert record(s) - Wrong input type, should be string.'));
       });
+  });
+
+  describe('Empty strings', () => {
+    test.each([
+      "",
+      ''])('Should return empty list', async (input) => {
+        const response = await sut.convert(input);
+  
+        expect(response).toStrictEqual([]);
+      });
+  });
+
+  test('asdasd', async () => {
+    const data = '<?xml version="1.0" encoding="utf-8"?>\n<collection xmlns="http://www.loc.gov/MARC21/slim">\n</collection>';
+    
+    const response = await sut.convert(data);
+
+    expect(response.length).toBe(0);
+  });
+
+  test('List of records', async () => {
+    const data = fs.readFileSync('tests/dataconverter/testdata/test_records.xml', 'utf8');
+
+    const response = await sut.convert(data);
+
+    expect(response.length).toBe(21);
+  });
+
+
+  test('err', async () => {
+    const data = fs.readFileSync('tests/dataconverter/testdata/tedst_no_records_match.xml', 'utf8');
+
+    await expect(sut.convert(data)).rejects.toThrow(new Error('Failed to convert record(s) - Error from Libris.'));
   });
 
   test('Simple Title: should match title (245)', async () => {
     const data = fs.readFileSync('tests/dataconverter/testdata/test1.xml', 'utf8');
 
-    const response = await sut.convert([data]);
+    const response = await sut.convert(data);
 
     expect.assertions(7);
-    expect(response[0].isValid).toBeTruthy()
-    expect(response[0].instanceFormatIds).toContain('8d511d33-5e85-4c5d-9bce-6e3c9cd0c324')
-    expect(response[0].title).not.toContain('/')
-    expect(response[0].instanceTypeId).toBe('6312d172-f0cf-40f6-b27d-9fa8feaf332f')
-    expect(response[0].modeOfIssuanceId).toBe('9d18a02f-5897-4c31-9106-c9abb5c7ae8b')
-    expect(response[0].statisticalCodeIds).toContain('55326d56-4466-43d7-83ed-73ffd4d4221f')
-    expect(response[0].title).toBe('Modern Electrosynthetic Methods in Organic Chemistry')
+    expect(response[0].isValid).toBeTruthy();
+    expect(response[0].instanceFormatIds).toContain('8d511d33-5e85-4c5d-9bce-6e3c9cd0c324');
+    expect(response[0].title).not.toContain('/');
+    expect(response[0].instanceTypeId).toBe('6312d172-f0cf-40f6-b27d-9fa8feaf332f');
+    expect(response[0].modeOfIssuanceId).toBe('9d18a02f-5897-4c31-9106-c9abb5c7ae8b');
+    expect(response[0].statisticalCodeIds).toContain('55326d56-4466-43d7-83ed-73ffd4d4221f');
+    expect(response[0].title).toBe('Modern Electrosynthetic Methods in Organic Chemistry');
   });
 
   test('Composed title: Should create a composed title (245) with the [a, b, k, n, p] subfields.', async () => {
     const data = fs.readFileSync('tests/dataconverter/testdata/test_composed_title.xml', 'utf8');
 
-    const response = await sut.convert([data]);
+    const response = await sut.convert(data);
 
     expect.assertions(3);
     expect(response[0].isValid).toBeTruthy();
@@ -51,7 +85,7 @@ describe('dataConverter unit tests', () => {
   test('Alternative titles: Should match 246 to alternativeTitles', async () => {
     const data = fs.readFileSync('tests/dataconverter/testdata/test3.xml', 'utf8');
 
-    const response = await sut.convert([data]);
+    const response = await sut.convert(data);
 
     expect.assertions(3);
     expect(response[0].isValid).toBeTruthy();
@@ -65,7 +99,7 @@ describe('dataConverter unit tests', () => {
   test('Should match 130 to alternativeTitles', async () => {
     const data = fs.readFileSync('tests/dataconverter/testdata/test4.xml', 'utf8');
 
-    const response = await sut.convert([data]);
+    const response = await sut.convert(data);
 
     expect.assertions(2);
     expect(response[0].isValid).toBeTruthy();
@@ -78,7 +112,7 @@ describe('dataConverter unit tests', () => {
   test('Should match 246 to alternativeTitles when there is also 130', async () => {
     const data = fs.readFileSync('tests/dataconverter/testdata/test4.xml', 'utf8');
 
-    const response = await sut.convert([data]);
+    const response = await sut.convert(data);
 
     expect.assertions(2);
     expect(response[0].isValid).toBeTruthy();
@@ -93,10 +127,10 @@ describe('dataConverter unit tests', () => {
   test('Should match 222 to alternativeTitles (when there are also 130 and 246)', async () => {
     const data = fs.readFileSync('tests/dataconverter/testdata/test4.xml', 'utf8');
 
-    const response = await sut.convert([data]);
+    const response = await sut.convert(data);
 
     expect.assertions(4);
-    expect(response[0].isValid).toBeTruthy()
+    expect(response[0].isValid).toBeTruthy();
     expect(response[0].alternativeTitles).toContainEqual(
       {
         alternativeTitleTypeId: '0fe58901-183e-4678-a3aa-0b4751174ba8',
@@ -117,7 +151,7 @@ describe('dataConverter unit tests', () => {
   test('Editions: Should add editions (250) to the editions list and enforce unique', async () => {
     const data = fs.readFileSync('tests/dataconverter/testdata/test_editions.xml', 'utf8');
 
-    const response = await sut.convert([data]);
+    const response = await sut.convert(data);
 
     expect.assertions(3);
     expect(response[0].isValid).toBeTruthy();
@@ -128,7 +162,7 @@ describe('dataConverter unit tests', () => {
   test('Languages: Should add languages (041$a) to the languages list; ignores non-ISO languages', async () => {
     const data = fs.readFileSync('tests/dataconverter/testdata/test_multiple_languages.xml', 'utf8');
 
-    const response = await sut.convert([data]);
+    const response = await sut.convert(data);
 
     expect.assertions(8);
     expect(response[0].isValid).toBeTruthy();
@@ -144,7 +178,7 @@ describe('dataConverter unit tests', () => {
   test('Should add language found in 008 where there is no 041', async () => {
     const data = fs.readFileSync('tests/dataconverter/testdata/test_language_in_008.xml', 'utf8');
 
-    const response = await sut.convert([data]);
+    const response = await sut.convert(data);
 
     expect.assertions(2);
     expect(response[0].isValid).toBeTruthy();
@@ -166,7 +200,7 @@ describe('dataConverter unit tests', () => {
       'value': '8sl08b9l54wxk4m'
     };
 
-    const response = await sut.convert([data]);
+    const response = await sut.convert(data);
 
     expect.assertions(3);
     expect(response[0].identifiers).toContainEqual(xl_id);
@@ -186,7 +220,7 @@ describe('dataConverter unit tests', () => {
       'value': 'http://libris.kb.se/bib/21080448'
     };
 
-    const response = await sut.convert([data]);
+    const response = await sut.convert(data);
 
     expect.assertions(2);
     expect(response[0].identifiers).toContainEqual(xl_id);
@@ -196,7 +230,7 @@ describe('dataConverter unit tests', () => {
   test('Physical Descriptions: Should add physical descriptions (300$abce)', async () => {
     const data = fs.readFileSync('tests/dataconverter/testdata/test_physical_descriptions.xml', 'utf8');
 
-    const response = await sut.convert([data]);
+    const response = await sut.convert(data);
 
     expect.assertions(2);
     expect(response[0].isValid).toBeTruthy();
@@ -206,7 +240,7 @@ describe('dataConverter unit tests', () => {
   test('Index Title: Should trim title (245) by n-chars, as specified by indicator 2', async () => {
     const data = fs.readFileSync('tests/dataconverter/testdata/test_index_title.xml', 'utf8');
 
-    const response = await sut.convert([data]);
+    const response = await sut.convert(data);
 
     expect.assertions(2);
     expect(response[0].isValid).toBeTruthy();
@@ -216,7 +250,7 @@ describe('dataConverter unit tests', () => {
   test('Should add all types of alternative titles: 130, 222, 240, 246, 247', async () => {
     const data = fs.readFileSync('tests/dataconverter/testdata/test_alternative_titles.xml', 'utf8');
 
-    const response = await sut.convert([data]);
+    const response = await sut.convert(data);
 
     expect.assertions(6);
     expect(response[0].isValid).toBeTruthy();
@@ -260,7 +294,7 @@ describe('dataConverter unit tests', () => {
   test('Should add identifiers: 010, 019, 020, 022, 024, 028, 035', async () => {
     const data = fs.readFileSync('tests/dataconverter/testdata/test_identifiers.xml', 'utf8');
 
-    const response = await sut.convert([data]);
+    const response = await sut.convert(data);
 
     expect.assertions(25);
     expect(response[0].isValid).toBeTruthy();
@@ -354,7 +388,7 @@ describe('dataConverter unit tests', () => {
   test('Should add series statements (800, 810, 811, 830, 440, 490) to series list', async () => {
     const data = fs.readFileSync('tests/dataconverter/testdata/test_series.xml', 'utf8');
 
-    const response = await sut.convert([data]);
+    const response = await sut.convert(data);
 
     expect.assertions(8);
     expect(response[0].isValid).toBeTruthy();
@@ -376,7 +410,7 @@ describe('dataConverter unit tests', () => {
   test('Should deduplicate identical series statements from 830 and 490 in series list', async () => {
     const data = fs.readFileSync('tests/dataconverter/testdata/test_series_duplicates.xml', 'utf8');
 
-    const response = await sut.convert([data]);
+    const response = await sut.convert(data);
 
     expect.assertions(2);
     expect(response[0].isValid).toBeTruthy();
@@ -386,7 +420,7 @@ describe('dataConverter unit tests', () => {
   test('Should add contributors (100, 111 700) to the contributors list', async () => {
     const data = fs.readFileSync('tests/dataconverter/testdata/test_contributors.xml', 'utf8');
 
-    const response = await sut.convert([data]);
+    const response = await sut.convert(data);
 
     expect.assertions(8);
     expect(response[0].isValid).toBeTruthy();
@@ -453,7 +487,7 @@ describe('dataConverter unit tests', () => {
   test('Should add classifications (050, 082, 090, 086, 080) to the classifications list', async () => {
     const data = fs.readFileSync('tests/dataconverter/testdata/test_classifications.xml', 'utf8');
 
-    const response = await sut.convert([data]);
+    const response = await sut.convert(data);
 
     expect.assertions(6);
     expect(response[0].isValid).toBeTruthy();
@@ -487,7 +521,7 @@ describe('dataConverter unit tests', () => {
   test('Should add subjects (600, 610, 611, 630, 647, 648, 650, 651) to the subjects list', async () => {
     const data = fs.readFileSync('tests/dataconverter/testdata/test_subjects.xml', 'utf8');
 
-    const response = await sut.convert([data]);
+    const response = await sut.convert(data);
 
     expect.assertions(11);
     expect(response[0].isValid).toBeTruthy();
@@ -514,7 +548,7 @@ describe('dataConverter unit tests', () => {
       'Engineering Philosophy.');
     // 651$avxyz
     expect(response[0].subjects).toContain(
-      'Aix-en-Provence (France) Philosophy. Early works to 1800.')
+      'Aix-en-Provence (France) Philosophy. Early works to 1800.');
     expect(response[0].subjects).toContain(
       'Engineering_653');
     expect(response[0].subjects).toContain(
@@ -524,7 +558,7 @@ describe('dataConverter unit tests', () => {
   test('Should add publications (260$abc & 264$abc) to the publications list', async () => {
     const data = fs.readFileSync('tests/dataconverter/testdata/test_publications.xml', 'utf8');
 
-    const response = await sut.convert([data]);
+    const response = await sut.convert(data);
 
     expect.assertions(3);
     expect(response[0].isValid).toBeTruthy();
@@ -550,7 +584,7 @@ describe('dataConverter unit tests', () => {
   test('Should add publication frequency (310$ab & 321$ab) to the publicationFrequency list', async () => {
     const data = fs.readFileSync('tests/dataconverter/testdata/test_publication_frequency.xml', 'utf8');
 
-    const response = await sut.convert([data]);
+    const response = await sut.convert(data);
 
     expect.assertions(4);
     expect(response[0].isValid).toBeTruthy();
@@ -564,7 +598,7 @@ describe('dataConverter unit tests', () => {
   test('Should add publication range (362$a) to the publicationRange list', async () => {
     const data = fs.readFileSync('tests/dataconverter/testdata/test_publication_range.xml', 'utf8');
 
-    const response = await sut.convert([data]);
+    const response = await sut.convert(data);
 
     expect.assertions(3);
     expect(response[0].isValid).toBeTruthy();
@@ -575,7 +609,7 @@ describe('dataConverter unit tests', () => {
   test('Should add notes (500-510) to notes list', async () => {
     const data = fs.readFileSync('tests/dataconverter/testdata/test_notes_50x.xml', 'utf8');
 
-    const response = await sut.convert([data]);
+    const response = await sut.convert(data);
 
     expect.assertions(11);
     expect(response[0].isValid).toBeTruthy();
@@ -644,7 +678,7 @@ describe('dataConverter unit tests', () => {
   test('Should add notes (511-518) to notes list', async () => {
     const data = fs.readFileSync('tests/dataconverter/testdata/test_notes_51x.xml', 'utf8');
 
-    const response = await sut.convert([data]);
+    const response = await sut.convert(data);
 
     expect.assertions(7);
     expect(response[0].isValid).toBeTruthy();
@@ -689,7 +723,7 @@ describe('dataConverter unit tests', () => {
   test('Should add notes (520-525) to notes list', async () => {
     const data = fs.readFileSync('tests/dataconverter/testdata/test_notes_52x.xml', 'utf8');
 
-    const response = await sut.convert([data]);
+    const response = await sut.convert(data);
 
     expect.assertions(5);
     expect(response[0].isValid).toBeTruthy();
@@ -722,7 +756,7 @@ describe('dataConverter unit tests', () => {
   test('Should add notes (530-534) to notes list', async () => {
     const data = fs.readFileSync('tests/dataconverter/testdata/test_notes_53x.xml', 'utf8');
 
-    const response = await sut.convert([data]);
+    const response = await sut.convert(data);
 
     expect.assertions(5);
     expect(response[0].isValid).toBeTruthy();
@@ -755,7 +789,7 @@ describe('dataConverter unit tests', () => {
   test('Should add notes (540-546) to notes list', async () => {
     const data = fs.readFileSync('tests/dataconverter/testdata/test_notes_54x.xml', 'utf8');
 
-    const response = await sut.convert([data]);
+    const response = await sut.convert(data);
 
     expect.assertions(7);
     expect(response[0].isValid).toBeTruthy();
@@ -800,7 +834,7 @@ describe('dataConverter unit tests', () => {
   test('Should add notes (550-556) to notes list', async () => {
     const data = fs.readFileSync('tests/dataconverter/testdata/test_notes_55x.xml', 'utf8');
 
-    const response = await sut.convert([data]);
+    const response = await sut.convert(data);
 
     expect.assertions(5);
     expect(response[ 0 ].isValid).toBeTruthy();
@@ -833,7 +867,7 @@ describe('dataConverter unit tests', () => {
   test('Should add notes (561-567) to notes list', async () => {
     const data = fs.readFileSync('tests/dataconverter/testdata/test_notes_56x.xml', 'utf8');
 
-    const response = await sut.convert([data]);
+    const response = await sut.convert(data);
 
     expect.assertions(6);
     expect(response[0].isValid).toBeTruthy();
@@ -873,7 +907,7 @@ describe('dataConverter unit tests', () => {
   test('Should add notes (580-586) to notes list', async () => {
     const data = fs.readFileSync('tests/dataconverter/testdata/test_notes_58x.xml', 'utf8');
 
-    const response = await sut.convert([data]);
+    const response = await sut.convert(data);
 
     expect.assertions(4);
     expect(response[ 0 ].isValid).toBeTruthy();
@@ -900,7 +934,7 @@ describe('dataConverter unit tests', () => {
   test('Should add notes (590-599) to notes list', async () => {
     const data = fs.readFileSync('tests/dataconverter/testdata/test_notes_59x.xml', 'utf8');
 
-    const response = await sut.convert([data]);
+    const response = await sut.convert(data);
 
     expect.assertions(4);
     expect(response[0].isValid).toBeTruthy();
@@ -927,7 +961,7 @@ describe('dataConverter unit tests', () => {
   test('Failing record', async () => {
     const data = fs.readFileSync('tests/dataconverter/testdata/test_notes_failing.xml', 'utf8');
 
-    const response = await sut.convert([data]);
+    const response = await sut.convert(data);
     expect.assertions(2);
     expect(response[0].isValid).toBeTruthy();
     expect(response[0].title).not.toContain('/');
@@ -936,7 +970,7 @@ describe('dataConverter unit tests', () => {
   test('Should just work. Get record example', async () => {
     const data = fs.readFileSync('tests/dataconverter/testdata/test_get_record.xml', 'utf8');
 
-    const response = await sut.convert([data]);
+    const response = await sut.convert(data);
 
     expect.assertions(2);
     expect(response[0].isValid).toBeTruthy();
@@ -945,7 +979,7 @@ describe('dataConverter unit tests', () => {
 /*   test('', async () => {
     const data = fs.readFileSync('tests/dataconverter/testdata/test4.xml', 'utf8');
 
-    const response = await sut.convert([data]);
+    const response = await sut.convert(data);
 
     expect.assertions(4);
 

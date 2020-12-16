@@ -5,24 +5,26 @@ module.exports = class FolioCommunicator {
   async sendDataToFolio(records) {
     try {
       this.validateRecords(records);
-      await this.acquireTokenFromFolio();
-
-      const filterId = (record, id) => record.identifiers.filter((x) => {
-        return x.identifierTypeId === id;
-      });
-
-      for(let i = 0, j = records.length; i < j; i++) {
-        const record = records[i];
-        const idArray = filterId(record, '925c7fb9-0b87-4e16-8713-7f4ea71d854b');
-        const librisId = idArray.length > 0 ? idArray[0].value : '';
-        const idArrayBibId = filterId(record, '28c170c6-3194-4cff-bfb2-ee9525205cf7');     
-        const bibId = idArrayBibId.length > 0 ? idArrayBibId[0].value : '';
-        const res = await this.instanceExists(librisId, bibId);
-
-        if (res.exists === true) {
-          await this.put(res.folioId, record);
-        } else {
-          await this.post(record);
+      if (records.length > 0) {
+        await this.acquireTokenFromFolio();
+  
+        const filterId = (record, id) => record.identifiers.filter((x) => {
+          return x.identifierTypeId === id;
+        });
+  
+        for(let i = 0, j = records.length; i < j; i++) {
+          const record = records[i];
+          const idArray = filterId(record, '925c7fb9-0b87-4e16-8713-7f4ea71d854b');
+          const librisId = idArray.length > 0 ? idArray[0].value : '';
+          const idArrayBibId = filterId(record, '28c170c6-3194-4cff-bfb2-ee9525205cf7');     
+          const bibId = idArrayBibId.length > 0 ? idArrayBibId[0].value : '';
+          const res = await this.instanceExists(librisId, bibId);
+  
+          if (res.exists === true) {
+            await this.put(res.folioId, record);
+          } else {
+            await this.post(record);
+          }
         }
       }
     } catch (error) {
@@ -32,8 +34,8 @@ module.exports = class FolioCommunicator {
   }
 
   validateRecords(records) {
-    if (Array.isArray(records) === false || records.length === 0) {
-      throw new Error('Found no records');
+    if (Array.isArray(records) === false) {
+      throw new Error('Wrong input type, should be list.');
     }
   }
 

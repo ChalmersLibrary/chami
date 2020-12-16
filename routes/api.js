@@ -17,6 +17,33 @@ const librisFolioDataMover = new (require("../librisfoliodatamover"))(
   folioCommunicator
 );
 
+router.post("/InstancesAndHoldingsWithId", async function(req, res) {
+  try {
+    const id = req.query.id;
+    await librisFolioDataMover.moveDataById(id);
+    res.send(
+      "Instances and holdings in FOLIO has been updated with data from Libris."
+    );
+  } catch (error) {
+    await logger.error('InstancesAndHoldingsById', error);
+    res.status(500).send(error.message);
+  }
+});
+
+router.post("/InstancesAndHoldingsWithTimestamps", async function(req, res) {
+  try {
+    const from = req.query.from;
+    const until = req.query.until;
+    await librisFolioDataMover.moveDataByTimestamps(from, until);
+    res.send(
+      "Instances and holdings in FOLIO has been updated with data from Libris."
+    );
+  } catch (error) {
+    await logger.error('InstancesAndHoldings', error);
+    res.status(500).send(error);
+  }
+});
+
 router.post("/InstancesAndHoldings", async function(req, res) {
   const id = req.query.id;
   const from = req.query.from;

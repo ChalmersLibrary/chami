@@ -7,7 +7,8 @@
     "test": "jest",
     "dev": "nodemon ./app.js",
     "cov": "npm test -- --coverage --coverageDirectory='coverage'",
-    "unit": "npm test unit"
+    "unit": "npm test unit",
+    "testw" : "jest --watch"
   },
   "dependencies": {
     "@elastic/elasticsearch": "^6.8.8",
