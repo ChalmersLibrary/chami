@@ -8,7 +8,7 @@ const elasticsearchCommunicator = new (require('../communication/elasticsearchco
 const fetchScheduler = new (require("../scheduling/fetchscheduler.js"))(elasticsearchCommunicator);
 const librisCommunicator = new (require("../communication/libriscommunicator.js"))();
 const dataConverter = new (require("../data/dataconverter.js"))();
-const folioCommunicator = new (require("../communication/foliocommunicator.js"))();
+const folioCommunicator = new (require("../communication/foliocommunicator.js"))(logger);
 
 const librisFolioDataMover = new (require("../librisfoliodatamover"))(
   fetchScheduler,

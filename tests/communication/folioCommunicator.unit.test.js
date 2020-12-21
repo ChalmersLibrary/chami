@@ -1,10 +1,13 @@
 const FolioCommunicator = require('../../communication/foliocommunicator');
+const Logger = require('../../logger/logger');
 
 describe('foliocommunicator unit tests', () => {
   let sut;
+  let logger;
 
   beforeEach(() => {
-    sut = new FolioCommunicator();
+    logger = new Logger();
+    sut = new FolioCommunicator(logger);
     jest.spyOn(sut, 'acquireTokenFromFolio');
   });
 

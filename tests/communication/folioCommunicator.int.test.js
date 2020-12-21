@@ -1,13 +1,16 @@
 const FolioCommunicator = require('../../communication/foliocommunicator');
+const Logger = require('../../logger/logger');
 const fs = require('fs');
 
 describe('FolioCommunicator integration tests', () => {
   let sut;
+  let logger;
 
   beforeEach(() => {
     const config = fs.readFileSync('config.json');
     process.env = JSON.parse(config);
-    sut = new FolioCommunicator();
+    logger = new Logger();
+    sut = new FolioCommunicator(logger);
   });
 
   afterEach(() => {

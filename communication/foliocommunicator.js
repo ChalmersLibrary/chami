@@ -1,6 +1,10 @@
 const fetch = require("node-fetch");
 
 module.exports = class FolioCommunicator {
+
+  constructor(logger) {
+    this.logger = logger;
+  }
   
   async sendDataToFolio(records) {
     try {
@@ -20,9 +24,9 @@ module.exports = class FolioCommunicator {
           const bibId = idArrayBibId.length > 0 ? idArrayBibId[0].value : '';
           const res = await this.instanceExists(librisId, bibId);
   
-          if (res.exists === true) {
+          if (res.exists === true && res.multipleInstances === false) {
             await this.put(res.folioId, record);
-          } else {
+          } else if (res.exists === false && res.multipleInstances === false){
             await this.post(record);
           }
         }
@@ -141,11 +145,12 @@ module.exports = class FolioCommunicator {
       const response = await this.fetchFolio(url, options);
       const data = await response.json();
       if (data.totalRecords === 0) {
-        return { exists: false };
+        return { exists: false, multipleInstances: false};
       } else if (data.totalRecords === 1) {
-        return { exists: true, folioId: data.instances[0].id };
+        return { exists: true, folioId: data.instances[0].id, multipleInstances: false };
       } else if (data.totalRecords > 1) {
-        throw new Error("Multiple instances found.");
+        await this.logger.error("FolioCommunicator:", new Error(`Multiple instances found with id ${data.instances[0].id}`));
+        return  { exists: true, multipleInstances: true };
       }
     } catch (error) {
       error.message = `InstanceExists - ${error.message}`;
