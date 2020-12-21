@@ -27,7 +27,7 @@ module.exports = class LibrisFolioDataMover {
     const res = await this.librisCommunicator.getDataByTimestamp(from, until);
     const convertedData = await this.dataConverter.convert(res);
     await this.folioCommunicator.sendDataToFolio(convertedData);
-    await this.fetchScheduler.registerSuccessfulFetchWithTimestamps(from, until, now, convertedData.length, isCronJob);
+    await this.fetchScheduler.registerSuccessfulFetchWithTimestamps(from, until, now, convertedData, isCronJob);
   }
 
   async getTimestamp(from) {

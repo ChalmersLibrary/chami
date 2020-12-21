@@ -15,13 +15,15 @@ module.exports = class FetchScheduler {
     await this.registerSuccessfulFetch(data);
   }
 
-  async registerSuccessfulFetchWithTimestamps(from, until, now, totalRecords, isCronJob) {
+  async registerSuccessfulFetchWithTimestamps(from, until, now, convertedData, isCronJob) {
+    const ids = convertedData.map(x => x.hrid);
     const data = {
       created: this.createUTCDateTimeString(now),
-      cronjob: isCronJob,
+      cronJob: isCronJob,
       from: from,
-      message: `Timestamp: from ${from} - until ${until} Total records: ${totalRecords}`,
-      success: true     
+      instances: ids,
+      totalInstances: convertedData.length,
+      message: `Timestamp: ${from} - ${until} Total instances: ${convertedData.length}`  
     };
     await this.registerSuccessfulFetch(data);
   }
