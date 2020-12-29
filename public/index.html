@@ -100,23 +100,7 @@
             await this.instanceById(this.id);
           } else {
             await this.instanceByTimestamps(this.from, this.until);
-/*             this.working = true;
-            let self = this;
-            let url = '/api/InstancesAndHoldings' + (this.id || this.from ? '?' : '') + 
-              (this.id ? 'id=' + encodeURIComponent(this.id) :'') + 
-              (this.id && this.from ? '&' : '') + 
-              (this.from ? 'from=' + encodeURIComponent(this.from) : '') +
-              (this.until ? '&until=' + encodeURIComponent(this.until): '');
-            axios.post(url)
-              .then(function (response) {
-                setTimeout(function () { self.updateFetchHistory(); self.working = false; }, 1000); // Give Elasticsearch some time.
-              })
-              .catch(function (reason) {
-                setTimeout(function () { self.updateFetchHistory(); self.working = false; }, 1000); // Give Elasticsearch some time.
-                self.errorMessage = 'Failed to update instances and holdings: ' + reason + ' (' + JSON.stringify(reason.response.data) + ')';
-                self.working = false;
-              }); */
-            }
+          }
         },
         instanceById: async function(id) {
           if (id.startsWith('https://libris.kb.se/')) {

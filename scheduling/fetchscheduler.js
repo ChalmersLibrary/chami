@@ -43,7 +43,7 @@ module.exports = class FetchScheduler {
         size: 1,
         query: {
           query_string: {
-            query: 'cronJob:true && success:true && !_exists_:id'
+            query: 'cronJob:true && !_exists_:id'
           }
         },
         sort: [{ created: { order: 'desc' }}]
