@@ -33,13 +33,12 @@ module.exports = {
       // });
 
       // Setup scheduler that runs daily at 5:15
-      dailySchedule = scheduler.scheduleJob("15 03 * * *", () => {
+      dailySchedule = scheduler.scheduleJob("15 03 * * *", async () => {
         try {
           console.log("dauilySchedule run.");
-          librisFolioDataMover.moveDataByTimestamps(null, null, true);
+          await librisFolioDataMover.moveDataByTimestamps(null, null, true);
         } catch (error) {
-          error.message = `Something went wrong with scheduled daily run: ${error.message}`;
-          throw error;
+          await logger.error(`Something went wrong with scheduled daily run: ${error.message}`, error);
         }
       });
     } else {

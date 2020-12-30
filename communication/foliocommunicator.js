@@ -101,9 +101,19 @@ module.exports = class FolioCommunicator {
       body: JSON.stringify(data),
     };    
     try {
-      await this.fetchFolio(url, options);
+      const errorMessage =  {
+        UnprocessableEntity : "Unprocessable Entity"
+      };
+     // await this.fetchFolio(url, options);
+     const response = await fetch(url, options);
+     if (response.ok === false && response.statusText === errorMessage.UnprocessableEntity) {
+       await this.logger.error(`Failed to post record with id ${data.hrid}:`, 
+        new Error(`Url: ${response.url}, Status: ${response.status}, Message: ${response.statusText}`));
+     } else {
+      this.validateResponse(response);
+     }
     } catch (error) {
-      error.message = `Failed to post record - ${error.message}`;
+      error.message = `Failed to post record: ${JSON.stringify(data)} - ${error.message}`;
       throw error;
     }
   }
@@ -175,4 +185,6 @@ module.exports = class FolioCommunicator {
       throw new Error(`Url: ${response.url}, Status: ${response.status}, Message: ${response.statusText}`);
     }
   }
+
+
 };

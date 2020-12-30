@@ -2,18 +2,14 @@ const fetch = require("node-fetch");
 
 module.exports = class Logger {
   constructor() {
-    this.logstashBaseUrl = process.env.LogstashBaseUrl;
-    this.logstashUsername = process.env.LogstashUsername;
-    this.logstashPassword = process.env.LogstashPassword;
     this.source = "chami";
   }
 
   async sendToLogstash(data) {
-    if (this.logstashBaseUrl) {
       try {
-        const encodedLogin = Buffer.from(this.logstashUsername + ":" +
-          this.logstashPassword, "binary").toString("base64");
-        const response = await fetch(this.logstashBaseUrl, {
+        const encodedLogin = Buffer.from(process.env.LogstashUsername + ":" +
+        process.env.LogstashPassword, "binary").toString("base64");
+        const response = await fetch(process.env.LogstashBaseUrl, {
           method: "POST",
           headers: {
             "Accept": "application/json",
@@ -22,14 +18,13 @@ module.exports = class Logger {
           },
           body: JSON.stringify(data)
         });
-        if (!response.ok) {
+        if (response.ok === false) {
           throw new Error("Response was (" + response.status + "): " +
             await response.text());
         }
       } catch (error) {
         // this.context.log.error("Failed to send log message to Logstash", error)
       }
-    }
   }
 
   async info(msg) {
