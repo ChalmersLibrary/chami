@@ -65,7 +65,7 @@ describe('foliocommunicator unit tests', () => {
     });      
   });
 
-  describe('post', () => {
+/*   describe('post', () => {
     describe('should fail and log', () => {
       test('Not Found', async () => {
         const data = {
@@ -99,5 +99,5 @@ describe('foliocommunicator unit tests', () => {
         expect(sut.fetchFolio).toHaveBeenCalledWith(url, options);
       });
     });
-  });
+  }); */
 });
