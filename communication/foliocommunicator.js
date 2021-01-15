@@ -175,16 +175,19 @@ module.exports = class FolioCommunicator {
   }
 
   async fetchFolio(url, options) {
-    const response = await fetch(url, options);
+    let response = await fetch(url, options);
+    if (response.status >= 400) {
+      global.folioToken = undefined;
+      await this.acquireTokenFromFolio();
+      response = await fetch(url, options);
+    }
     this.validateResponse(response);
     return response;
   }
-
+  
   validateResponse(response) {
     if (response.ok === false) {
       throw new Error(`Url: ${response.url}, Status: ${response.status}, Message: ${response.statusText}`);
     }
   }
-
-
 };
