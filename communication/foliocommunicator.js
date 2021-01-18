@@ -4,6 +4,7 @@ module.exports = class FolioCommunicator {
 
   constructor(logger) {
     this.logger = logger;
+    this.folioToken = undefined;
   }
   
   async sendDataToFolio(records) {
@@ -26,7 +27,7 @@ module.exports = class FolioCommunicator {
   
           if (res.exists === true && res.multipleInstances === false) {
             await this.put(res.folioId, record);
-          } else if (res.exists === false && res.multipleInstances === false){
+          } else if (res.exists === false && res.multipleInstances === false) {
             await this.post(record);
           }
         }
@@ -44,7 +45,7 @@ module.exports = class FolioCommunicator {
   }
 
   async acquireTokenFromFolio() {
-    if (global.folioToken === undefined || global.folioToken === null) {
+    if (this.folioToken === undefined || this.folioToken === null) {
       const data = {
         username: process.env.folioUsername,
         password: process.env.folioPassword
@@ -59,8 +60,9 @@ module.exports = class FolioCommunicator {
         }
       };
       try {
-        const response = await this.fetchFolio(url, options);
-        global.folioToken = response.headers.get("x-okapi-token");
+        const response = await fetch(url, options);
+        this.validateResponse(response);
+        this.folioToken = response.headers.get("x-okapi-token");
       } catch (error) {
         error.message = `FOLIO: Failed to acquire token: ${error.message}`;
         throw error;
@@ -73,7 +75,7 @@ module.exports = class FolioCommunicator {
     const options = {
       method: "PUT",
       headers: {
-        "x-okapi-token": global.folioToken,
+        "x-okapi-token": this.folioToken,
         "x-okapi-tenant": process.env.tenantId,
         Accept: "text/plain",
         "Content-type": "application/json"
@@ -81,7 +83,8 @@ module.exports = class FolioCommunicator {
       body: JSON.stringify(data)
     };
     try {
-      await this.fetchFolio(url, options);
+      const response = await this.fetchFolio(url, options);
+      this.validateResponse(response);
     } catch (error) {
       error.message = `Put failed with id: ${folioId} - ${error.message}`;
       throw error;
@@ -93,7 +96,7 @@ module.exports = class FolioCommunicator {
     const options = {
       method: "POST",
       headers: {
-        "x-okapi-token": global.folioToken,
+        "x-okapi-token": this.folioToken,
         "x-okapi-tenant": process.env.tenantId,
         Accept: "application/json",
         "Content-type": "application/json"
@@ -101,12 +104,11 @@ module.exports = class FolioCommunicator {
       body: JSON.stringify(data),
     };    
     try {
-      const errorMessage =  {
+      const error =  {
         UnprocessableEntity : "Unprocessable Entity"
       };
-     // await this.fetchFolio(url, options);
-     const response = await fetch(url, options);
-     if (response.ok === false && response.statusText === errorMessage.UnprocessableEntity) {
+     const response = await this.fetchFolio(url, options);
+     if (response.ok === false && response.statusText === error.UnprocessableEntity) {
        await this.logger.error(`Failed to post record with id ${data.hrid}:`, 
         new Error(`Url: ${response.url}, Status: ${response.status}, Message: ${response.statusText}`));
      } else {
@@ -143,7 +145,7 @@ module.exports = class FolioCommunicator {
     let options = {
       method: "GET",
       headers: {
-        "x-okapi-token": global.folioToken,
+        "x-okapi-token": this.folioToken,
         "x-okapi-tenant": process.env.tenantId,
         Accept: "application/json",
         "Content-type": "application/json"
@@ -153,6 +155,7 @@ module.exports = class FolioCommunicator {
 
     try {
       const response = await this.fetchFolio(url, options);
+      this.validateResponse(response);
       const data = await response.json();
       if (data.totalRecords === 0) {
         return { exists: false, multipleInstances: false};
@@ -176,12 +179,12 @@ module.exports = class FolioCommunicator {
 
   async fetchFolio(url, options) {
     let response = await fetch(url, options);
-    if (response.status >= 400) {
-      global.folioToken = undefined;
+    if (response.status >= 400) {    
+      this.folioToken = undefined;
       await this.acquireTokenFromFolio();
+      options.headers["x-okapi-token"] = this.folioToken;
       response = await fetch(url, options);
     }
-    this.validateResponse(response);
     return response;
   }
   
