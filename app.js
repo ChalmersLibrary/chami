@@ -1,14 +1,13 @@
-var express = require("express");
-var path = require("path");
-var cookieParser = require("cookie-parser");
-var logger = require("morgan");
-var validator = require("jsonschema").Validator;
-var cron = require("./scheduling/cron.js");
+const express = require("express");
+const path = require("path");
+const cookieParser = require("cookie-parser");
+const logger = require("morgan");
+const cron = require("./scheduling/cron.js");
 
 // Load dev config if suitable.
 try {
   let config = require("./config.json");
-  for (var prop in config) {
+  for (let prop in config) {
     if (config.hasOwnProperty(prop)) {
       process.env[prop] = config[prop];
     }
@@ -29,9 +28,9 @@ if (process.env.debug) {
 
 cron.initialize(process.env.cronenabled || false);
 
-var apiRouter = require("./routes/api");
+const apiRouter = require("./routes/api");
 
-var app = express();
+const app = express();
 
 app.use(logger("dev"));
 app.use(express.json());
@@ -68,7 +67,7 @@ app.get("/bookmarklet.js", (req, res) => {
   res.send(jsString);
 });
 
-app.get("/eds-to-folio", function(req, res, next) {
+app.get("/eds-to-folio", function(req, res) {
   res.send(
     `<a href="javascript:(function(){window.s0=document.createElement('script');window.s0.setAttribute('type','text/javascript');window.s0.setAttribute('src','${process.env.serverurl}/eds-to-folio.js?t='+Date.now());document.getElementsByTagName('body')[0].appendChild(window.s0);})();">EDS->FOLIO</a>`
   );
@@ -94,7 +93,7 @@ app.get("/eds-to-folio.js", (req, res) => {
   res.send(jsString);
 });
 
-app.get("/folio-to-eds", function(req, res, next) {
+app.get("/folio-to-eds", function(req, res) {
   res.send(
     `<a href="javascript:(function(){window.s0=document.createElement('script');window.s0.setAttribute('type','text/javascript');window.s0.setAttribute('src','${process.env.serverurl}/folio-to-eds.js?t='+Date.now());document.getElementsByTagName('body')[0].appendChild(window.s0);})();">FOLIO->EDS</a>`
   );
@@ -123,21 +122,21 @@ app.get("/folio-to-eds.js", (req, res) => {
  * Module dependencies.
  */
 
-var debug = require("debug")("chami:server");
-var http = require("http");
+let debug = require("debug")("chami:server");
+let http = require("http");
 
 /**
  * Get port from environment and store in Express.
  */
 
-var port = normalizePort(process.env.PORT || "3000");
+let port = normalizePort(process.env.PORT || "3000");
 app.set("port", port);
 
 /**
  * Create HTTP server.
  */
 
-var server = http.createServer(app);
+let server = http.createServer(app);
 
 /**
  * Listen on provided port, on all network interfaces.
@@ -152,7 +151,7 @@ server.on("listening", onListening);
  */
 
 function normalizePort(val) {
-  var port = parseInt(val, 10);
+  let port = parseInt(val, 10);
 
   if (isNaN(port)) {
     // named pipe
@@ -176,7 +175,7 @@ function onError(error) {
     throw error;
   }
 
-  var bind = typeof port === "string" ? "Pipe " + port : "Port " + port;
+  let bind = typeof port === "string" ? "Pipe " + port : "Port " + port;
 
   // handle specific listen errors with friendly messages
   switch (error.code) {
@@ -198,7 +197,7 @@ function onError(error) {
  */
 
 function onListening() {
-  var addr = server.address();
-  var bind = typeof addr === "string" ? "pipe " + addr : "port " + addr.port;
+  let addr = server.address();
+  let bind = typeof addr === "string" ? "pipe " + addr : "port " + addr.port;
   debug("Listening on " + bind);
 }

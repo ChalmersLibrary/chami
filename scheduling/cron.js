@@ -1,18 +1,19 @@
-var scheduler = require("node-schedule");
+const scheduler = require("node-schedule");
+const logger = new (require("../logger/logger.js"))();
+const elasticsearchCommunicator = new (require('../communication/elasticsearchcommunicator'))();
+const fetchScheduler = new (require("../scheduling/fetchscheduler.js"))(elasticsearchCommunicator);
+const librisCommunicator = new (require("../communication/libriscommunicator.js"))();
+const dataConverter = new (require("../data/dataconverter.js"))();
+const folioCommunicator = new (require("../communication/foliocommunicator.js"))(logger);
 
-var fetchScheduler = new (require("../scheduling/fetchscheduler.js"))();
-var librisCommunicator = new (require("../communication/libriscommunicator.js"))();
-var dataConverter = new (require("../data/dataconverter.js"))();
-var folioCommunicator = new (require("../communication/foliocommunicator.js"))();
-
-var librisFolioDataMover = new (require("../librisfoliodatamover.js"))(
+const librisFolioDataMover = new (require("../librisfoliodatamover"))(
   fetchScheduler,
   librisCommunicator,
   dataConverter,
   folioCommunicator
 );
 
-var dailySchedule;
+let dailySchedule;
 
 module.exports = {
   initialize: function(enabled) {
@@ -32,20 +33,18 @@ module.exports = {
       // });
 
       // Setup scheduler that runs daily at 5:15
-      dailySchedule = scheduler.scheduleJob("15 03 * * *", () => {
+      dailySchedule = scheduler.scheduleJob("15 03 * * *", async () => {
         try {
           console.log("dauilySchedule run.");
-          librisFolioDataMover.moveData(null, null, null);
-        } catch (err) {
-          console.log("Something went wrong with scheduled daily run.");
-          console.log(err.message);
+          await librisFolioDataMover.moveDataByTimestamps(null, null, true);
+        } catch (error) {
+          await logger.error(`Something went wrong with scheduled daily run: ${error.message}`, error);
         }
       });
     } else {
       console.log("Cron jobs not enabled.");
     }
   },
-
   nextDailyRun: () => {
     return dailySchedule.nextInvocation();
   }

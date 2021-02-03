@@ -1,14 +1,12 @@
-// const S = require("string");
 const uuidv4 = require('uuid/v4');
 const bibLangs = require('langs');
 const contributorTypeIds = require('./contributorTypes.json');
-var marc4js = require('marc4js');
+const marc4js = require('marc4js');
 
 // initialize json schema validation
-const Ajv = require('Ajv');
+/* const Ajv = require('Ajv');
 const ajv = new Ajv({ schemaId: 'id', allErrors: true });
-ajv.addMetaSchema(require('ajv/lib/refs/json-schema-draft-04.json'));
-const schema = require('../schemas/instance.json');
+ajv.addMetaSchema(require('ajv/lib/refs/json-schema-draft-04.json')); */
 
 // transformer
 let transformer = marc4js.transform({ toFormat: 'xml' });
@@ -70,7 +68,6 @@ module.exports = class Inventory {
       instanceTypeId: this.instanceTypeId,
       modeOfIssuanceId: this.modeOfIssuanceId,
       source: this.source,
-      instanceTypeId: this.instanceTypeId,
       title: this.title,
       indexTitle: this.indexTitle,
       alternativeTitles: this.alternativeTitles,
@@ -146,7 +143,7 @@ module.exports = class Inventory {
     );
     var_titles.filter(var_title => var_title.findSubfield('a'));
     var_titles.forEach(function(title_node) {
-      var alt_title_data = '';
+      let alt_title_data = '';
       try {
         alt_title_data += title_node.findSubfield('a').data;
       } catch (error) {
@@ -167,7 +164,7 @@ module.exports = class Inventory {
     );
     former_titles.filter(var_title => var_title.findSubfield('a'));
     former_titles.forEach(function(title_node) {
-      var former_title_data = title_node.findSubfield('a').data;
+      let former_title_data = title_node.findSubfield('a').data;
       if (title_node.findSubfield('b')) {
         former_title_data += ' - ' + title_node.findSubfield('b').data;
       }
@@ -1234,10 +1231,9 @@ module.exports = class Inventory {
       dataField => dataField.tag === tag
     );
     contribs.forEach(function(node) {
-      var composed_node = '';
-      var contrib_type_text = '';
-      var contrib_identifier = '5daa3848-958c-4dd8-9724-b7ae83a99a27';
-      var contrib_type =
+      let composed_node = '';
+      let contrib_identifier = '5daa3848-958c-4dd8-9724-b7ae83a99a27';
+      let contrib_type =
         node.findSubfield('e') ||
         node.findSubfield('j') ||
         node.findSubfield('4');
@@ -1279,7 +1275,7 @@ module.exports = class Inventory {
       dataField => dataField.tag === tag
     );
     nodes.forEach(function(node) {
-      var composed_node = '';
+      let composed_node = '';
       node.subfields.forEach(function(subField) {
         if (subfields.includes(subField.code)) {
           composed_node += subField.data + ' ';

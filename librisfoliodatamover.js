@@ -1,4 +1,5 @@
 module.exports = class LibrisFolioDataMover {
+  
   constructor(
     fetchScheduler,
     librisCommunicator,
@@ -11,56 +12,37 @@ module.exports = class LibrisFolioDataMover {
     this.folioCommunicator = folioCommunicator;
   }
 
-  async moveData(id, from, until) {
-    let now = new Date(); // Save the time when we are called for the fetch timestamp.
+  async moveDataById(id) {
+    const now = new Date();
+    const res = await this.librisCommunicator.getDataById(id);
+    const convertedData = await this.dataConverter.convert(res);
+    await this.folioCommunicator.sendDataToFolio(convertedData);
+    await this.fetchScheduler.registerSuccessfulFetchWithId(id, now);
+  }
 
-    // Try to get the latest timestamp if we don't have any id or timestamp.
-    if (!id && !from) {
-      try {
-        from = await this.fetchScheduler.getLatestSuccessfulFetchTimestamp();
-      } catch (error) {
-        throw Error("Failed to fetch timestamp from history: " + error);
-      }
-    }
+  async moveDataByTimestamps(from, until, isCronJob) {
+    const now = new Date();
+    from = await this.getTimestamp(from);
+    until = this.getUntilTimestamp(until, now);
+    const res = await this.librisCommunicator.getDataByTimestamp(from, until);
+    const convertedData = await this.dataConverter.convert(res);
+    await this.folioCommunicator.sendDataToFolio(convertedData);
+    await this.fetchScheduler.registerSuccessfulFetchWithTimestamps(from, until, now, convertedData, isCronJob);
+  }
 
-    if (from && !until) {
-      until = now.toISOString();
-    }
-
-    // Do the moving of data.
-    let dataMoveWasSuccessful = false;
-    try {
-      await this.internalMove(id, from, until);
-      dataMoveWasSuccessful = true;
-    } catch (error) {
-      await this.fetchScheduler.registerUnsuccessfulFetch(now, id, from, error);
-    }
-
-    if (dataMoveWasSuccessful) {
-      await this.fetchScheduler.registerSuccessfulFetch(now, id, from);
+  async getTimestamp(from) {
+    if (from) {
+      return from;
+    } else {
+      return await this.fetchScheduler.getLatestSuccessfulFetchTimestamp();
     }
   }
 
-  internalMove(id, from, until) {
-    let res;
-    if (id) {
-      res = this.librisCommunicator.getDataById(id);
-    } else if (from && until) {
-      res = this.librisCommunicator.getDataByTimestamp(from, until);
+  getUntilTimestamp(until, now) {
+    if (until) {
+      return until;
     } else {
-      throw new Error("Both identifier and timestamp are null.");
+      return this.fetchScheduler.createUTCDateTimeString(now);
     }
-
-    return (
-      res
-        // .then(dataConverter.convertMarcToFolio.bind(dataConverter))
-        .then(this.dataConverter.convert.bind(this.dataConverter))
-        .then(
-          this.folioCommunicator.sendDataToFolio.bind(this.folioCommunicator)
-        )
-        .catch(e => {
-          throw new Error(e.message);
-        })
-    );
   }
 };

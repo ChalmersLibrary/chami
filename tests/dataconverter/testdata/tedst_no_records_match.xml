@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+    <responseDate>2020-12-14T14:11:19.971Z</responseDate>
+    <request verb="GetRecord" identifier="asdasd" metadataPrefix="marcxml_includehold_expanded">http://libris.kb.se/oaipmh/</request>
+    <error code="noRecordsMatch"></error>
+</OAI-PMH>
