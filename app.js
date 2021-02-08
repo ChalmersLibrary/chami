@@ -44,10 +44,8 @@ app.get("/bookmarklet.js", (req, res) => {
   let jsString = `
   if (location.host === "libris.kb.se") {
     if (/^\\/katalogisering\\/[\\w\\d]{15}/.test(location.pathname)) {
-      if (
-        document.getElementsByClassName("type")[0].childNodes[0].textContent ===
-        "Instans" && (document.getElementsByClassName("CreateItem")[0].textContent.trim().indexOf("Visa bestånd") > -1)
-      ) {
+      if ((document.getElementById("formPath-mainEntity.@type").childNodes[6].textContent.trim().indexOf("Instans") > -1) && 
+        (document.getElementsByClassName("CreateItem")[0].textContent.trim().indexOf("Visa bestånd") > -1)) {
         let librisurl = \`https://\${location.host}\${location.pathname.replace(
           "/katalogisering",
           ""
