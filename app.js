@@ -52,7 +52,7 @@ app.get("/bookmarklet.js", (req, res) => {
         )}\`;
         location.href = \`${process.env.serverurl}/api/PostAndRedirect?id=\${librisurl}\`;
       } else {
-        alert("Du står inte på en instans.");
+        alert("Posten kunde ej hämtas. Kolla om du står på instansen, om det finns bestånd och att posten inte är elektronisk");
       }
     } else {
       alert("Du är inte i katalogiseringsverktyget.");
