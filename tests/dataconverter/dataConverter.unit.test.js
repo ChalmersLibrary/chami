@@ -429,7 +429,8 @@ describe('dataConverter unit tests', () => {
       {
         contributorNameTypeId: '2b94c631-fca9-4892-a730-03ee529ffe2a',
         name: 'Chin, Stephen, 1977-',
-        contributorTypeId: '5daa3848-958c-4dd8-9724-b7ae83a99a27'
+        contributorTypeId: '5daa3848-958c-4dd8-9724-b7ae83a99a27',
+        primary: true
       }
     );
     // 100$4
@@ -437,7 +438,8 @@ describe('dataConverter unit tests', () => {
       {
         contributorNameTypeId: '2b94c631-fca9-4892-a730-03ee529ffe2a',
         name: 'Presthus, Robert Vance',
-        contributorTypeId: '5daa3848-958c-4dd8-9724-b7ae83a99a27'
+        contributorTypeId: '5daa3848-958c-4dd8-9724-b7ae83a99a27',
+        primary: true
       }
     );
     // 100$ade4, unknown typeid, set type text to cartographer
@@ -445,7 +447,8 @@ describe('dataConverter unit tests', () => {
       {
         contributorNameTypeId: '2b94c631-fca9-4892-a730-03ee529ffe2a',
         name: 'Lous, Christian Carl, 1724-1804',
-        contributorTypeId: '5daa3848-958c-4dd8-9724-b7ae83a99a27'
+        contributorTypeId: '5daa3848-958c-4dd8-9724-b7ae83a99a27',
+        primary: true
       }
     );
     // 700$e (contributor)
@@ -453,7 +456,8 @@ describe('dataConverter unit tests', () => {
       {
         contributorNameTypeId: '2b94c631-fca9-4892-a730-03ee529ffe2a',
         name: 'Weaver, James L.',
-        contributorTypeId: '9f0a2cf0-7a9b-45a2-a403-f68d2850d07c'
+        contributorTypeId: '9f0a2cf0-7a9b-45a2-a403-f68d2850d07c',
+        primary: false
       }
     );
     // 111$acde, no contrib type id
@@ -461,7 +465,8 @@ describe('dataConverter unit tests', () => {
       {
         contributorNameTypeId: 'e8b311a6-3b21-43f2-a269-dd9310cb2d0a',
         name: 'Wolfcon Durham 2018',
-        contributorTypeId: '5daa3848-958c-4dd8-9724-b7ae83a99a27'
+        contributorTypeId: '5daa3848-958c-4dd8-9724-b7ae83a99a27',
+        primary: false
       }
     );
     // 111$abbde4
@@ -469,7 +474,8 @@ describe('dataConverter unit tests', () => {
       {
         contributorNameTypeId: 'e8b311a6-3b21-43f2-a269-dd9310cb2d0a',
         name: 'Kyōto Daigaku. Genshiro Jikkenjo. Senmon Kenkyūkai (2013 January 25)',
-        contributorTypeId: '6e09d47d-95e2-4d8a-831b-f777b8ef6d81'
+        contributorTypeId: '6e09d47d-95e2-4d8a-831b-f777b8ef6d81',
+        primary: false
       }
     );
     // 111$aee44
@@ -478,7 +484,8 @@ describe('dataConverter unit tests', () => {
       {
         contributorNameTypeId: 'e8b311a6-3b21-43f2-a269-dd9310cb2d0a',
         name: 'Tupera Tupera (Firm)',
-        contributorTypeId: '6e09d47d-95e2-4d8a-831b-f777b8ef6d81'
+        contributorTypeId: '6e09d47d-95e2-4d8a-831b-f777b8ef6d81',
+        primary: false
       }
     );
 
@@ -976,6 +983,8 @@ describe('dataConverter unit tests', () => {
     expect(response[0].isValid).toBeTruthy();
     expect(response[0].title).toContain('Rysslands ekonomiska geografi');
   });
+
+  
 /*   test('', async () => {
     const data = fs.readFileSync('tests/dataconverter/testdata/test4.xml', 'utf8');
 
