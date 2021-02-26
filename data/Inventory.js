@@ -1260,7 +1260,8 @@ module.exports = class Inventory {
         contributorNameTypeId: contributorNameTypeId,
         name: composed_node,
         contributorTypeId:
-          contrib_identifier || '5daa3848-958c-4dd8-9724-b7ae83a99a27'
+          contrib_identifier || '5daa3848-958c-4dd8-9724-b7ae83a99a27',
+        primary: tag === "100"
         // contributorTypeText: contrib_type_text
       });
     });
