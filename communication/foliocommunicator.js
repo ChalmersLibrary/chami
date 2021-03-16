@@ -83,8 +83,16 @@ module.exports = class FolioCommunicator {
       body: JSON.stringify(data)
     };
     try {
-      const response = await this.fetchFolio(url, options);
+      const error =  {
+        UnprocessableEntity : "Unprocessable Entity"
+      };
+     const response = await this.fetchFolio(url, options);
+     if (response.ok === false && response.statusText === error.UnprocessableEntity) {
+       await this.logger.error(`Failed to put record with id ${data.hrid}:`, 
+        new Error(`Url: ${response.url}, Status: ${response.status}, Message: ${response.statusText}`));
+     } else {
       this.validateResponse(response);
+     }
     } catch (error) {
       error.message = `Put failed with id: ${folioId} - ${error.message}`;
       throw error;
