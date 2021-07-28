@@ -14,7 +14,7 @@ describe('LibrisCommunicator integration tests', () => {
       const response = await sut.getDataById(id);
 
       expect(response).toBeTruthy();
-    });
+    }, 10000);
 
     test('with invalid id, should throw error', async () => {
       const id = 'https://libris.kb.se/sb4dqfc42gwb70j';
@@ -34,7 +34,7 @@ describe('LibrisCommunicator integration tests', () => {
         .resolves
         .not
         .toThrow();
-    }, 10000);
+    }, 20000);
   });
 });
 

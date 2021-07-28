@@ -58,8 +58,9 @@ describe('FolioCommunicator integration tests', () => {
         await expect(sut.sendDataToFolio([instance]))
           .rejects
           .toThrow(new Error(['FOLIO: Failed to send data:', 
-            ' Failed to post record - Url: ',
-            'https://folio-goldenrod-okapi.dev.folio.org/instance-storage/instances',
+            ' Failed to post record: ',
+            JSON.stringify(instance),
+            ' - Url: https://folio-iris-okapi.dev.folio.org/instance-storage/instances',
             ', Status: 400, Message: Bad Request'].join('')));
         expect(sut.post).toHaveBeenCalledWith(instance);
       });
@@ -73,14 +74,14 @@ describe('FolioCommunicator integration tests', () => {
       await expect(sut.acquireTokenFromFolio())
         .rejects
         .toStrictEqual(new Error("FOLIO: Failed to acquire token: Url:" +
-          " https://folio-goldenrod-okapi.dev.folio.org/authn/login," +
+          " https://folio-iris-okapi.dev.folio.org/authn/login," +
           " Status: 422, Message: Unprocessable Entity"));
     });
 
     test('should be successful', async () => {
       await sut.acquireTokenFromFolio();
 
-      expect(global.folioToken).toBeTruthy();
+      expect(sut.folioToken).toBeTruthy();
     });
   });
 });

@@ -76,7 +76,7 @@ describe("LibrisFolioDataMover", function() {
           .not
           .toThrow();
   
-      }, 10000);
+      }, 20000);
     });
   });
 });
