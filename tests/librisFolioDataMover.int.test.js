@@ -68,15 +68,15 @@ describe("LibrisFolioDataMover", function() {
 
     describe('valid', () => {
       test.each([
-      //  ['2020-11-18T07:00:00Z', '2020-11-18T07:03:00Z' ],
-        [null, null]
+       ['2020-11-18T07:00:00Z', '2020-11-18T07:03:00Z' ]
+        // [null, null]
       ])('with valid timestamps from %s until %s', async (from, until) => {
         await expect(sut.moveDataByTimestamps(from, until, false))
           .resolves
           .not
           .toThrow();
   
-      }, 20000);
+      }, 50000);
     });
   });
 });
