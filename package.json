@@ -32,7 +32,7 @@
     "vuejs-datepicker": "^1.5.4",
     "xml2js": "^0.4.19",
     "xmldom": "^0.6.0",
-    "xpath": "0.0.27"
+    "xpath": "0.0.32"
   },
   "devDependencies": {
     "eslint": "^7.15.0",
