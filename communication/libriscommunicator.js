@@ -1,6 +1,6 @@
 const fetch = require("node-fetch");
 const xpath = require("xpath");
-const dom = require("xmldom").DOMParser;
+const dom = require("@xmldom/xmldom").DOMParser;
 
 module.exports = class LibrisCommunicator {
 

@@ -1,7 +1,7 @@
 "use strict";
 
 const xpath = require("xpath");
-const dom = require("xmldom").DOMParser;
+const dom = require("@xmldom/xmldom").DOMParser;
 const marc4js = require("marc4js");
 const Inventory = require("../data/Inventory");
 
