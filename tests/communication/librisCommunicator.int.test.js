@@ -34,7 +34,7 @@ describe('LibrisCommunicator integration tests', () => {
         .resolves
         .not
         .toThrow();
-    }, 20000);
+    }, 50000);
   });
 });
 
